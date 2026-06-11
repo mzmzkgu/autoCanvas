@@ -24,6 +24,8 @@ import os, json, re, time, datetime, logging, pathlib
 import requests
 from bs4 import BeautifulSoup
 from google import genai
+from dotenv import load_dotenv
+load_dotenv()
 
 # ── 설정 ──────────────────────────────────────────
 BASE_DIR    = pathlib.Path(__file__).parent
@@ -31,8 +33,8 @@ OUTPUT_DIR  = BASE_DIR / "data"
 OUTPUT_FILE = OUTPUT_DIR / "keywords.json"
 LOG_DIR     = BASE_DIR / "logs"
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyDgArz43B7euy6WFU7l53C51ZFzjfC8rdQ")
-GEMINI_MODEL   = "gemini-2.0-flash"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY_HERE")
+GEMINI_MODEL   = "gemini-2.0-flash-lite"
 
 PROXIES = None
 

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Miri Creator — 키워드 대시보드</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0a0a0f;--surface:#13131a;--surface2:#1a1a24;--surface3:#22222e;
+  --border:#2a2a3a;--border-hover:#3a3a5a;
+  --text:#e8e8f0;--text-dim:#8888a0;--text-muted:#555570;
+  --accent:#00e5a0;--accent-dim:#00c088;--accent-glow:rgba(0,229,160,.12);
+  --warn:#ffaa22;--warn-glow:rgba(255,170,34,.12);
+  --hot:#ff6b9d;--hot-glow:rgba(255,107,157,.12);
+  --miri:#7c6ef7;--miri-glow:rgba(124,110,247,.12);
+  --radius:12px;--radius-sm:7px;
+}
+html,body{min-height:100%;font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text)}
+body{padding-bottom:60px}
+
+/* ── HEADER ── */
+header{
+  position:sticky;top:0;z-index:20;
+  background:rgba(10,10,15,.88);backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+  padding:0 16px;height:56px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px
+}
+.logo{display:flex;align-items:center;gap:9px;font-weight:700;font-size:15px;letter-spacing:-.4px}
+.logo-icon{
+  width:30px;height:30px;border-radius:7px;
+  background:var(--accent);
+  display:grid;place-items:center;
+  font-family:'Space Mono',monospace;font-size:11px;font-weight:700;color:var(--bg)
+}
+.header-meta{display:flex;align-items:center;gap:10px}
+#updateTime{font-family:'Space Mono',monospace;font-size:11px;color:var(--text-muted)}
+.refresh-btn{
+  display:flex;align-items:center;gap:5px;
+  padding:6px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);
+  background:var(--surface2);color:var(--text-dim);font-family:inherit;font-size:12px;font-weight:500;
+  cursor:pointer;-webkit-tap-highlight-color:transparent;transition:all .15s
+}
+.refresh-btn:active{transform:scale(.95)}
+.refresh-btn svg{width:14px;height:14px}
+.refresh-btn.spinning svg{animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── MAIN ── */
+main{max-width:760px;margin:0 auto;padding:20px 14px;display:flex;flex-direction:column;gap:20px}
+
+/* ── SECTION HEADER ── */
+.section-header{
+  display:flex;align-items:center;gap:10px;margin-bottom:14px
+}
+.section-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;
+  border:1px solid;letter-spacing:.2px;white-space:nowrap
+}
+.badge-steady{color:var(--accent);border-color:rgba(0,229,160,.35);background:var(--accent-glow)}
+.badge-hot{color:var(--hot);border-color:rgba(255,107,157,.35);background:var(--hot-glow)}
+.badge-miri{color:var(--miri);border-color:rgba(124,110,247,.35);background:var(--miri-glow)}
+.section-desc{font-size:12px;color:var(--text-muted);line-height:1.4}
+
+/* ── CARD ── */
+.card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  overflow:hidden;transition:border-color .2s
+}
+.card:hover{border-color:var(--border-hover)}
+
+.card-header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 16px 12px;border-bottom:1px solid var(--border);
+  gap:10px
+}
+.card-title{
+  display:flex;align-items:center;gap:8px;font-weight:600;font-size:14px
+}
+.card-num{
+  width:22px;height:22px;border-radius:50%;
+  display:grid;place-items:center;
+  font-family:'Space Mono',monospace;font-size:11px;font-weight:700;
+  flex-shrink:0
+}
+.num-steady{background:var(--accent-glow);color:var(--accent)}
+.num-hot{background:var(--hot-glow);color:var(--hot)}
+.num-miri{background:var(--miri-glow);color:var(--miri)}
+
+.keyword-tag{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:3px 10px;border-radius:20px;font-size:12px;font-weight:500;
+  color:var(--text-dim);background:var(--surface3);border:1px solid var(--border)
+}
+
+/* ── CONTENT ROWS ── */
+.card-body{padding:14px 16px;display:flex;flex-direction:column;gap:12px}
+
+.row{display:flex;flex-direction:column;gap:6px}
+.row-label{
+  font-family:'Space Mono',monospace;font-size:10px;font-weight:700;
+  letter-spacing:1.1px;text-transform:uppercase;color:var(--text-muted)
+}
+.row-content{
+  display:flex;align-items:flex-start;gap:8px
+}
+.text-box{
+  flex:1;
+  background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:10px 12px;font-size:13px;color:var(--text);line-height:1.55;
+  font-family:'Outfit',sans-serif;word-break:keep-all
+}
+.copy-btn{
+  flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;gap:4px;
+  padding:8px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);
+  background:var(--surface2);color:var(--text-dim);font-family:inherit;
+  font-size:11px;font-weight:600;cursor:pointer;-webkit-tap-highlight-color:transparent;
+  transition:all .15s;white-space:nowrap;align-self:stretch
+}
+.copy-btn svg{width:14px;height:14px}
+.copy-btn:active{transform:scale(.92)}
+.copy-btn.copied{background:var(--accent-glow);border-color:var(--accent);color:var(--accent)}
+
+/* ── LOADING / EMPTY ── */
+.state-box{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:48px 24px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:12px
+}
+.state-icon{font-size:36px}
+.state-title{font-size:15px;font-weight:600}
+.state-sub{font-size:13px;color:var(--text-muted);line-height:1.5}
+
+/* skeleton */
+.skel{background:var(--surface2);border-radius:6px;animation:skel 1.2s ease-in-out infinite}
+@keyframes skel{0%,100%{opacity:.4}50%{opacity:.8}}
+
+/* ── STATUS BAR ── */
+.status-bar{
+  position:fixed;bottom:0;left:0;right:0;z-index:10;
+  background:rgba(10,10,15,.9);backdrop-filter:blur(12px);
+  border-top:1px solid var(--border);
+  height:44px;padding:0 16px;
+  display:flex;align-items:center;justify-content:space-between;
+  font-family:'Space Mono',monospace;font-size:11px;color:var(--text-muted)
+}
+.status-dot{
+  width:7px;height:7px;border-radius:50%;background:var(--accent);
+  display:inline-block;margin-right:6px;
+  animation:pulse 2s ease-in-out infinite
+}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+.status-dot.offline{background:var(--text-muted);animation:none}
+
+/* ── TOAST ── */
+.toast{
+  position:fixed;bottom:60px;left:50%;transform:translateX(-50%);
+  padding:9px 18px;background:var(--surface3);border:1px solid var(--accent);
+  border-radius:var(--radius);font-size:13px;color:var(--accent);
+  z-index:100;opacity:0;transition:opacity .25s;pointer-events:none;white-space:nowrap
+}
+.toast.show{opacity:1}
+
+/* ── NEXT UPDATE COUNTDOWN ── */
+.countdown-bar{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px
+}
+.countdown-label{font-size:12px;color:var(--text-muted)}
+#countdown{
+  font-family:'Space Mono',monospace;font-size:14px;color:var(--accent);font-weight:700
+}
+.progress-track{
+  flex:1;height:4px;background:var(--surface3);border-radius:2px;overflow:hidden
+}
+.progress-fill{
+  height:100%;background:var(--accent);border-radius:2px;
+  transition:width .5s ease;width:0%
+}
+
+@media(max-width:480px){
+  .card-body{padding:12px 12px}
+  .text-box{font-size:12px;padding:9px 10px}
+  .copy-btn{font-size:11px;padding:8px 10px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">MC</div>
+    <span>Miri Creator</span>
+  </div>
+  <div class="header-meta">
+    <span id="updateTime">—</span>
+    <button class="refresh-btn" id="refreshBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 105.64-11.36L1 10"/></svg>
+      새로고침
+    </button>
+  </div>
+</header>
+
+<main id="mainContent">
+  <!-- 로딩 스켈레톤 -->
+  <div id="loadingState">
+    <div class="countdown-bar" style="gap:12px">
+      <div class="skel" style="width:80px;height:14px"></div>
+      <div class="skel" style="flex:1;height:4px"></div>
+      <div class="skel" style="width:60px;height:14px"></div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div class="skel" style="height:180px;border-radius:12px"></div>
+      <div class="skel" style="height:180px;border-radius:12px"></div>
+      <div class="skel" style="height:180px;border-radius:12px"></div>
+    </div>
+  </div>
+  <div id="dataContent" style="display:none;flex-direction:column;gap:20px"></div>
+</main>
+
+<div class="status-bar">
+  <div><span class="status-dot" id="statusDot"></span><span id="statusText">데이터 로딩 중...</span></div>
+  <div id="statusRight">—</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ── CONFIG ──
+// 라파 서버에서 생성한 JSON 파일 URL (GitHub raw 또는 GitHub Pages 경로)
+const DATA_URL = './data/keywords.json';
+// 개발/테스트용 fallback 데이터
+const FALLBACK_DATA = {
+  updatedAt: new Date().toISOString(),
+  nextUpdateAt: (() => {
+    const d = new Date();
+    d.setHours(12, 0, 0, 0);
+    if (d <= new Date()) d.setDate(d.getDate() + 1);
+    return d.toISOString();
+  })(),
+  items: [
+    {
+      type: 'steady',
+      rank: 1,
+      keyword: '뛰어노는 아이',
+      prompt: '2D flat illustration style. Two kindergarten children playing and jumping outdoors joyfully. White background, clean outlines, no floor, no shadow, no ground element. Cute and bright colors, simple shapes.',
+      hashtags: '아이, 유치원생, 바깥활동, 어린이, 뛰어놀기, 여름, 야외, 귀여운, 일러스트, children outdoor play'
+    },
+    {
+      type: 'steady',
+      rank: 2,
+      keyword: '수박',
+      prompt: '2D flat illustration style. A delicious-looking sliced watermelon, juicy and vibrant red inside. White background, clean outlines, no floor, no shadow, no ground element. Fresh summer fruit, cute and bright.',
+      hashtags: '수박, 여름과일, 과일, 여름, 달콤, 신선, 일러스트, 스티커, watermelon, summer fruit'
+    },
+    {
+      type: 'steady',
+      rank: 3,
+      keyword: '해바라기',
+      prompt: '2D flat illustration style. A bright yellow sunflower in full bloom. White background, clean outlines, no floor, no shadow, no ground element. Cheerful summer flower, bold and simple design.',
+      hashtags: '해바라기, 꽃, 여름꽃, 노랑, 식물, 일러스트, 밝은, 스티커, sunflower, summer flower'
+    },
+    {
+      type: 'hot',
+      rank: 1,
+      keyword: '소금빵',
+      prompt: '2D flat illustration style. A golden buttery salt bread (소금빵), freshly baked and delicious looking. White background, clean outlines, no floor, no shadow, no ground element. Warm tones, cute bakery style.',
+      hashtags: '소금빵, 빵, 베이커리, 카페, 맛있는, 디저트, 일러스트, 소금빵스티커, salt bread, bakery'
+    },
+    {
+      type: 'hot',
+      rank: 2,
+      keyword: '감성 캠핑',
+      prompt: '2D flat illustration style. A cozy camping lantern glowing softly at night, minimalist and aesthetic. White background, clean outlines, no floor, no shadow. Warm light, muted earthy tones, hygge vibes.',
+      hashtags: '캠핑, 랜턴, 감성캠핑, 아웃도어, 텐트, 자연, 여름캠핑, 일러스트, camping, outdoor'
+    },
+    {
+      type: 'hot',
+      rank: 3,
+      keyword: '레트로 아이스크림',
+      prompt: '2D flat illustration style. A retro-style ice cream cone with soft pastel swirl. White background, clean outlines, no floor, no shadow, no ground element. Nostalgic summer dessert, vintage color palette.',
+      hashtags: '아이스크림, 레트로, 여름, 디저트, 콘아이스크림, 복고, 달콤, 일러스트, ice cream, retro summer'
+    },
+    {
+      type: 'miri',
+      rank: 1,
+      keyword: '바다 파도',
+      prompt: '2D flat illustration style. A cute stylized ocean wave with foam and sparkles. White background, clean outlines, no floor, no shadow, no ground element. Fresh blue tones, playful and simple summer design.',
+      hashtags: '바다, 파도, 여름, 바다일러스트, 해양, 파란색, 시원한, 스티커, ocean wave, summer sea'
+    },
+    {
+      type: 'miri',
+      rank: 2,
+      keyword: '컵아이스크림',
+      prompt: '2D flat illustration style. A colorful cup of ice cream with fruit toppings. White background, clean outlines, no floor, no shadow, no ground element. Bright and appetizing, cute kawaii style.',
+      hashtags: '아이스크림컵, 아이스크림, 여름, 달콤, 디저트, 과일, 귀여운, 일러스트, cup ice cream, sweet dessert'
+    },
+    {
+      type: 'miri',
+      rank: 3,
+      keyword: '여름 음료',
+      prompt: '2D flat illustration style. A refreshing iced drink with lemon slice and straw, condensation on the glass. White background, clean outlines, no floor, no shadow. Cool and vibrant summer drink.',
+      hashtags: '음료, 여름음료, 아이스티, 레몬에이드, 시원한, 카페, 여름, 일러스트, summer drink, iced beverage'
+    }
+  ]
+};
+
+let currentData = null;
+let countdownInterval = null;
+
+// ── UTILS ──
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+async function copyText(text, btn) {
+  try {
+    await navigator.clipboard.writeText(text);
+    btn.classList.add('copied');
+    btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 복사됨`;
+    showToast('클립보드에 복사됐어! 📋');
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy`;
+    }, 2000);
+  } catch {
+    showToast('복사 실패 😢 직접 선택해서 복사해줘');
+  }
+}
+
+// ── FETCH DATA ──
+async function fetchData() {
+  const btn = document.getElementById('refreshBtn');
+  btn.classList.add('spinning');
+  setStatus('loading', '데이터 불러오는 중...');
+
+  try {
+    const res = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    currentData = data;
+    renderAll(data);
+    setStatus('ok', '데이터 최신 상태');
+  } catch (e) {
+    // fallback to demo data
+    console.warn('서버 데이터 없음, 샘플 데이터 사용:', e.message);
+    currentData = FALLBACK_DATA;
+    renderAll(FALLBACK_DATA);
+    setStatus('warn', '샘플 데이터 표시 중 (서버 미연결)');
+  } finally {
+    btn.classList.remove('spinning');
+  }
+}
+
+// ── STATUS ──
+function setStatus(type, msg) {
+  const dot = document.getElementById('statusDot');
+  const text = document.getElementById('statusText');
+  dot.className = 'status-dot' + (type === 'warn' ? ' offline' : '');
+  text.textContent = msg;
+}
+
+// ── COUNTDOWN ──
+function startCountdown(nextUpdateAt) {
+  if (countdownInterval) clearInterval(countdownInterval);
+  const target = new Date(nextUpdateAt);
+  const progressFill = document.querySelector('.progress-fill');
+  const countdownEl = document.getElementById('countdown');
+
+  function tick() {
+    const now = new Date();
+    const diff = target - now;
+    if (diff <= 0) { countdownEl.textContent = '갱신 예정!'; return; }
+    const totalSec = 24 * 3600;
+    const remSec = Math.floor(diff / 1000);
+    const pct = ((totalSec - remSec) / totalSec * 100).toFixed(1);
+    if (progressFill) progressFill.style.width = pct + '%';
+    const h = String(Math.floor(diff / 3600000)).padStart(2, '0');
+    const m = String(Math.floor((diff % 3600000) / 60000)).padStart(2, '0');
+    const s = String(Math.floor((diff % 60000) / 1000)).padStart(2, '0');
+    if (countdownEl) countdownEl.textContent = `${h}:${m}:${s}`;
+  }
+  tick();
+  countdownInterval = setInterval(tick, 1000);
+}
+
+// ── RENDER ──
+function renderAll(data) {
+  document.getElementById('loadingState').style.display = 'none';
+  const container = document.getElementById('dataContent');
+  container.style.display = 'flex';
+  container.innerHTML = '';
+
+  // Update time
+  const upd = new Date(data.updatedAt);
+  document.getElementById('updateTime').textContent =
+    `${upd.getMonth()+1}/${upd.getDate()} ${String(upd.getHours()).padStart(2,'0')}:${String(upd.getMinutes()).padStart(2,'0')} 갱신`;
+  document.getElementById('statusRight').textContent =
+    `총 ${data.items.length}개 키워드`;
+
+  // Countdown bar
+  const countdownEl = document.createElement('div');
+  countdownEl.className = 'countdown-bar';
+  countdownEl.innerHTML = `
+    <span class="countdown-label">다음 갱신까지</span>
+    <div class="progress-track"><div class="progress-fill"></div></div>
+    <span id="countdown">--:--:--</span>
+  `;
+  container.appendChild(countdownEl);
+  startCountdown(data.nextUpdateAt);
+
+  // Group by type
+  const groups = [
+    { type: 'steady', badge: 'badge-steady', label: '🌿 스테디셀러', desc: '계절에 맞는 꾸준한 수요 키워드', numCls: 'num-steady' },
+    { type: 'hot',    badge: 'badge-hot',    label: '🔥 요즘 핫한 키워드', desc: 'SNS 트렌드 & 인스타 인기 키워드', numCls: 'num-hot' },
+    { type: 'miri',   badge: 'badge-miri',   label: '🏆 미리캔버스 판매 TOP', desc: '미리캔버스 내 판매량 상위 키워드', numCls: 'num-miri' },
+  ];
+
+  groups.forEach(g => {
+    const items = data.items.filter(i => i.type === g.type);
+    if (!items.length) return;
+
+    const section = document.createElement('div');
+
+    // Section header
+    section.innerHTML = `
+      <div class="section-header">
+        <span class="section-badge ${g.badge}">${g.label}</span>
+        <span class="section-desc">${g.desc}</span>
+      </div>
+    `;
+
+    const cardsWrap = document.createElement('div');
+    cardsWrap.style.cssText = 'display:flex;flex-direction:column;gap:10px';
+
+    items.forEach((item, idx) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const copyBtnId = `cb_${item.type}_${idx}`;
+      const copyTagId = `ct_${item.type}_${idx}`;
+
+      card.innerHTML = `
+        <div class="card-header">
+          <div class="card-title">
+            <span class="card-num ${g.numCls}">${item.rank}</span>
+            <span>${item.keyword}</span>
+          </div>
+          <span class="keyword-tag">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+            ${item.keyword}
+          </span>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="row-label">Gemini Prompt</div>
+            <div class="row-content">
+              <div class="text-box">${escHtml(item.prompt)}</div>
+              <button class="copy-btn" id="${copyBtnId}" onclick="copyText(${JSON.stringify(item.prompt)}, this)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+                Copy
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row-label">해시태그 (미리캔버스)</div>
+            <div class="row-content">
+              <div class="text-box" style="font-size:12px;line-height:1.65;color:var(--text-dim)">${escHtml(item.hashtags)}</div>
+              <button class="copy-btn" id="${copyTagId}" onclick="copyText(${JSON.stringify(item.hashtags)}, this)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+                Copy
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+      cardsWrap.appendChild(card);
+    });
+
+    section.appendChild(cardsWrap);
+    container.appendChild(section);
+  });
+}
+
+function escHtml(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── INIT ──
+document.getElementById('refreshBtn').onclick = fetchData;
+fetchData();
+</script>
+</body>
+</html>

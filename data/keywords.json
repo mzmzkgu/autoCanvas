@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-06-11T12:00:23.634053",
+  "updatedAt": "2026-06-11T15:50:50.014982",
   "nextUpdateAt": "2026-06-12T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "수박",
-      "prompt": "Sliced watermelon, juicy red inside with black seeds. 2D flat illustration, white background, clean outlines, no floor, no shadow, vibrant colors.",
-      "hashtags": "수박, 여름과일, 과일, 여름, 달콤, 빨강, 초록, 일러스트, watermelon, summer fruit",
+      "keyword": "여름 휴가",
+      "prompt": "Cute and bright summer vacation elements, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, simple design",
+      "hashtags": "#여름 #휴가 #바캉스 #여행 #바다 #수영복 #모래사장 #summer #vacation #beach",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "해바라기",
-      "prompt": "Bright yellow sunflower in full bloom. 2D flat illustration, white background, clean outlines, no floor, no shadow, cheerful and bold.",
-      "hashtags": "해바라기, 꽃, 여름꽃, 노랑, 식물, 일러스트, 밝은, sunflower, yellow flower, summer",
+      "keyword": "시원한 음료",
+      "prompt": "Refreshing summer drinks and fruits, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, simple design",
+      "hashtags": "#여름음료 #아이스티 #과일주스 #음료수 #디저트 #더위탈출 #icecream #drink #refreshing",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "아이스크림",
-      "prompt": "Colorful ice cream cone with two scoops, pastel colors. 2D flat illustration, white background, clean outlines, no floor, no shadow, cute kawaii style.",
-      "hashtags": "아이스크림, 여름, 디저트, 달콤, 콘, 귀여운, 파스텔, 일러스트, ice cream, summer dessert",
+      "keyword": "여름 일상",
+      "prompt": "Charming everyday scenes of summer, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, simple design",
+      "hashtags": "#여름일상 #데일리 #날씨 #풍경 #꽃 #나들이 #반팔 #summerlife #daily #outdoors",
       "type": "steady"
     },
     {
       "rank": 1,
       "keyword": "소금빵",
-      "prompt": "Golden buttery salt bread, freshly baked and glossy. 2D flat illustration, white background, clean outlines, no floor, no shadow, warm tones.",
-      "hashtags": "소금빵, 빵, 베이커리, 카페, 맛있는, 디저트, 일러스트, salt bread, bakery, butter bread",
+      "prompt": "A cute, fluffy, golden-brown salted bread roll, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, vibrant colors.",
+      "hashtags": "소금빵, 빵, 베이커리, 디저트, 귀여운, 일러스트, 스티커, 음식, 베이킹, Bread, Bakery, Dessert, Cute, Illustration, Sticker, Food, Baking",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "감성 캠핑",
-      "prompt": "Cozy camping lantern glowing softly, minimalist aesthetic. 2D flat illustration, white background, clean outlines, no floor, no shadow, warm earthy tones.",
-      "hashtags": "캠핑, 랜턴, 감성캠핑, 아웃도어, 자연, 여름캠핑, 일러스트, camping lantern, outdoor, hygge",
+      "keyword": "감성캠핑",
+      "prompt": "A cozy campsite scene with a small tent, campfire, and a lantern, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, warm and inviting colors.",
+      "hashtags": "감성캠핑, 캠핑, 아웃도어, 자연, 텐트, 캠프파이어, 일러스트, 스티커, 여행, 휴식, Camping, Outdoor, Nature, Tent, Campfire, Illustration, Sticker, Travel, Relax, Cozy",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "레트로 아이스크림",
-      "prompt": "Retro-style ice cream bar on stick with pastel colors and vintage pattern. 2D flat illustration, white background, clean outlines, no floor, no shadow.",
-      "hashtags": "아이스크림, 레트로, 여름, 복고, 디저트, 달콤, 파스텔, 일러스트, retro ice cream, vintage summer",
+      "keyword": "레트로 디자인",
+      "prompt": "A collection of retro-themed design elements like a vintage record player, cassette tape, and funky pattern, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, bright and nostalgic colors.",
+      "hashtags": "레트로, 빈티지, 디자인, 일러스트, 스티커, 옛날, 패턴, 소품, 복고, Retro, Vintage, Design, Illustration, Sticker, Oldies, Pattern, Objects, Nostalgic, 80s",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "바다 파도",
-      "prompt": "Cute stylized ocean wave with foam and sparkles. 2D flat illustration, white background, clean outlines, no floor, no shadow, fresh blue tones.",
-      "hashtags": "바다, 파도, 여름, 파란색, 시원한, 해양, 스티커, 일러스트, ocean wave, summer sea",
+      "keyword": "여름",
+      "prompt": "Summer elements, 2D flat illustration, white background",
+      "hashtags": "여름, Summer, 일러스트, illustration, 스티커, sticker, 휴가, vacation, 시원한, cool, 디자인, design, 그래픽, graphic, 패턴, pattern, 배경, background, 아이콘, icon",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "열대 식물",
-      "prompt": "Tropical monstera leaf and palm elements, lush green. 2D flat illustration, white background, clean outlines, no floor, no shadow, vibrant tropical colors.",
-      "hashtags": "열대식물, 몬스테라, 야자수, 초록, 식물, 여름, 일러스트, tropical plant, monstera, palm",
+      "keyword": "바다",
+      "prompt": "Ocean scenery, 2D flat illustration, white background",
+      "hashtags": "바다, Ocean, 해변, beach, 여름, summer, 일러스트, illustration, 스티커, sticker, 휴가, vacation, 파도, wave, 고래, whale, 조개, shell, 물방울, water drop, 시원한, cool",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "여름 음료",
-      "prompt": "Refreshing iced drink with lemon slice and colorful straw, condensation on glass. 2D flat illustration, white background, clean outlines, no floor, no shadow.",
-      "hashtags": "음료, 여름음료, 아이스티, 레몬에이드, 시원한, 카페, 여름, 일러스트, summer drink, iced beverage",
+      "keyword": "아이스크림",
+      "prompt": "Ice cream cones and popsicles, 2D flat illustration, white background",
+      "hashtags": "아이스크림, Ice cream, 디저트, dessert, 여름, summer, 달콤한, sweet, 일러스트, illustration, 스티커, sticker, 시원한, cool, 간식, snack, 아이콘, icon, 그래픽, graphic, 맛있는, delicious",
       "type": "miri"
     }
   ]

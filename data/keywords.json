@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-06-13T00:22:17.769994",
+  "updatedAt": "2026-06-13T00:45:54.165422",
   "nextUpdateAt": "2026-06-13T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "장마철 귀여운 우산",
-      "prompt": "A cute, colorful umbrella, designed for rainy weather, in a 2D flat illustration style, with clean black outlines on all subjects, chroma key green background, hex color #00B140, no floor, no shadow, no ground element, with a cheerful and bright color palette and simple design.",
-      "hashtags": "#장마 #우산 #비 #여름 #일러스트 #스티커 # PNG #rainyday #umbrella #illustration",
+      "keyword": "장마철 감성 일러스트",
+      "prompt": "A cute and cheerful illustration of a person holding a colorful umbrella and walking in the rain, with raindrops and puddles. 2D flat illustration style, clean black outlines on all subjects, no floor, no shadow, no ground element, chroma key green background, hex color #00B140, 1:1 square aspect ratio.",
+      "hashtags": "장마, 비오는날, 우산, 일러스트, 스티커, 디자인소스, 미리캔버스, Korea rainy season, cute sticker, PNG",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "활짝 핀 수국 일러스트",
-      "prompt": "A blooming hydrangea flower in vibrant colors, rendered in a 2D flat illustration style, with clean black outlines on all subjects, chroma key green background, hex color #00B140, no floor, no shadow, no ground element, featuring a cute and bright color palette and simple design.",
-      "hashtags": "#수국 #여름꽃 #꽃 #일러스트 #디자인 #프레임 # 여름 #hydrangea #flower #design",
+      "keyword": "수국꽃다발 PNG",
+      "prompt": "A charming and vibrant illustration of a bouquet of hydrangea flowers in various shades of blue, pink, and purple. 2D flat illustration style, clean black outlines on all subjects, no floor, no shadow, no ground element, chroma key green background, hex color #00B140, 1:1 square aspect ratio.",
+      "hashtags": "수국, 꽃, 일러스트, 여름꽃, 디자인, 배경, 스티커, hydrangea, summer flower, vector",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "현충일 태극기 배너",
-      "prompt": "A simple and patriotic banner featuring the Taegeukgi (Korean flag) with solemn yet celebratory elements, in a 2D flat illustration style, with clean black outlines on all subjects, chroma key green background, hex color #00B140, no floor, no shadow, no ground element, using a bright and respectful color palette and simple design.",
-      "hashtags": "#현충일 #태극기 #대한민국 #기념일 #배너 #디자인 #일러스트 #korea #memorialday #banner",
+      "keyword": "현충일 태극기 일러스트",
+      "prompt": "A simple and respectful illustration of a Korean flag (Taegeukgi) waving gently. 2D flat illustration style, clean black outlines on all subjects, no floor, no shadow, no ground element, chroma key green background, hex color #00B140, 1:1 square aspect ratio.",
+      "hashtags": "현충일, 태극기, 한국, 기념일, 일러스트, 디자인, 스티커, Korea flag, Memorial Day, graphic",
       "type": "steady"
     },
     {
       "rank": 1,
       "keyword": "로켓",
-      "prompt": "A cute and vibrant 2D flat illustration of a rocket ship soaring into space, with clean black outlines on all subjects, chroma key green background, hex color #00B140. No floor, no shadow, no ground element.",
-      "hashtags": "로켓, 우주, 탐험, 별, 행성, 과학, 미래, 일러스트, 스티커, Rocket, Space, Exploration, Stars, Planets, Science, Future, Illustration, Sticker, PNG",
+      "prompt": "A cute and colorful 2D flat illustration of a rocket launching into space, with clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element.",
+      "hashtags": "로켓, Rocket, 우주, Space, 일러스트, Illustration, 스티커, Sticker, 귀여운, Cute, PNG, 미래, Future, 탐험, Exploration, 아이콘, Icon, 디자인, Design",
       "type": "hot"
     },
     {
       "rank": 2,
       "keyword": "인스타그램",
-      "prompt": "A cute and vibrant 2D flat illustration of a stylized social media app icon, representing a camera lens or photo frame, with clean black outlines on all subjects, chroma key green background, hex color #00B140. No floor, no shadow, no ground element.",
-      "hashtags": "인스타그램, 소셜미디어, 앱, 아이콘, 사진, 공유, 소통, 온라인, 일러스트, 스티커, Instagram, SocialMedia, App, Icon, Photo, Share, Communication, Online, Illustration, Sticker",
+      "prompt": "A stylized 2D flat illustration of a social media app icon with a playful camera lens design, symbolizing connection and sharing, with clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element.",
+      "hashtags": "인스타그램, Instagram, 소셜미디어, SocialMedia, 앱, App, 아이콘, Icon, 일러스트, Illustration, 스티커, Sticker, 소통, Communication, 공유, Sharing, 디자인, Design, 디지털, Digital",
       "type": "hot"
     },
     {
       "rank": 3,
       "keyword": "토스",
-      "prompt": "A cute and vibrant 2D flat illustration of a stylized digital payment or finance icon, resembling a coin with a leaf or upward arrow, with clean black outlines on all subjects, chroma key green background, hex color #00B140. No floor, no shadow, no ground element.",
-      "hashtags": "토스, 금융, 결제, 송금, 앱, 재테크, 간편, 서비스, 일러스트, 스티커, Toss, Finance, Payment, Transfer, App, Investment, Easy, Service, Illustration, Sticker",
+      "prompt": "A cute and friendly 2D flat illustration of a stylized digital wallet or payment app icon, with a symbolic money or coin element, representing financial services, with clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element.",
+      "hashtags": "토스, Toss, 금융, Finance, 앱, App, 아이콘, Icon, 일러스트, Illustration, 스티커, Sticker, 결제, Payment, 돈, Money, 핀테크, Fintech, 디자인, Design, 간편, Easy",
       "type": "hot"
     },
     {
       "rank": 1,
       "keyword": "로켓",
-      "prompt": "A cute and vibrant 2D flat illustration of a rocket launching into space, with clean black outlines on all subjects, chroma key green background, hex color #00B140. no floor, no shadow, no ground element.",
-      "hashtags": "로켓, 우주, 발사, 비행, 미래, 우주선, 탐험, 과학, 판타지, Rocket, space, launch, flight, future, spaceship, exploration, science, fantasy",
+      "prompt": "A cute and colorful rocket blasting off, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element.",
+      "hashtags": "로켓, 우주, 비행, 탐험, 미래, Rocket, space, flight, exploration, future, science, tech, travel, launch, shuttle",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "로켓랩",
-      "prompt": "A cheerful and colorful 2D flat illustration of a stylized rocket launchpad with a small rocket ready for liftoff, featuring clean black outlines, chroma key green background, hex color #00B140. no floor, no shadow, no ground element.",
-      "hashtags": "로켓랩, 우주 발사, 기술, 혁신, 탐사, 항공우주, 사업, 기업, 미래, Rocket Lab, space launch, technology, innovation, exploration, aerospace, business, company, future",
+      "keyword": "토스",
+      "prompt": "A stylized financial app icon with a friendly character, representing digital banking, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element.",
+      "hashtags": "토스, 금융, 앱, 결제, 송금, money, finance, app, payment, transfer, digital, banking, coin, wallet, fintech",
       "type": "miri"
     },
     {
       "rank": 3,
       "keyword": "인스타그램",
-      "prompt": "A playful and bright 2D flat illustration of a social media camera icon with a stylized speech bubble, representing sharing, featuring clean black outlines, chroma key green background, hex color #00B140. no floor, no shadow, no ground element.",
-      "hashtags": "인스타그램, 소셜 미디어, 공유, 사진, 영상, 앱, 커뮤니티, 트렌드, 라이프스타일, Instagram, social media, sharing, photo, video, app, community, trend, lifestyle",
+      "prompt": "A social media icon with a camera lens and a heart, representing sharing and likes, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element.",
+      "hashtags": "인스타그램, 소셜미디어, 사진, 공유, 좋아요, social media, photo, share, like, camera, feed, story, profile, connection, online",
       "type": "miri"
     }
   ]

@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-06-11T15:50:50.014982",
-  "nextUpdateAt": "2026-06-12T12:00:00",
+  "updatedAt": "2026-06-13T00:20:54.358399",
+  "nextUpdateAt": "2026-06-13T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "여름 휴가",
-      "prompt": "Cute and bright summer vacation elements, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, simple design",
-      "hashtags": "#여름 #휴가 #바캉스 #여행 #바다 #수영복 #모래사장 #summer #vacation #beach",
+      "keyword": "귀여운 장마 일러스트",
+      "prompt": "Cute rainy day illustration, featuring a happy umbrella, splashing raindrops, and a smiling sun peeking through clouds, in a 2D flat illustration style with clean black outlines on all subjects, chroma key green background, hex color #00B140, no floor, no shadow, no ground element, cute and bright colors, simple design",
+      "hashtags": "장마, 비, 우산, 날씨, 귀여운, 일러스트, 스티커, summer, rainy, illustration",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "시원한 음료",
-      "prompt": "Refreshing summer drinks and fruits, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, simple design",
-      "hashtags": "#여름음료 #아이스티 #과일주스 #음료수 #디저트 #더위탈출 #icecream #drink #refreshing",
+      "keyword": "여름 수국 일러스트",
+      "prompt": "Vibrant summer hydrangea illustration, with blooming flowers in various shades of blue, pink, and purple, in a 2D flat illustration style with clean black outlines on all subjects, chroma key green background, hex color #00B140, no floor, no shadow, no ground element, cute and bright colors, simple design",
+      "hashtags": "수국, 여름, 꽃, 플라워, 일러스트, 스티커, 패턴, hydrangea, summer, floral",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "여름 일상",
-      "prompt": "Charming everyday scenes of summer, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, simple design",
-      "hashtags": "#여름일상 #데일리 #날씨 #풍경 #꽃 #나들이 #반팔 #summerlife #daily #outdoors",
+      "keyword": "현충일 태극기 일러스트",
+      "prompt": "Patriotic Taegeukgi (Korean flag) illustration for Memorial Day, with a stylized rendition of the flag and subtle elements like a silhouette of a dove, in a 2D flat illustration style with clean black outlines on all subjects, chroma key green background, hex color #00B140, no floor, no shadow, no ground element, simple design, respectful colors",
+      "hashtags": "현충일, 태극기, 대한민국, 기념일, 일러스트, 스티커, 디자인, Korea, MemorialDay, patriotic",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "소금빵",
-      "prompt": "A cute, fluffy, golden-brown salted bread roll, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, vibrant colors.",
-      "hashtags": "소금빵, 빵, 베이커리, 디저트, 귀여운, 일러스트, 스티커, 음식, 베이킹, Bread, Bakery, Dessert, Cute, Illustration, Sticker, Food, Baking",
+      "keyword": "로켓",
+      "prompt": "A cute and colorful rocket spaceship blasting off, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, no floor, no shadow, no ground element.",
+      "hashtags": "로켓, 우주, 비행, 탐험, 미래, 여행, 우주선, 발사, 어린이, 일러스트, rocket, space, launch, explore, future, travel, spaceship, kids, illustration",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "감성캠핑",
-      "prompt": "A cozy campsite scene with a small tent, campfire, and a lantern, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, warm and inviting colors.",
-      "hashtags": "감성캠핑, 캠핑, 아웃도어, 자연, 텐트, 캠프파이어, 일러스트, 스티커, 여행, 휴식, Camping, Outdoor, Nature, Tent, Campfire, Illustration, Sticker, Travel, Relax, Cozy",
+      "keyword": "인스타그램",
+      "prompt": "A stylized social media app icon with a camera lens and a heart shape, representing social media sharing, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, no floor, no shadow, no ground element.",
+      "hashtags": "인스타그램, 소셜미디어, 앱, 아이콘, 공유, 사진, 커뮤니티, 온라인, 디지털, 소통, instagram, socialmedia, app, icon, share, photo, community, online, digital, communication",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "레트로 디자인",
-      "prompt": "A collection of retro-themed design elements like a vintage record player, cassette tape, and funky pattern, 2D flat illustration, white background, clean outlines, no floor, no shadow, no ground element, bright and nostalgic colors.",
-      "hashtags": "레트로, 빈티지, 디자인, 일러스트, 스티커, 옛날, 패턴, 소품, 복고, Retro, Vintage, Design, Illustration, Sticker, Oldies, Pattern, Objects, Nostalgic, 80s",
+      "keyword": "토스",
+      "prompt": "A stylized financial app icon with a vibrant money symbol or a secure shield, representing financial technology services, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, no floor, no shadow, no ground element.",
+      "hashtags": "토스, 금융, 앱, 기술, 송금, 결제, 투자, 재테크, 돈, 서비스, toss, finance, app, tech, transfer, payment, invest, money, service, fintech",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "여름",
-      "prompt": "Summer elements, 2D flat illustration, white background",
-      "hashtags": "여름, Summer, 일러스트, illustration, 스티커, sticker, 휴가, vacation, 시원한, cool, 디자인, design, 그래픽, graphic, 패턴, pattern, 배경, background, 아이콘, icon",
+      "keyword": "로켓 발사",
+      "prompt": "A cute and vibrant 2D flat illustration of a rocket launching into space, with colorful stars and planets in the background. Clean black outlines on all subjects, chroma key green background, hex color #00B140. No floor, no shadow, no ground element.",
+      "hashtags": "로켓, 우주, 발사, 행성, 별, 어린이, 귀여운, 일러스트, 스티커, Rocket, Space, Launch, Planet, Star, Kids, Cute, Illustration, Sticker",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "바다",
-      "prompt": "Ocean scenery, 2D flat illustration, white background",
-      "hashtags": "바다, Ocean, 해변, beach, 여름, summer, 일러스트, illustration, 스티커, sticker, 휴가, vacation, 파도, wave, 고래, whale, 조개, shell, 물방울, water drop, 시원한, cool",
+      "keyword": "인스타그램 카메라",
+      "prompt": "A cute and vibrant 2D flat illustration of a stylized social media camera icon, similar to a vintage Instagram logo but with unique, non-infringing design elements. Clean black outlines on all subjects, chroma key green background, hex color #00B140. No floor, no shadow, no ground element.",
+      "hashtags": "인스타그램, 카메라, 소셜미디어, 앱, 아이콘, 디자인, 일러스트, 스티커, 사진, Instagram, Camera, SocialMedia, App, Icon, Design, Illustration, Sticker, Photo",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "아이스크림",
-      "prompt": "Ice cream cones and popsicles, 2D flat illustration, white background",
-      "hashtags": "아이스크림, Ice cream, 디저트, dessert, 여름, summer, 달콤한, sweet, 일러스트, illustration, 스티커, sticker, 시원한, cool, 간식, snack, 아이콘, icon, 그래픽, graphic, 맛있는, delicious",
+      "keyword": "간편 송금",
+      "prompt": "A cute and vibrant 2D flat illustration depicting a simple and fast money transfer process, perhaps with coins flying between two stylized mobile phones. Clean black outlines on all subjects, chroma key green background, hex color #00B140. No floor, no shadow, no ground element.",
+      "hashtags": "토스, 송금, 금융, 간편, 모바일, 결제, 돈, 일러스트, 스티커, 서비스, Toss, Remittance, Finance, Easy, Mobile, Payment, Money, Illustration, Sticker, Service",
       "type": "miri"
     }
   ]

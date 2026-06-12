@@ -429,18 +429,16 @@ function renderAll(data) {
     items.forEach((item, idx) => {
       const card = document.createElement('div');
       card.className = 'card';
-      const copyBtnId = `cb_${item.type}_${idx}`;
-      const copyTagId = `ct_${item.type}_${idx}`;
 
       card.innerHTML = `
         <div class="card-header">
           <div class="card-title">
             <span class="card-num ${g.numCls}">${item.rank}</span>
-            <span>${item.keyword}</span>
+            <span>${escHtml(item.keyword)}</span>
           </div>
           <span class="keyword-tag">
             <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
-            ${item.keyword}
+            ${escHtml(item.keyword)}
           </span>
         </div>
         <div class="card-body">
@@ -448,7 +446,7 @@ function renderAll(data) {
             <div class="row-label">Gemini Prompt</div>
             <div class="row-content">
               <div class="text-box">${escHtml(item.prompt)}</div>
-              <button class="copy-btn" id="${copyBtnId}" onclick="copyText(${JSON.stringify(item.prompt)}, this)">
+              <button class="copy-btn copy-prompt">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
                 Copy
               </button>
@@ -458,7 +456,7 @@ function renderAll(data) {
             <div class="row-label">해시태그 (미리캔버스)</div>
             <div class="row-content">
               <div class="text-box" style="font-size:12px;line-height:1.65;color:var(--text-dim)">${escHtml(item.hashtags)}</div>
-              <button class="copy-btn" id="${copyTagId}" onclick="copyText(${JSON.stringify(item.hashtags)}, this)">
+              <button class="copy-btn copy-hashtag">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
                 Copy
               </button>
@@ -466,6 +464,15 @@ function renderAll(data) {
           </div>
         </div>
       `;
+
+      // onclick 인라인 대신 addEventListener 사용 (따옴표 충돌 방지)
+      card.querySelector('.copy-prompt').addEventListener('click', function() {
+        copyText(item.prompt, this);
+      });
+      card.querySelector('.copy-hashtag').addEventListener('click', function() {
+        copyText(item.hashtags, this);
+      });
+
       cardsWrap.appendChild(card);
     });
 
@@ -478,13 +485,12 @@ function escHtml(str) {
   return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-// ── COPY (전역 함수 - onclick에서 호출됨) ──
-window.copyText = async function(text, btn) {
+// ── COPY ──
+async function copyText(text, btn) {
   try {
     if (navigator.clipboard && window.isSecureContext) {
       await navigator.clipboard.writeText(text);
     } else {
-      // HTTP 환경 fallback
       const ta = document.createElement('textarea');
       ta.value = text;
       ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
@@ -503,7 +509,7 @@ window.copyText = async function(text, btn) {
   } catch(e) {
     showToast('복사 실패 😢 직접 선택해서 복사해줘');
   }
-};
+}
 
 // ── INIT ──
 document.getElementById('refreshBtn').onclick = fetchData;

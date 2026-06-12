@@ -321,21 +321,6 @@ function showToast(msg) {
   toastTimer = setTimeout(() => t.classList.remove('show'), 2000);
 }
 
-async function copyText(text, btn) {
-  try {
-    await navigator.clipboard.writeText(text);
-    btn.classList.add('copied');
-    btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 복사됨`;
-    showToast('클립보드에 복사됐어! 📋');
-    setTimeout(() => {
-      btn.classList.remove('copied');
-      btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy`;
-    }, 2000);
-  } catch {
-    showToast('복사 실패 😢 직접 선택해서 복사해줘');
-  }
-}
-
 // ── FETCH DATA ──
 async function fetchData() {
   const btn = document.getElementById('refreshBtn');
@@ -492,6 +477,33 @@ function renderAll(data) {
 function escHtml(str) {
   return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
+
+// ── COPY (전역 함수 - onclick에서 호출됨) ──
+window.copyText = async function(text, btn) {
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+    } else {
+      // HTTP 환경 fallback
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
+      document.body.appendChild(ta);
+      ta.focus(); ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+    }
+    btn.classList.add('copied');
+    btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 복사됨`;
+    showToast('클립보드에 복사됐어! 📋');
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy`;
+    }, 2000);
+  } catch(e) {
+    showToast('복사 실패 😢 직접 선택해서 복사해줘');
+  }
+};
 
 // ── INIT ──
 document.getElementById('refreshBtn').onclick = fetchData;

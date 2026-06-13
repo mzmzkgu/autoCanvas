@@ -1,68 +1,67 @@
 {
-  "updatedAt": "2026-06-13T00:45:54.165422",
-  "nextUpdateAt": "2026-06-13T12:00:00",
+  "updatedAt": "2026-06-13T12:00:25.262775",
+  "nextUpdateAt": "2026-06-14T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "장마철 감성 일러스트",
-      "prompt": "A cute and cheerful illustration of a person holding a colorful umbrella and walking in the rain, with raindrops and puddles. 2D flat illustration style, clean black outlines on all subjects, no floor, no shadow, no ground element, chroma key green background, hex color #00B140, 1:1 square aspect ratio.",
-      "hashtags": "장마, 비오는날, 우산, 일러스트, 스티커, 디자인소스, 미리캔버스, Korea rainy season, cute sticker, PNG",
+      "keyword": "장마철 귀여운 우산 일러스트",
+      "prompt": "Cute umbrella illustration for rainy season, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, cute and bright colors, simple design",
+      "hashtags": "#장마일러스트, #우산, #여름일러스트, #귀여운일러스트, #플랫디자인, #PNG스티커, #배경투명, #RainyDay, #Umbrella, #SummerIllustration",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "수국꽃다발 PNG",
-      "prompt": "A charming and vibrant illustration of a bouquet of hydrangea flowers in various shades of blue, pink, and purple. 2D flat illustration style, clean black outlines on all subjects, no floor, no shadow, no ground element, chroma key green background, hex color #00B140, 1:1 square aspect ratio.",
-      "hashtags": "수국, 꽃, 일러스트, 여름꽃, 디자인, 배경, 스티커, hydrangea, summer flower, vector",
+      "keyword": "몽환적인 수국 꽃다발",
+      "prompt": "Dreamy hydrangea bouquet illustration, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, cute and bright colors, simple design",
+      "hashtags": "#수국일러스트, #꽃일러스트, #여름꽃, #몽환적인, #보라색수국, #여름배너, #디자인소스, #Hydrangea, #FloralIllustration, #SummerFlowers",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "현충일 태극기 일러스트",
-      "prompt": "A simple and respectful illustration of a Korean flag (Taegeukgi) waving gently. 2D flat illustration style, clean black outlines on all subjects, no floor, no shadow, no ground element, chroma key green background, hex color #00B140, 1:1 square aspect ratio.",
-      "hashtags": "현충일, 태극기, 한국, 기념일, 일러스트, 디자인, 스티커, Korea flag, Memorial Day, graphic",
+      "keyword": "어린이 현충일 태극기",
+      "prompt": "Children holding Korean flag illustration for Memorial Day, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, cute and bright colors, simple design",
+      "hashtags": "#현충일, #태극기, #어린이일러스트, #나라사랑, #6월이벤트, #기념일, #한국적인, #MemorialDay, #KoreanFlag, #Patriotism",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "로켓",
-      "prompt": "A cute and colorful 2D flat illustration of a rocket launching into space, with clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element.",
-      "hashtags": "로켓, Rocket, 우주, Space, 일러스트, Illustration, 스티커, Sticker, 귀여운, Cute, PNG, 미래, Future, 탐험, Exploration, 아이콘, Icon, 디자인, Design",
+      "keyword": "에르메스",
+      "prompt": "A luxurious, stylish handbag, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. Cute and bright colors, no floor, no shadow, no ground element.",
+      "hashtags": "명품가방, 럭셔리, 패션, 핸드백, 스타일, 여성가방, 쇼핑, 고급, 패션소품, LuxuryBag, Fashion, Handbag, Style, WomenBag, Shopping, Chic",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "인스타그램",
-      "prompt": "A stylized 2D flat illustration of a social media app icon with a playful camera lens design, symbolizing connection and sharing, with clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element.",
-      "hashtags": "인스타그램, Instagram, 소셜미디어, SocialMedia, 앱, App, 아이콘, Icon, 일러스트, Illustration, 스티커, Sticker, 소통, Communication, 공유, Sharing, 디자인, Design, 디지털, Digital",
+      "keyword": "대한민국 소방 청장",
+      "prompt": "A brave firefighter, wearing a helmet and uniform, holding a hose, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. Cute and bright colors, no floor, no shadow, no ground element.",
+      "hashtags": "소방관, 영웅, 안전, 구조, 소방, 봉사, 직업, 희생, 용기, Firefighter, Hero, Safety, Rescue, Firefighting, Service, Profession, Courage",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "토스",
-      "prompt": "A cute and friendly 2D flat illustration of a stylized digital wallet or payment app icon, with a symbolic money or coin element, representing financial services, with clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element.",
-      "hashtags": "토스, Toss, 금융, Finance, 앱, App, 아이콘, Icon, 일러스트, Illustration, 스티커, Sticker, 결제, Payment, 돈, Money, 핀테크, Fintech, 디자인, Design, 간편, Easy",
+      "prompt": "A vibrant, blooming flower, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. Cute and bright colors, no floor, no shadow, no ground element.",
+      "hashtags": "꽃, 자연, 식물, 봄, 꽃다발, 화려한, 아름다움, 정원, 꽃잎, Flower, Nature, Plant, Spring, Bouquet, Vibrant, Beauty, Garden, Petal",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "로켓",
-      "prompt": "A cute and colorful rocket blasting off, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element.",
-      "hashtags": "로켓, 우주, 비행, 탐험, 미래, Rocket, space, flight, exploration, future, science, tech, travel, launch, shuttle",
+      "keyword": "고양이",
+      "prompt": "A cute, playful cat, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, bright colors.",
+      "hashtags": "고양이,cat,귀여운 고양이,cute cat,반려동물,pet,일러스트,illustration,스티커,sticker,애니멀,animal,플랫 디자인,flat design,캐릭터,character,귀여운,cute,동물 그림,animal art",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "토스",
-      "prompt": "A stylized financial app icon with a friendly character, representing digital banking, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element.",
-      "hashtags": "토스, 금융, 앱, 결제, 송금, money, finance, app, payment, transfer, digital, banking, coin, wallet, fintech",
+      "keyword": "꽃",
+      "prompt": "A vibrant bouquet of blooming flowers, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, bright colors.",
+      "hashtags": "꽃,flower,꽃다발,bouquet,플라워,flower illustration,식물,plant,봄,spring,여름,summer,일러스트,illustration,스티커,sticker,자연,nature,생기,vibrant,플랫 디자인,flat design",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "인스타그램",
-      "prompt": "A social media icon with a camera lens and a heart, representing sharing and likes, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element.",
-      "hashtags": "인스타그램, 소셜미디어, 사진, 공유, 좋아요, social media, photo, share, like, camera, feed, story, profile, connection, online",
+      "keyword": "행복한 사람",
+      "prompt": "A joyful person with a big smile, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, bright colors.",
+      "hashtags": "행복한 사람,happy person,미소,smile,사람,person,인물,figure,기쁨,joy,긍정,positive,일러스트,illustration,스티커,sticker,플랫 디자인,flat design,캐릭터,character,밝은,bright,감정,emotion",
       "type": "miri"
     }
   ]

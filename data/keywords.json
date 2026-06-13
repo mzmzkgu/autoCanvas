@@ -1,67 +1,68 @@
 {
-  "updatedAt": "2026-06-13T12:00:25.262775",
+  "updatedAt": "2026-06-13T18:21:06.436935",
   "nextUpdateAt": "2026-06-14T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "장마철 귀여운 우산 일러스트",
-      "prompt": "Cute umbrella illustration for rainy season, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, cute and bright colors, simple design",
-      "hashtags": "#장마일러스트, #우산, #여름일러스트, #귀여운일러스트, #플랫디자인, #PNG스티커, #배경투명, #RainyDay, #Umbrella, #SummerIllustration",
+      "keyword": "장마철 일러스트",
+      "prompt": "2D flat illustration of various rain-related elements like raindrops, umbrellas, and puddles, chroma key green background hex color #00B140, 1:1 square aspect ratio, clean modern flat design, clean black outlines on all subjects, vibrant colors, no floor, no shadow, no ground element, NO face NO eyes NO mouth on any object",
+      "hashtags": "장마일러스트, 우산일러스트, 비오는날, 여름일러스트, 일러스트스티커, 미리캔버스, 디자인소스, rainyday, summerillustration, sticker",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "몽환적인 수국 꽃다발",
-      "prompt": "Dreamy hydrangea bouquet illustration, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, cute and bright colors, simple design",
-      "hashtags": "#수국일러스트, #꽃일러스트, #여름꽃, #몽환적인, #보라색수국, #여름배너, #디자인소스, #Hydrangea, #FloralIllustration, #SummerFlowers",
+      "keyword": "수국 꽃다발",
+      "prompt": "2D flat illustration of a bouquet of hydrangeas in various summer colors, chroma key green background hex color #00B140, 1:1 square aspect ratio, clean modern flat design, clean black outlines on all subjects, vibrant colors, no floor, no shadow, no ground element, NO face NO eyes NO mouth on any object",
+      "hashtags": "수국일러스트, 꽃일러스트, 여름꽃, 플라워디자인, 일러스트요소, 미리캔버스, 디자인템플릿, hydrangea, flowerillustration, summerflower",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "어린이 현충일 태극기",
-      "prompt": "Children holding Korean flag illustration for Memorial Day, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, cute and bright colors, simple design",
-      "hashtags": "#현충일, #태극기, #어린이일러스트, #나라사랑, #6월이벤트, #기념일, #한국적인, #MemorialDay, #KoreanFlag, #Patriotism",
+      "keyword": "여름 우산 스티커",
+      "prompt": "2D flat illustration of colorful umbrellas with a summer theme, suitable for stickers, chroma key green background hex color #00B140, 1:1 square aspect ratio, clean modern flat design, clean black outlines on all subjects, vibrant colors, no floor, no shadow, no ground element, NO face NO eyes NO mouth on any object",
+      "hashtags": "우산스티커, 여름스티커, 장마대비, 디자인스티커, 일러스트스티커, 미리캔버스, 디자인문구, umbrellas, summersticker, illustrationsticker",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "에르메스",
-      "prompt": "A luxurious, stylish handbag, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. Cute and bright colors, no floor, no shadow, no ground element.",
-      "hashtags": "명품가방, 럭셔리, 패션, 핸드백, 스타일, 여성가방, 쇼핑, 고급, 패션소품, LuxuryBag, Fashion, Handbag, Style, WomenBag, Shopping, Chic",
+      "keyword": "군함",
+      "prompt": "2D flat illustration of a warship, chroma key green background hex color #00B140, 1:1 square aspect ratio, NO face NO eyes NO mouth on any object, clean modern flat design, clean black outlines on all subjects, no floor, no shadow, no ground element, vibrant colors, clean modern design",
+      "hashtags": "군함, 전투함, 함선, ship, warship, navy, illustration, sticker, 2d, flat design",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "대한민국 소방 청장",
-      "prompt": "A brave firefighter, wearing a helmet and uniform, holding a hose, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. Cute and bright colors, no floor, no shadow, no ground element.",
-      "hashtags": "소방관, 영웅, 안전, 구조, 소방, 봉사, 직업, 희생, 용기, Firefighter, Hero, Safety, Rescue, Firefighting, Service, Profession, Courage",
+      "keyword": "삼성전기",
+      "prompt": "2D flat illustration of electronic components like capacitors and resistors, representing electrical engineering, chroma key green background hex color #00B140, 1:1 square aspect ratio, NO face NO eyes NO mouth on any object, clean modern flat design, clean black outlines on all subjects, no floor, no shadow, no ground element, vibrant colors, clean modern design",
+      "hashtags": "전자 부품, 전기, 기계, tech, components, electronics, illustration, sticker, 2d, flat design",
       "type": "hot"
     },
     {
       "rank": 3,
-      "prompt": "A vibrant, blooming flower, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. Cute and bright colors, no floor, no shadow, no ground element.",
-      "hashtags": "꽃, 자연, 식물, 봄, 꽃다발, 화려한, 아름다움, 정원, 꽃잎, Flower, Nature, Plant, Spring, Bouquet, Vibrant, Beauty, Garden, Petal",
+      "prompt": "2D flat illustration of a generic sports stadium, chroma key green background hex color #00B140, 1:1 square aspect ratio, NO face NO eyes NO mouth on any object, clean modern flat design, clean black outlines on all subjects, no floor, no shadow, no ground element, vibrant colors, clean modern design",
+      "keyword": "백악관 ufc",
+      "hashtags": "스포츠 경기장, 경기장, stadium, sports, arena, illustration, sticker, 2d, flat design, architecture",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "고양이",
-      "prompt": "A cute, playful cat, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, bright colors.",
-      "hashtags": "고양이,cat,귀여운 고양이,cute cat,반려동물,pet,일러스트,illustration,스티커,sticker,애니멀,animal,플랫 디자인,flat design,캐릭터,character,귀여운,cute,동물 그림,animal art",
+      "keyword": "군함",
+      "prompt": "A mighty battleship, 2D flat illustration, clean black outlines on all subjects, chroma key green background hex color #00B140, 1:1 square aspect ratio, NO face NO eyes NO mouth on any object, clean modern flat design, vibrant colors, no floor, no shadow, no ground element",
+      "hashtags": "군함,전함,해군,바다,배,선박,전투함,거대함,함선,Naval Ship",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "꽃",
-      "prompt": "A vibrant bouquet of blooming flowers, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, bright colors.",
-      "hashtags": "꽃,flower,꽃다발,bouquet,플라워,flower illustration,식물,plant,봄,spring,여름,summer,일러스트,illustration,스티커,sticker,자연,nature,생기,vibrant,플랫 디자인,flat design",
+      "keyword": "삼성전자",
+      "prompt": "A stylized electronic device resembling a smartphone or tablet, 2D flat illustration, clean black outlines on all subjects, chroma key green background hex color #00B140, 1:1 square aspect ratio, NO face NO eyes NO mouth on any object, clean modern flat design, vibrant colors, no floor, no shadow, no ground element",
+      "hashtags": "전자제품,스마트폰,태블릿,기술,디지털,통신,IT,전자기기,기기,Electronic Device",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "행복한 사람",
-      "prompt": "A joyful person with a big smile, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, bright colors.",
-      "hashtags": "행복한 사람,happy person,미소,smile,사람,person,인물,figure,기쁨,joy,긍정,positive,일러스트,illustration,스티커,sticker,플랫 디자인,flat design,캐릭터,character,밝은,bright,감정,emotion",
+      "keyword": "추석",
+      "prompt": "A round moon with a stylized traditional Korean rice cake (songpyeon), 2D flat illustration, clean black outlines on all subjects, chroma key green background hex color #00B140, 1:1 square aspect ratio, NO face NO eyes NO mouth on any object, clean modern flat design, vibrant colors, no floor, no shadow, no ground element",
+      "hashtags": "추석,명절,한가위,달,송편,한국,전통,음식,풍요,Korean Holiday",
       "type": "miri"
     }
   ]

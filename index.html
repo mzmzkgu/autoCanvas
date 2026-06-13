@@ -335,11 +335,10 @@ async function fetchData() {
     renderAll(data);
     setStatus('ok', '데이터 최신 상태');
   } catch (e) {
-    // fallback to demo data
     console.warn('서버 데이터 없음, 샘플 데이터 사용:', e.message);
     currentData = FALLBACK_DATA;
     renderAll(FALLBACK_DATA);
-    setStatus('warn', '샘플 데이터 표시 중 (서버 미연결)');
+    setStatus('warn', '에러: ' + e.message);
   } finally {
     btn.classList.remove('spinning');
   }

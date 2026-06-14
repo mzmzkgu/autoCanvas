@@ -99,3 +99,215 @@ fatal: not a git repository (or any of the parent directories): .git
 
 2026-06-11 12:00:23,833 [INFO] ✅ 완료!
 
+2026-06-13 00:20:40,211 [INFO] ==================================================
+2026-06-13 00:20:40,211 [INFO] 🚀 Miri Creator 키워드 수집 시작
+2026-06-13 00:20:40,212 [INFO]    2026-06-13 00:20:40
+2026-06-13 00:20:40,212 [INFO] ==================================================
+2026-06-13 00:20:40,212 [INFO] 🌍 현재 시즌: 여름 (6월) ☀️
+2026-06-13 00:20:41,107 [INFO]   Google Trends 수집: 10개
+2026-06-13 00:20:41,110 [INFO] 📌 스테디셀러 키워드 생성 중...
+2026-06-13 00:20:41,806 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 00:20:44,533 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 00:20:44,561 [INFO]   ✅ 스테디셀러 3개 생성 완료
+2026-06-13 00:20:46,563 [INFO] 🔥 핫 키워드 생성 중...
+2026-06-13 00:20:47,068 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 00:20:49,455 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 00:20:49,473 [INFO]   ✅ 핫 키워드 3개 생성 완료
+2026-06-13 00:20:51,476 [INFO] 🏆 트렌드 TOP 키워드 생성 중...
+2026-06-13 00:20:51,893 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 00:20:54,344 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 00:20:54,357 [INFO]   ✅ 트렌드 TOP 3개 생성 완료
+2026-06-13 00:20:54,357 [INFO] 
+📊 수집 결과: 스테디 3개 / 핫 3개 / 트렌드TOP 3개
+2026-06-13 00:20:54,358 [INFO]    총 9개 항목
+2026-06-13 00:20:54,359 [INFO] ──────────────────────────────────────────────────
+2026-06-13 00:20:54,360 [INFO] ✅ JSON 저장 완료!
+2026-06-13 00:20:54,360 [INFO]    파일: /home/ubuntu/Desktop/miri_creator/data/keywords.json
+2026-06-13 00:20:54,360 [INFO]    항목: 9개
+2026-06-13 00:20:54,360 [INFO]    갱신: 2026-06-13 00:20:54
+2026-06-13 00:20:54,361 [INFO]    다음: 2026-06-13 12:00:00
+2026-06-13 00:20:54,361 [INFO] ──────────────────────────────────────────────────
+2026-06-13 00:20:54,361 [INFO] 📤 GitHub push 시도 중...
+2026-06-13 00:20:54,416 [WARNING] ⚠️  Git push 실패 (JSON 저장은 완료됨): Command '['git', '-C', '/home/ubuntu/Desktop/miri_creator', 'pull', '--rebase', 'origin', 'main']' returned non-zero exit status 128.
+2026-06-13 00:20:54,417 [INFO] 🎉 모든 작업 완료!
+
+2026-06-13 00:22:02,611 [INFO] ==================================================
+2026-06-13 00:22:02,612 [INFO] 🚀 Miri Creator 키워드 수집 시작
+2026-06-13 00:22:02,612 [INFO]    2026-06-13 00:22:02
+2026-06-13 00:22:02,612 [INFO] ==================================================
+2026-06-13 00:22:02,612 [INFO] 🌍 현재 시즌: 여름 (6월) ☀️
+2026-06-13 00:22:03,454 [INFO]   Google Trends 수집: 10개
+2026-06-13 00:22:03,456 [INFO] 📌 스테디셀러 키워드 생성 중...
+2026-06-13 00:22:04,153 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 00:22:07,092 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 00:22:07,119 [INFO]   ✅ 스테디셀러 3개 생성 완료
+2026-06-13 00:22:09,122 [INFO] 🔥 핫 키워드 생성 중...
+2026-06-13 00:22:09,539 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 00:22:12,311 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 00:22:12,326 [INFO]   ✅ 핫 키워드 3개 생성 완료
+2026-06-13 00:22:14,328 [INFO] 🏆 트렌드 TOP 키워드 생성 중...
+2026-06-13 00:22:14,750 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 00:22:17,739 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 00:22:17,768 [INFO]   ✅ 트렌드 TOP 3개 생성 완료
+2026-06-13 00:22:17,769 [INFO] 
+📊 수집 결과: 스테디 3개 / 핫 3개 / 트렌드TOP 3개
+2026-06-13 00:22:17,769 [INFO]    총 9개 항목
+2026-06-13 00:22:17,771 [INFO] ──────────────────────────────────────────────────
+2026-06-13 00:22:17,771 [INFO] ✅ JSON 저장 완료!
+2026-06-13 00:22:17,771 [INFO]    파일: /home/ubuntu/Desktop/miri_creator/data/keywords.json
+2026-06-13 00:22:17,772 [INFO]    항목: 9개
+2026-06-13 00:22:17,772 [INFO]    갱신: 2026-06-13 00:22:17
+2026-06-13 00:22:17,772 [INFO]    다음: 2026-06-13 12:00:00
+2026-06-13 00:22:17,772 [INFO] ──────────────────────────────────────────────────
+2026-06-13 00:22:17,773 [INFO] 📤 GitHub push 시도 중...
+2026-06-13 00:45:40,008 [INFO] ==================================================
+2026-06-13 00:45:40,008 [INFO] 🚀 Miri Creator 키워드 수집 시작
+2026-06-13 00:45:40,009 [INFO]    2026-06-13 00:45:40
+2026-06-13 00:45:40,009 [INFO] ==================================================
+2026-06-13 00:45:40,009 [INFO] 🌍 현재 시즌: 여름 (6월) ☀️
+2026-06-13 00:45:40,723 [INFO]   Google Trends 수집: 10개
+2026-06-13 00:45:40,726 [INFO] 📌 스테디셀러 키워드 생성 중...
+2026-06-13 00:45:41,427 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 00:45:44,116 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 00:45:44,141 [INFO]   ✅ 스테디셀러 3개 생성 완료
+2026-06-13 00:45:46,142 [INFO] 🔥 핫 키워드 생성 중...
+2026-06-13 00:45:46,568 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 00:45:49,438 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 00:45:49,454 [INFO]   ✅ 핫 키워드 3개 생성 완료
+2026-06-13 00:45:51,456 [INFO] 🏆 트렌드 TOP 키워드 생성 중...
+2026-06-13 00:45:51,882 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 00:45:54,148 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 00:45:54,164 [INFO]   ✅ 트렌드 TOP 3개 생성 완료
+2026-06-13 00:45:54,164 [INFO] 
+📊 수집 결과: 스테디 3개 / 핫 3개 / 트렌드TOP 3개
+2026-06-13 00:45:54,165 [INFO]    총 9개 항목
+2026-06-13 00:45:54,166 [INFO] ──────────────────────────────────────────────────
+2026-06-13 00:45:54,167 [INFO] ✅ JSON 저장 완료!
+2026-06-13 00:45:54,167 [INFO]    파일: /home/ubuntu/Desktop/miri_creator/data/keywords.json
+2026-06-13 00:45:54,167 [INFO]    항목: 9개
+2026-06-13 00:45:54,167 [INFO]    갱신: 2026-06-13 00:45:54
+2026-06-13 00:45:54,167 [INFO]    다음: 2026-06-13 12:00:00
+2026-06-13 00:45:54,168 [INFO] ──────────────────────────────────────────────────
+2026-06-13 00:45:54,168 [INFO] 📤 GitHub push 시도 중...
+2026-06-13 12:00:11,653 [INFO] ==================================================
+2026-06-13 12:00:11,653 [INFO] ==================================================
+2026-06-13 12:00:11,653 [INFO] 🚀 Miri Creator 키워드 수집 시작
+2026-06-13 12:00:11,653 [INFO] 🚀 Miri Creator 키워드 수집 시작
+2026-06-13 12:00:11,654 [INFO]    2026-06-13 12:00:11
+2026-06-13 12:00:11,654 [INFO]    2026-06-13 12:00:11
+2026-06-13 12:00:11,654 [INFO] ==================================================
+2026-06-13 12:00:11,654 [INFO] ==================================================
+2026-06-13 12:00:11,654 [INFO] 🌍 현재 시즌: 여름 (6월) ☀️
+2026-06-13 12:00:11,654 [INFO] 🌍 현재 시즌: 여름 (6월) ☀️
+2026-06-13 12:00:12,436 [INFO]   Google Trends 수집: 10개
+2026-06-13 12:00:12,436 [INFO]   Google Trends 수집: 10개
+2026-06-13 12:00:12,438 [INFO] 📌 스테디셀러 키워드 생성 중...
+2026-06-13 12:00:12,438 [INFO] 📌 스테디셀러 키워드 생성 중...
+2026-06-13 12:00:13,165 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 12:00:13,165 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 12:00:15,602 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 12:00:15,602 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 12:00:15,627 [INFO]   ✅ 스테디셀러 3개 생성 완료
+2026-06-13 12:00:15,627 [INFO]   ✅ 스테디셀러 3개 생성 완료
+2026-06-13 12:00:17,630 [INFO] 🔥 핫 키워드 생성 중...
+2026-06-13 12:00:17,630 [INFO] 🔥 핫 키워드 생성 중...
+2026-06-13 12:00:18,077 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 12:00:18,077 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 12:00:20,507 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 12:00:20,507 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 12:00:20,523 [INFO]   ✅ 핫 키워드 3개 생성 완료
+2026-06-13 12:00:20,523 [INFO]   ✅ 핫 키워드 3개 생성 완료
+2026-06-13 12:00:22,525 [INFO] 🏆 트렌드 TOP 키워드 생성 중...
+2026-06-13 12:00:22,525 [INFO] 🏆 트렌드 TOP 키워드 생성 중...
+2026-06-13 12:00:22,976 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 12:00:22,976 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 12:00:25,244 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 12:00:25,244 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 12:00:25,261 [INFO]   ✅ 트렌드 TOP 3개 생성 완료
+2026-06-13 12:00:25,261 [INFO]   ✅ 트렌드 TOP 3개 생성 완료
+2026-06-13 12:00:25,262 [INFO] 
+📊 수집 결과: 스테디 3개 / 핫 3개 / 트렌드TOP 3개
+2026-06-13 12:00:25,262 [INFO] 
+📊 수집 결과: 스테디 3개 / 핫 3개 / 트렌드TOP 3개
+2026-06-13 12:00:25,262 [INFO]    총 9개 항목
+2026-06-13 12:00:25,262 [INFO]    총 9개 항목
+2026-06-13 12:00:25,264 [INFO] ──────────────────────────────────────────────────
+2026-06-13 12:00:25,264 [INFO] ──────────────────────────────────────────────────
+2026-06-13 12:00:25,264 [INFO] ✅ JSON 저장 완료!
+2026-06-13 12:00:25,264 [INFO] ✅ JSON 저장 완료!
+2026-06-13 12:00:25,264 [INFO]    파일: /home/ubuntu/Desktop/miri_creator/data/keywords.json
+2026-06-13 12:00:25,264 [INFO]    파일: /home/ubuntu/Desktop/miri_creator/data/keywords.json
+2026-06-13 12:00:25,264 [INFO]    항목: 9개
+2026-06-13 12:00:25,264 [INFO]    항목: 9개
+2026-06-13 12:00:25,265 [INFO]    갱신: 2026-06-13 12:00:25
+2026-06-13 12:00:25,265 [INFO]    갱신: 2026-06-13 12:00:25
+2026-06-13 12:00:25,265 [INFO]    다음: 2026-06-14 12:00:00
+2026-06-13 12:00:25,265 [INFO]    다음: 2026-06-14 12:00:00
+2026-06-13 12:00:25,265 [INFO] ──────────────────────────────────────────────────
+2026-06-13 12:00:25,265 [INFO] ──────────────────────────────────────────────────
+2026-06-13 12:00:25,265 [INFO] 📤 GitHub push 시도 중...
+2026-06-13 12:00:25,265 [INFO] 📤 GitHub push 시도 중...
+[main 21b6efe] auto: update keywords 2026-06-13 12:00
+ 1 file changed, 68 insertions(+), 69 deletions(-)
+ rewrite data/keywords.json (90%)
+2026-06-13 18:20:52,958 [INFO] ==================================================
+2026-06-13 18:20:52,958 [INFO] 🚀 Miri Creator 키워드 수집 시작
+2026-06-13 18:20:52,959 [INFO]    2026-06-13 18:20:52
+2026-06-13 18:20:52,959 [INFO] ==================================================
+2026-06-13 18:20:52,959 [INFO] 🌍 현재 시즌: 여름 (6월) ☀️
+2026-06-13 18:20:54,001 [INFO]   Google Trends 수집: 10개
+2026-06-13 18:20:54,004 [INFO] 📌 스테디셀러 키워드 생성 중...
+2026-06-13 18:20:54,701 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 18:20:57,080 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 18:20:57,108 [INFO]   ✅ 스테디셀러 3개 생성 완료
+2026-06-13 18:20:59,111 [INFO] 🔥 핫 키워드 생성 중...
+2026-06-13 18:20:59,539 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 18:21:01,593 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 18:21:01,613 [INFO]   ✅ 핫 키워드 3개 생성 완료
+2026-06-13 18:21:03,614 [INFO] 🏆 트렌드 TOP 키워드 생성 중...
+2026-06-13 18:21:04,077 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 18:21:06,420 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 18:21:06,435 [INFO]   ✅ 트렌드 TOP 3개 생성 완료
+2026-06-13 18:21:06,436 [INFO] 
+📊 수집 결과: 스테디 3개 / 핫 3개 / 트렌드TOP 3개
+2026-06-13 18:21:06,436 [INFO]    총 9개 항목
+2026-06-13 18:21:06,438 [INFO] ──────────────────────────────────────────────────
+2026-06-13 18:21:06,438 [INFO] ✅ JSON 저장 완료!
+2026-06-13 18:21:06,438 [INFO]    파일: /home/ubuntu/Desktop/miri_creator/data/keywords.json
+2026-06-13 18:21:06,438 [INFO]    항목: 9개
+2026-06-13 18:21:06,439 [INFO]    갱신: 2026-06-13 18:21:06
+2026-06-13 18:21:06,439 [INFO]    다음: 2026-06-14 12:00:00
+2026-06-13 18:21:06,439 [INFO] ──────────────────────────────────────────────────
+2026-06-13 18:21:06,439 [INFO] 📤 GitHub push 시도 중...
+2026-06-13 18:21:08,592 [WARNING] ⚠️  Git push 실패 (JSON 저장은 완료됨): Command '['git', '-C', '/home/ubuntu/Desktop/miri_creator', 'push']' returned non-zero exit status 1.
+2026-06-13 18:21:08,593 [INFO] 🎉 모든 작업 완료!
+
+2026-06-13 18:22:41,611 [INFO] ==================================================
+2026-06-13 18:22:41,611 [INFO] 🚀 Miri Creator 키워드 수집 시작
+2026-06-13 18:22:41,612 [INFO]    2026-06-13 18:22:41
+2026-06-13 18:22:41,612 [INFO] ==================================================
+2026-06-13 18:22:41,612 [INFO] 🌍 현재 시즌: 여름 (6월) ☀️
+2026-06-13 18:22:42,559 [INFO]   Google Trends 수집: 10개
+2026-06-13 18:22:42,562 [INFO] 📌 스테디셀러 키워드 생성 중...
+2026-06-13 18:22:43,266 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 18:22:45,624 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 18:22:45,653 [INFO]   ✅ 스테디셀러 3개 생성 완료
+2026-06-13 18:22:47,656 [INFO] 🔥 핫 키워드 생성 중...
+2026-06-13 18:22:48,080 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 18:22:49,900 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 18:22:49,928 [INFO]   ✅ 핫 키워드 3개 생성 완료
+2026-06-13 18:22:51,931 [INFO] 🏆 트렌드 TOP 키워드 생성 중...
+2026-06-13 18:22:52,359 [INFO] AFC is enabled with max remote calls: 10.
+2026-06-13 18:22:53,934 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-06-13 18:22:53,950 [INFO]   ✅ 트렌드 TOP 3개 생성 완료
+2026-06-13 18:22:53,951 [INFO] 
+📊 수집 결과: 스테디 3개 / 핫 3개 / 트렌드TOP 3개
+2026-06-13 18:22:53,951 [INFO]    총 9개 항목
+2026-06-13 18:22:53,952 [INFO] ──────────────────────────────────────────────────
+2026-06-13 18:22:53,953 [INFO] ✅ JSON 저장 완료!
+2026-06-13 18:22:53,953 [INFO]    파일: /home/ubuntu/Desktop/miri_creator/data/keywords.json
+2026-06-13 18:22:53,953 [INFO]    항목: 9개
+2026-06-13 18:22:53,953 [INFO]    갱신: 2026-06-13 18:22:53
+2026-06-13 18:22:53,954 [INFO]    다음: 2026-06-14 12:00:00
+2026-06-13 18:22:53,954 [INFO] ──────────────────────────────────────────────────
+2026-06-13 18:22:53,954 [INFO] 📤 GitHub push 시도 중...

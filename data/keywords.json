@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-06-13T18:22:53.951592",
-  "nextUpdateAt": "2026-06-14T12:00:00",
+  "updatedAt": "2026-06-14T17:08:00.197162",
+  "nextUpdateAt": "2026-06-15T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "장마철 우산 스티커",
-      "prompt": "A cute and bright colored 2D flat illustration of various rain umbrellas, open and closed, in different vibrant colors, with clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. no floor, no shadow, no ground element.",
-      "hashtags": "우산,장마,비,여름,스티커,일러스트,디자인,umbrella,rain,summer",
+      "keyword": "장마철 감성 우산 일러스트",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a single colorful umbrella with raindrops splashing around it, evoking a cozy rainy day atmosphere.",
+      "hashtags": "장마, 우산, 비, 일러스트, 스티커, 디자인, 여름, 감성, stationery, sticker",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "수국 꽃다발 일러스트",
-      "prompt": "A cute and bright colored 2D flat illustration of a simple bouquet of hydrangeas in various shades of blue, purple, and pink, with clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. no floor, no shadow, no ground element.",
-      "hashtags": "수국,꽃,여름꽃,일러스트,스티커,디자인,꽃다발,hydrangea,flower,summer",
+      "keyword": "수국 꽃다발 여름 일러스트",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a bouquet of blooming hydrangeas in various shades of blue and pink, symbolizing summer and freshness.",
+      "hashtags": "수국, 꽃, 여름, 일러스트, 스티커, 디자인, 플라워, 자연, flower, illustration",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "호국보훈 현충일 일러스트",
-      "prompt": "A cute and bright colored 2D flat illustration of national symbols like a simplified Korean flag and a dove of peace, in a gentle and respectful style, with clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio. no floor, no shadow, no ground element.",
-      "hashtags": "현충일,호국보훈,태극기,평화,기념일,일러스트,디자인,korea,memorialday,peace",
+      "keyword": "현충일 태극기 일러스트",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a simplified Korean flag (Taegeukgi) rendered in a sticker-like style, with a solemn and respectful aesthetic for national commemoration.",
+      "hashtags": "현충일, 태극기, 대한민국, 국기, 일러스트, 스티커, 디자인, 기념, national, symbol",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "군함",
-      "prompt": "A cute and friendly cartoon warship, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, vibrant and cheerful colors.",
-      "hashtags": "군함, 전함, 배, 해군, 전투함, ship, warship, navy, vessel, illustration",
+      "keyword": "우박",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. A collection of large, irregular hailstones falling, some are partially broken, in various shades of translucent white and light gray.",
+      "hashtags": "우박,Hailstorm,자연재해,Weather,날씨,일러스트,스티커,PNG,Illustration,Sticker",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "넥슨",
-      "prompt": "A playful and colorful game controller, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, vibrant and cheerful colors.",
-      "hashtags": "게임, 온라인 게임, 게임 회사, 컨트롤러, joypad, gaming, online game, game company, controller, illustration",
+      "keyword": "예금",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. Stacks of gold coins and a piggy bank with a slot, suggesting savings and investment.",
+      "hashtags": "예금,저축,돈,Investment,Finance,Financial,일러스트,스티커,PNG,Illustration",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "india vs afghanistan",
-      "prompt": "A stylized cricket ball and bat, representing a sports match, 2D flat illustration, clean black outlines on all subjects, chroma key green background, hex color #00B140, 1:1 square aspect ratio, no floor, no shadow, no ground element, vibrant and cheerful colors.",
-      "hashtags": "스포츠, 크리켓, 경기, 스포츠 매치, ball, bat, sports, cricket, match, illustration",
+      "keyword": "신생아",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. A wrapped baby lying down, with a pacifier nearby and a small rattle.",
+      "hashtags": "신생아,아기,Baby,Newborn,육아,Infant,일러스트,스티커,PNG,Illustration",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "군함",
-      "prompt": "A cute, cartoonish warship, sailing on the sea, 2D flat illustration, clean black outlines on all subjects, no floor, no shadow, no ground element, chroma key green background, hex color #00B140, 1:1 square aspect ratio",
-      "hashtags": "군함, 배, 해군, 함선, 바다, 항해, 보트, 선박, 해양, 일러스트",
+      "keyword": "재건축",
+      "prompt": "A 2D flat illustration of a house undergoing renovation, with visible scaffolding and construction elements. The house is colorful with simple geometric shapes. The background is chroma key green (#00B140). The subject fills 90% of the frame with minimal empty space, in a close-up composition. It features clean black outlines on all subjects, hand-drawn illustration style with organic lines and slight texture, varied line weight, and a natural illustration feel. It looks like professional Korean webtoon sticker art, NOT a generic AI look, avoiding perfect symmetry. Vibrant colors are used throughout. NO face, NO eyes, NO mouth on any object. No floor, no shadow, no ground element. Minimum 700x700px quality. avoid perfect symmetry, vibrant colors.",
+      "hashtags": "재건축, 리모델링, 집, 건축, 건설, house, renovation, construction, building, sticker",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "장난감 자동차",
-      "prompt": "A bright red toy car, ready to zoom, 2D flat illustration, clean black outlines on all subjects, no floor, no shadow, no ground element, chroma key green background, hex color #00B140, 1:1 square aspect ratio",
-      "hashtags": "장난감 자동차, 자동차, 차량, 운송, 이동, 놀이, 아이, 귀여운, 2D, 일러스트",
+      "keyword": "TSMC",
+      "prompt": "A 2D flat illustration of complex microchip circuits and processing units, representing advanced technology and semiconductors. The elements are abstract and geometric, with vibrant colors. The background is chroma key green (#00B140). The subject fills 90% of the frame with minimal empty space, in a close-up composition. It features clean black outlines on all subjects, hand-drawn illustration style with organic lines and slight texture, varied line weight, and a natural illustration feel. It looks like professional Korean webtoon sticker art, NOT a generic AI look, avoiding perfect symmetry. Vibrant colors are used throughout. NO face, NO eyes, NO mouth on any object. No floor, no shadow, no ground element. Minimum 700x700px quality. avoid perfect symmetry, vibrant colors.",
+      "hashtags": "반도체, 칩, 기술, 전자, 컴퓨터, semiconductor, chip, technology, electronics, sticker",
       "type": "miri"
     },
     {
       "rank": 3,
-      "prompt": "A big, fluffy white cloud, floating in a clear blue sky, 2D flat illustration, clean black outlines on all subjects, no floor, no shadow, no ground element, chroma key green background, hex color #00B140, 1:1 square aspect ratio",
-      "keyword": "구름",
-      "hashtags": "구름, 하늘, 날씨, 맑음, 둥실둥실, 하얀, 몽실몽실, 2D, 일러스트, 배경",
+      "keyword": "봄날의 꽃",
+      "prompt": "A 2D flat illustration of various blooming spring flowers, such as cherry blossoms, tulips, and daisies, in vibrant and cheerful colors. The flowers are depicted with organic lines and slight texture. The background is chroma key green (#00B140). The subject fills 90% of the frame with minimal empty space, in a close-up composition. It features clean black outlines on all subjects, hand-drawn illustration style with organic lines and slight texture, varied line weight, and a natural illustration feel. It looks like professional Korean webtoon sticker art, NOT a generic AI look, avoiding perfect symmetry. Vibrant colors are used throughout. NO face, NO eyes, NO mouth on any object. No floor, no shadow, no ground element. Minimum 700x700px quality. avoid perfect symmetry, vibrant colors.",
+      "hashtags": "봄, 꽃, 벚꽃, 튤립, 데이지, 봄꽃, flower, spring, blossom, nature, sticker",
       "type": "miri"
     }
   ]

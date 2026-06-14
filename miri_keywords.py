@@ -334,9 +334,8 @@ def git_push() -> None:
         subprocess.run(["git", "-C", str(BASE_DIR), "add", "data/keywords.json"], check=True)
         subprocess.run(["git", "-C", str(BASE_DIR), "commit", "-m",
                         f"auto: update keywords {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}"], check=True)
-        subprocess.run(["git", "-C", str(BASE_DIR), "stash"], check=True)
-        subprocess.run(["git", "-C", str(BASE_DIR), "pull", "--rebase", "origin", "main"], check=True)
-        subprocess.run(["git", "-C", str(BASE_DIR), "stash", "pop"], check=True)
+        # stash 없이 바로 pull --rebase
+        subprocess.run(["git", "-C", str(BASE_DIR), "pull", "--rebase", "--autostash", "origin", "main"], check=True)
         subprocess.run(["git", "-C", str(BASE_DIR), "push"], check=True)
         log.info("🚀 GitHub push 완료!")
     except Exception as e:

@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-06-14T17:08:00.197162",
-  "nextUpdateAt": "2026-06-15T12:00:00",
+  "updatedAt": "2026-06-15T12:00:27.338141",
+  "nextUpdateAt": "2026-06-16T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "장마철 감성 우산 일러스트",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a single colorful umbrella with raindrops splashing around it, evoking a cozy rainy day atmosphere.",
-      "hashtags": "장마, 우산, 비, 일러스트, 스티커, 디자인, 여름, 감성, stationery, sticker",
+      "keyword": "장마철 우산 일러스트",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, a colorful umbrella with raindrops falling around it, no floor, no shadow, no ground element",
+      "hashtags": "장마, 우산, 비, 날씨, 일러스트, 스티커, 디자인, 감성, PNG, summer, rainy season, umbrella",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "수국 꽃다발 여름 일러스트",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a bouquet of blooming hydrangeas in various shades of blue and pink, symbolizing summer and freshness.",
-      "hashtags": "수국, 꽃, 여름, 일러스트, 스티커, 디자인, 플라워, 자연, flower, illustration",
+      "keyword": "수국 일러스트 모음",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, a collection of blooming hydrangeas in various pastel colors, no floor, no shadow, no ground element",
+      "hashtags": "수국, 꽃, 여름, 플라워, 일러스트, 스티커, 디자인, 패턴, 귀여운, hydrangea, flower, summer",
       "type": "steady"
     },
     {
       "rank": 3,
       "keyword": "현충일 태극기 일러스트",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a simplified Korean flag (Taegeukgi) rendered in a sticker-like style, with a solemn and respectful aesthetic for national commemoration.",
-      "hashtags": "현충일, 태극기, 대한민국, 국기, 일러스트, 스티커, 디자인, 기념, national, symbol",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, a simplified Korean flag (Taegeukgi) with clean lines and bold colors, no floor, no shadow, no ground element",
+      "hashtags": "현충일, 태극기, 한국, 국기, 기념일, 일러스트, 스티커, 디자인, 애국심, august, national flag, korea",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "우박",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. A collection of large, irregular hailstones falling, some are partially broken, in various shades of translucent white and light gray.",
-      "hashtags": "우박,Hailstorm,자연재해,Weather,날씨,일러스트,스티커,PNG,Illustration,Sticker",
+      "keyword": "풍력 발전",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a large wind turbine with majestic blades spinning, representing renewable energy, simple and iconic silhouette, minimal detail on blades for clarity, tall and imposing structure, representing a clean future.",
+      "hashtags": "풍력 발전, wind turbine, renewable energy, green energy, sustainable, eco-friendly, clean energy, wind power, alternative energy, electricity",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "예금",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. Stacks of gold coins and a piggy bank with a slot, suggesting savings and investment.",
-      "hashtags": "예금,저축,돈,Investment,Finance,Financial,일러스트,스티커,PNG,Illustration",
+      "keyword": "금광",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a pile of glittering gold nuggets and coins, with a vintage mining pickaxe resting against them, symbolizing wealth and treasure, rich yellow and gold tones, sense of abundance and discovery, rough texture on nuggets.",
+      "hashtags": "금광, gold mine, gold nuggets, treasure, wealth, mining, precious metals, riches, gold coins, discovery",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "신생아",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. A wrapped baby lying down, with a pacifier nearby and a small rattle.",
-      "hashtags": "신생아,아기,Baby,Newborn,육아,Infant,일러스트,스티커,PNG,Illustration",
+      "keyword": "튀니지",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a stylized representation of a North African landscape with a dome-shaped building and a camel silhouette, evoking the essence of Tunisia, warm desert colors, abstract desert dunes, simple architectural elements, sense of travel and exoticism.",
+      "hashtags": "튀니지, Tunisia, North Africa, desert, camel, travel, exotic, landscape, cultural, vacation",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "재건축",
-      "prompt": "A 2D flat illustration of a house undergoing renovation, with visible scaffolding and construction elements. The house is colorful with simple geometric shapes. The background is chroma key green (#00B140). The subject fills 90% of the frame with minimal empty space, in a close-up composition. It features clean black outlines on all subjects, hand-drawn illustration style with organic lines and slight texture, varied line weight, and a natural illustration feel. It looks like professional Korean webtoon sticker art, NOT a generic AI look, avoiding perfect symmetry. Vibrant colors are used throughout. NO face, NO eyes, NO mouth on any object. No floor, no shadow, no ground element. Minimum 700x700px quality. avoid perfect symmetry, vibrant colors.",
-      "hashtags": "재건축, 리모델링, 집, 건축, 건설, house, renovation, construction, building, sticker",
+      "keyword": "무인소방로봇",
+      "prompt": "A 2D flat illustration sticker of a firefighting robot, designed without face, eyes, or mouth. The robot is equipped with water hoses and a nozzle, appearing ready to extinguish flames. It has a sturdy, utilitarian design with clean black outlines. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, no floor, no shadow, no ground element.",
+      "hashtags": "무인소방로봇,소방로봇,소방차,안전,위험,진화,로봇,미래기술,재난,안심",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "TSMC",
-      "prompt": "A 2D flat illustration of complex microchip circuits and processing units, representing advanced technology and semiconductors. The elements are abstract and geometric, with vibrant colors. The background is chroma key green (#00B140). The subject fills 90% of the frame with minimal empty space, in a close-up composition. It features clean black outlines on all subjects, hand-drawn illustration style with organic lines and slight texture, varied line weight, and a natural illustration feel. It looks like professional Korean webtoon sticker art, NOT a generic AI look, avoiding perfect symmetry. Vibrant colors are used throughout. NO face, NO eyes, NO mouth on any object. No floor, no shadow, no ground element. Minimum 700x700px quality. avoid perfect symmetry, vibrant colors.",
-      "hashtags": "반도체, 칩, 기술, 전자, 컴퓨터, semiconductor, chip, technology, electronics, sticker",
+      "keyword": "제헌절 공휴일",
+      "prompt": "A 2D flat illustration sticker representing a public holiday. It features elements associated with national celebration and rest, such as a stylized Korean flag or national symbols that are not copyrighted. The design is cheerful and celebratory, with clean black outlines. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, no floor, no shadow, no ground element.",
+      "hashtags": "제헌절,공휴일,휴일,국경일,축하,기념,태극기,대한민국,쉬는날,특별한날",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "봄날의 꽃",
-      "prompt": "A 2D flat illustration of various blooming spring flowers, such as cherry blossoms, tulips, and daisies, in vibrant and cheerful colors. The flowers are depicted with organic lines and slight texture. The background is chroma key green (#00B140). The subject fills 90% of the frame with minimal empty space, in a close-up composition. It features clean black outlines on all subjects, hand-drawn illustration style with organic lines and slight texture, varied line weight, and a natural illustration feel. It looks like professional Korean webtoon sticker art, NOT a generic AI look, avoiding perfect symmetry. Vibrant colors are used throughout. NO face, NO eyes, NO mouth on any object. No floor, no shadow, no ground element. Minimum 700x700px quality. avoid perfect symmetry, vibrant colors.",
-      "hashtags": "봄, 꽃, 벚꽃, 튤립, 데이지, 봄꽃, flower, spring, blossom, nature, sticker",
+      "keyword": "현대건설 주가",
+      "prompt": "A 2D flat illustration sticker depicting a stylized building construction site. It includes elements like a crane, scaffolding, and construction materials, designed without any human faces or identifiable brand logos. The illustration conveys progress and development, with clean black outlines. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, no floor, no shadow, no ground element.",
+      "hashtags": "건설,빌딩,건축,크레인,공사,개발,성장,사업,스톡,성공",
       "type": "miri"
     }
   ]

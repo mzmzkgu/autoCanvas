@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-06-18T12:00:28.248253",
-  "nextUpdateAt": "2026-06-19T12:00:00",
+  "updatedAt": "2026-06-19T12:00:30.953199",
+  "nextUpdateAt": "2026-06-20T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "우산",
-      "prompt": "Colorful rain umbrella with raindrops, filling 90% of frame. 2D flat illustration, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face NO eyes NO mouth on any object.",
-      "hashtags": "우산, 장마, 비, 여름, 색깔, 빗방울, 일러스트, umbrella, rainy season, colorful",
+      "keyword": "장마철 수국 일러스트",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, a blooming hydrangea flower with water droplets and a transparent umbrella above it, subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, no face, no eyes, no mouth on any object, illustration of a blooming hydrangea flower with water droplets and a transparent umbrella, not a specific brand or character, minimum 700x700px detail.",
+      "hashtags": "장마, 수국, 일러스트, 여름, 비, 스티커, 디자인, 미리캔버스, June, RainySeason",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "수국",
-      "prompt": "Blue and purple hydrangea flower cluster, close-up. 2D flat illustration, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face NO eyes NO mouth on any object.",
-      "hashtags": "수국, 꽃, 파랑, 보라, 장마, 여름꽃, 일러스트, hydrangea, flower, purple blue",
+      "keyword": "귀여운 동물 캐릭터 스티커",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, a group of cute cartoon animals such as a fluffy bear cub, a playful puppy, and a curious kitten holding alphabet blocks, subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, no face, no eyes, no mouth on any object, illustration of a group of cute cartoon animals holding alphabet blocks, not a specific brand or character, minimum 700x700px detail.",
+      "hashtags": "육아, 아동, 동물, 캐릭터, 스티커, 한글, 교육, 미리캔버스, Kids, Animals",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "빗방울",
-      "prompt": "Decorative raindrops pattern in various sizes and blue tones. 2D flat illustration, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face NO eyes NO mouth on any object.",
-      "hashtags": "빗방울, 비, 장마, 파랑, 물방울, 여름, 일러스트, raindrop, rain, blue pattern",
+      "keyword": "팀 협업 회의 아이콘",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, a set of minimalist icons representing team collaboration and business meetings: a lightbulb for ideas, connected gears for teamwork, a speech bubble for discussion, and a bar chart for progress, subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, no face, no eyes, no mouth on any object, minimalist icons for business meetings and teamwork, not a specific brand or character, minimum 700x700px detail.",
+      "hashtags": "비즈니스, 템플릿, 회의, 협업, 아이콘, 프레젠테이션, 디자인, 미리캔버스, Business, Teamwork",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "우선주",
-      "prompt": "2D flat illustration style of a stack of stock certificates with a prominent 'PREFERRED' label on the top certificate. The certificates should have a vintage look with ornate borders and subtle texture. The subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors. Clean black outlines on all subjects. Chroma key green background hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element. No face, no eyes, no mouth on any object. Minimum 700x700px quality.",
-      "hashtags": "주식, 주식스티커, 투자, 금융, 재테크, 우선주, 주식회사, 기업, 경제, Stock Sticker, Investment, Finance, Business",
+      "keyword": "건강보험",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a medical insurance card with a heart symbol, a stethoscope, and a shield icon, representing security and health, minimal empty space, close-up composition.",
+      "hashtags": "건강보험, 의료보험, 보험증, 건강, 안전, 의료, 혜택, 보장, 스티커, illustration, medical insurance, health, safety, protection, sticker, webtoon art, health care, insurance card, shield, heart",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "넥슨",
-      "prompt": "2D flat illustration style of a stylized game controller with a subtle, abstract representation of a digital interface or a glowing button. The controller should be colorful and dynamic, suggesting interactive gameplay. The subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors. Clean black outlines on all subjects. Chroma key green background hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element. No face, no eyes, no mouth on any object. Minimum 700x700px quality.",
-      "hashtags": "게임, 게임스티커, 디지털, 온라인게임, 게이머, 플레이, 컨트롤러, 엔터테인먼트, 한국게임, Game Sticker, Digital, Online Game, Gamer, Play",
+      "keyword": "올림픽",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a collection of various Olympic sport icons like a running figure, a swimming wave, a basketball, and a laurel wreath, representing global athletic competition, minimal empty space, close-up composition.",
+      "hashtags": "올림픽, 스포츠, 운동, 경쟁, 금메달, 경기, 세계, 대회, 열정, 스티커, olympics, sports, competition, medal, athletic, global, event, passion, sticker, webtoon art",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "세종문화회관",
-      "prompt": "2D flat illustration style of a grand, stylized building facade inspired by traditional Korean architecture, but simplified and modern for a sticker. Focus on architectural details like curved roofs and elegant lines, with vibrant, celebratory colors. The building should be depicted as a cultural landmark. The subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors. Clean black outlines on all subjects. Chroma key green background hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element. No face, no eyes, no mouth on any object. Minimum 700x700px quality.",
-      "hashtags": "문화, 공연장, 건축, 한국문화, 예술, 서울, 랜드마크, 문화생활, 공연, 회관, Culture, Performance Hall, Architecture, Korean Culture, Art, Seoul",
+      "keyword": "긴축",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a piggy bank with a coin going in and a small plant growing beside it, symbolizing saving and careful spending, minimal empty space, close-up composition.",
+      "hashtags": "긴축, 절약, 저축, 재테크, 경제, 돈, 소비, 관리, 계획, 스티커, austerity, saving, economy, money, finance, spending, management, planning, sticker, webtoon art",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "콜롬비아",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, Colombian culture symbols like a colorful mochila bag and a coffee bean, with a stylized tropical leaf, for sticker art.",
-      "hashtags": "콜롬비아, Colombia, 스티커, 스티커 디자인, 일러스트, 2D 일러스트, 굿즈, 굿즈 디자인, 문화, 디자인",
+      "keyword": "축구하는 남자아이",
+      "prompt": "A boy playing soccer, 2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. Minimum 700x700px quality.",
+      "hashtags": "축구, 스포츠, 남자아이, 운동, 일러스트, 스티커, 그림, 아이콘, sport, boy, illustration, sticker",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "우즈베키스탄",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, Uzbek culture elements such as a patterned Plov dish and a stylized traditional textile motif, with a geometric pattern, for sticker art.",
-      "hashtags": "우즈베키스탄, Uzbekistan, 스티커, 스티커 디자인, 일러스트, 2D 일러스트, 굿즈, 굿즈 디자인, 전통, 디자인",
+      "keyword": "의료 보험",
+      "prompt": "Medical insurance symbol, 2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. Minimum 700x700px quality.",
+      "hashtags": "보험, 건강, 의료, 서류, 혜택, 정보, 디자인, icon, insurance, health, medical, document, benefit, information, design",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "봄",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a sprig of cherry blossoms with falling petals and a small butterfly, representing springtime.",
-      "hashtags": "봄, Spring, 벚꽃, Cherry Blossom, 스티커, 스티커 디자인, 일러스트, 2D 일러스트, 계절, 디자인",
+      "keyword": "경제 긴축",
+      "prompt": "A piggy bank with a coin going in, symbolizing economic tightening, 2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. Minimum 700x700px quality.",
+      "hashtags": "경제, 긴축, 저축, 돈, 동전, 재테크, 아이콘, economy, tightening, saving, money, coin, finance, icon",
       "type": "miri"
     }
   ]

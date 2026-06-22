@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-06-21T12:00:31.922574",
-  "nextUpdateAt": "2026-06-22T12:00:00",
+  "updatedAt": "2026-06-22T12:00:30.001589",
+  "nextUpdateAt": "2026-06-23T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "장마철 수국 일러스트",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a bouquet of colorful hydrangeas with raindrops, stylized to appear as a professional Korean webtoon sticker, no face on flowers, no eyes, no mouth.",
-      "hashtags": "장마,수국,여름,비,일러스트,스티커,디자인,배경,투명배경,summer,sticker",
+      "keyword": "장마철 우산 쓴 수국",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, a stylized umbrella with raindrops falling around it, a cluster of blooming hydrangeas, clean black outlines on all subjects, no floor, no shadow, no ground element.",
+      "hashtags": "장마,수국,우산,일러스트,스티커,디자인,여름,PNG,Jangma,Summer",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "활기찬 지역 축제 프레임",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a decorative frame filled with elements representing a vibrant local festival, such as colorful lanterns, stylized banners, and abstract representations of cheerful crowds, designed as a professional Korean webtoon sticker element, no faces on any abstract figures.",
-      "hashtags": "축제,지역,이벤트,프레임,디자인,템플릿,배너,썸네일,홍보,festival,frame",
+      "keyword": "의료용 청진기 든 간호사",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, a professional nurse figure holding a stethoscope, clean black outlines on all subjects, no floor, no shadow, no ground element.",
+      "hashtags": "간호사,의사,의료,병원,직업,일러스트,스티커,캐릭터,Nurse,Medical",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "미니멀 팀 협업 아이콘",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a set of minimalist icons representing team collaboration, including abstract gears, interconnected nodes, and stylized speech bubbles, designed as professional Korean webtoon sticker icons for business templates, no faces on any abstract representations.",
-      "hashtags": "팀협업,아이콘,비즈니스,템플릿,디자인,요소,미니멀,스터디,업무,collaboration,icons",
+      "keyword": "알파벳 배우는 동물 캐릭터",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, a cute and friendly animal character (e.g., a bear or rabbit) interacting with a large letter block 'A', clean black outlines on all subjects, no floor, no shadow, no ground element.",
+      "hashtags": "육아,아동,어린이,교육,동물,캐릭터,한글,영어,Kids,Education",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "수국 정원",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. A beautiful garden filled with abundant, blooming hydrangeas in various vibrant colors like pink, blue, and purple. The flowers are in full bloom, with detailed petals and leaves, creating a lush and lively scene. The composition focuses on the texture and color of the flowers.",
-      "hashtags": "수국, 정원, 꽃, 여름, 자연, 플라워, 가든, 여름꽃, 핸드드로잉, 일러스트",
+      "keyword": "파크 골프",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a park golf club and a park golf ball, representing leisure activity, vibrant green grass texture subtly incorporated, dynamic pose of the club as if in motion.",
+      "hashtags": "파크골프,parkgolf,골프,golf,취미,hobby,스포츠,sports,아웃도어,outdoor,여가,leisure,건강,health,스티커,sticker,일러스트,illustration,휴식,relaxation",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "바다 동물",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. A playful collection of marine animals such as a smiling whale, a curious dolphin, and a friendly octopus, all rendered in a charming and simplified style. The animals are depicted in various cheerful poses, with smooth, rounded shapes and bright, inviting colors. Focus on the distinct silhouettes and textures of each creature.",
-      "hashtags": "바다, 동물, 고래, 돌고래, 문어, 해양, 귀여운, 스티커, 일러스트, 캐릭터",
+      "keyword": "뉴질랜드",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a stylized kiwi bird and a sheep, iconic symbols of New Zealand, lush green rolling hills in the background with a hint of blue sky, symbolizing nature and travel, simple cloud shapes.",
+      "hashtags": "뉴질랜드,newzealand,자연,nature,여행,travel,풍경,landscape,동물,animal,키위새,kiwibird,양,sheep,국기,flag,스티커,sticker,일러스트,illustration",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "스포츠 경기",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. Dynamic action scene depicting athletes engaged in various sports activities like running, kicking a ball, or swinging a bat. The focus is on the movement and energy of the figures, depicted with bold lines and energetic color accents. The composition emphasizes the athletic poses and the dynamic nature of the sports.",
-      "hashtags": "스포츠, 운동, 경기, 활동, 역동적, 선수, 동적, 스포티, 일러스트, 디자인",
+      "keyword": "리니지",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, a stylized sword and shield, representing fantasy combat and adventure in a popular role-playing game, glowing magical runes subtly integrated into the design of the weapon, medieval fantasy theme, bold and iconic.",
+      "hashtags": "리니지,lineage,게임,game,판타지,fantasy,검,sword,방패,shield,모험,adventure,아이템,item,일러스트,illustration,스티커,sticker,온라인게임,onlinegame",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "고래",
-      "prompt": "A majestic whale breaching the surface of the water, 2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, 700x700px.",
-      "hashtags": "고래, Whale, 바다, Ocean, 해양생물, MarineLife, 일러스트, Illustration, 스티커, Sticker, 귀여운, Cute, PNG, 미리캔버스, WebtoonSticker, Nature",
+      "keyword": "파크 골프",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. A person is shown swinging a golf club, focusing on the action of playing golf. The golf club and ball are emphasized. The style should convey the sport without showing facial features.",
+      "hashtags": "파크골프,골프,운동,스포츠,여가,취미,건강,레저,운동하는사람,골프채",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "축구공",
-      "prompt": "A dynamic soccer ball in motion, 2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, 700x700px.",
-      "hashtags": "축구, Soccer, 스포츠, Sports, 공, Ball, 일러스트, Illustration, 스티커, Sticker, 운동, Active, PNG, 미리캔버스, WebtoonSticker, Graphic",
+      "keyword": "뉴질랜드",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. A stylized landscape representing a famous natural landmark from a country known for its dramatic scenery. Iconic elements like rolling hills, unique rock formations, or unique flora are depicted. The color palette evokes natural beauty and adventure.",
+      "hashtags": "뉴질랜드,풍경,여행,자연,휴가,해외여행,탐험,모험,아름다운곳,자연경관",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "꽃",
-      "prompt": "A vibrant bouquet of blooming flowers, 2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, 700x700px.",
-      "hashtags": "꽃, Flower, 수국, Hydrangea, 봄, Spring, 여름, Summer, 플로럴, Floral, 일러스트, Illustration, 스티커, Sticker, PNG, 미리캔버스, WebtoonSticker, Nature",
+      "keyword": "여름휴가",
+      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element. Elements associated with summer vacation like a beach umbrella, sunglasses, a cool drink with a straw, or a beach ball. The composition should feel lighthearted and summery.",
+      "hashtags": "여름휴가,바캉스,여행,휴가,여름,해변,여행준비,여름일러스트,바다,휴식",
       "type": "miri"
     }
   ]

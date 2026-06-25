@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-06-24T12:00:29.308421",
-  "nextUpdateAt": "2026-06-25T12:00:00",
+  "updatedAt": "2026-06-25T12:00:29.850388",
+  "nextUpdateAt": "2026-06-26T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "장마철 수국 일러스트",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, a cluster of vibrant purple and pink hydrangeas with dew drops, a transparent umbrella with subtle reflections, and a few stylized raindrops, no floor, no shadow, no ground element.",
-      "hashtags": "장마, 수국, 우산, 여름, 시즌, 일러스트, 스티커, sticker, summer, illustration",
+      "keyword": "장마철 수국 우산 스티커",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a cute girl holding a colorful umbrella, surrounded by blooming hydrangeas, raining softly, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, 700px resolution",
+      "hashtags": "장마, 수국, 우산, 여름, 비, 감성, 일러스트, 스티커, June, Summer",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "지역 축제 벚꽃 나들이",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, a basket filled with picnic items like fruit and a drink, surrounded by scattered pink cherry blossom petals, a patterned picnic blanket, and stylized flowing wind lines, no floor, no shadow, no ground element.",
-      "hashtags": "벚꽃축제, 봄, 나들이, 피크닉, 축제, 디자인, 스티커, picnic, spring, festival",
+      "keyword": "힘내 긍정 메시지 스티커",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a cute smiling sun with a speech bubble saying '잘 될 거야' (It will be alright), chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, 700px resolution",
+      "hashtags": "응원, 긍정, 위로, 메시지, 타이포, 스티커, 감성, 다이어리, Encouragement, Positive",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "긍정 에너지 명언 캘리그라피",
-      "prompt": "2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, stylized Korean calligraphy text that says '오늘도 빛나는 너를 응원해' (I support you who shines today) with subtle glowing effects and small abstract shapes like stars and sparkles, no floor, no shadow, no ground element.",
-      "hashtags": "명언, 캘리그라피, 긍정, 응원, 문구, 디자인, 스티커, typography, positive, quote",
+      "keyword": "6월 캘린더 플래너 스티커",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a cute calendar icon with a cheerful bunny peeking out, decorated with small flowers, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, 700px resolution",
+      "hashtags": "6월, 캘린더, 플래너, 다이어리, 스티커, 디자인, 일러스트, 여름, June, Planner",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "축구공",
-      "prompt": "A vibrant soccer ball, 2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth on any object, minimum 700x700px quality",
-      "hashtags": "축구공, soccer ball, sports, 운동, 일러스트, illustration, 스티커, sticker, 2d, flat design",
+      "keyword": "월드컵",
+      "prompt": "kawaii chibi illustration style, rounded shapes, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. A stylized soccer ball with a subtle pattern of the Earth. Clean black outlines on all subjects. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines. no floor, no shadow, no ground element. Minimum 700x700px quality. #축구공 #월드컵 #스포츠 #공 #운동 #chibistyle #kawaii #illustration #stickers #line",
+      "hashtags": "축구공,월드컵,스포츠,공,운동,chibistyle,kawaii,illustration,stickers,line",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "농구공",
-      "prompt": "A dynamic basketball, 2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth on any object, minimum 700x700px quality",
-      "hashtags": "농구공, basketball, sports, 운동, 일러스트, illustration, 스티커, sticker, 2d, flat design",
+      "keyword": "월드컵 경기",
+      "prompt": "kawaii chibi illustration style, rounded shapes, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. A generic soccer player figure in a dynamic pose, wearing a simple uniform. Clean black outlines on all subjects. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines. no floor, no shadow, no ground element. Minimum 700x700px quality. #축구선수 #월드컵 #경기 #스포츠 #운동하는남자아이 #chibistyle #kawaii #illustration #stickers #line",
+      "hashtags": "축구선수,월드컵,경기,스포츠,운동하는남자아이,chibistyle,kawaii,illustration,stickers,line",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "물방울",
-      "prompt": "A fresh water droplet, 2D flat illustration style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth on any object, minimum 700x700px quality",
-      "hashtags": "물방울, water droplet, nature, 자연, illustration, 일러스트, sticker, 스티커, fresh, clean",
+      "keyword": "상장",
+      "prompt": "kawaii chibi illustration style, rounded shapes, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. A simplified award certificate with a ribbon. Clean black outlines on all subjects. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines. no floor, no shadow, no ground element. Minimum 700x700px quality. #상장 #증서 #인증서 #수료증 #축하 #chibistyle #kawaii #illustration #stickers #line",
+      "hashtags": "상장,증서,인증서,수료증,축하,chibistyle,kawaii,illustration,stickers,line",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "축구 경기",
-      "prompt": "2D flat illustration style of a soccer match, chroma key green background hex color #00B140, 1:1 square aspect ratio, subjects fill 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth on any object, soccer players in action, a soccer ball in motion.",
-      "hashtags": "축구, soccer, 경기, match, 스포츠, sports, 일러스트, illustration, 스티커, sticker,  png, 귀여운, cute, 디자인, design, 한국, korea",
+      "keyword": "축구하는 남자아이",
+      "prompt": "A cute kawaii chibi illustration of a soccer playing boy, with big round eyes and a simple happy expression, wearing a sports jersey and kicking a soccer ball. The subject fills 90% of the frame with minimal empty space, close-up composition. Vibrant saturated colors, hand-drawn feel with clean black outlines. Chroma key green background hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element. Professional Korean sticker art style similar to LINE stickers, 700x700px minimum quality.",
+      "hashtags": "축구, 축구선수, 남자아이, 스포츠, 스포츠활동, 운동, 어린이, 귀여운, 일러스트, 스티커",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "농구 선수",
-      "prompt": "2D flat illustration style of basketball players, chroma key green background hex color #00B140, 1:1 square aspect ratio, subjects fill 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth on any object, basketball players dribbling and shooting, a basketball.",
-      "hashtags": "농구, basketball, 선수, player, 스포츠, sports, 일러스트, illustration, 스티커, sticker, png, 활동, active, 디자인, design, 한국, korea",
+      "keyword": "빛나는 별",
+      "prompt": "A cute kawaii chibi illustration of a shining star, with a simple radiant glow effect. The subject fills 90% of the frame with minimal empty space, close-up composition. Vibrant saturated colors, hand-drawn feel with clean black outlines. Chroma key green background hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element. Professional Korean sticker art style similar to LINE stickers, 700x700px minimum quality.",
+      "hashtags": "별, 반짝임, 빛, 우주, 밤하늘, 귀여운, 일러스트, 스티커, 그래픽, 디자인",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "피의 게임",
-      "prompt": "2D flat illustration style of symbolic elements from a game of survival, chroma key green background hex color #00B140, 1:1 square aspect ratio, subjects fill 90% of the frame with minimal empty space, close-up composition, NO face NO eyes NO mouth on any object, hand-drawn illustration style with organic lines and slight texture, varied line weight, natural illustration feel, looks like professional Korean webtoon sticker art, NOT generic AI look, avoid perfect symmetry, vibrant colors, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth on any object, representing strategy and risk with abstract shapes and dramatic colors, possibly game pieces or abstract representations of challenges.",
-      "hashtags": "피의 게임, game, 서바이벌, survival, 전략, strategy, 스릴러, thriller, 일러스트, illustration, 스티커, sticker, png, 디자인, design, 한국, korea, 드라마, drama",
+      "keyword": "봄꽃",
+      "prompt": "A cute kawaii chibi illustration of blooming spring flowers, such as cherry blossoms or tulips, with vibrant saturated colors and a hand-drawn feel with clean black outlines. The subject fills 90% of the frame with minimal empty space, close-up composition. Chroma key green background hex color #00B140, 1:1 square aspect ratio. No floor, no shadow, no ground element. Professional Korean sticker art style similar to LINE stickers, 700x700px minimum quality.",
+      "hashtags": "봄, 꽃, 봄꽃, 벚꽃, 튤립, 자연, 귀여운, 일러스트, 스티커, 시즌",
       "type": "miri"
     }
   ]

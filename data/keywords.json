@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-07-02T12:00:31.630363",
-  "nextUpdateAt": "2026-07-03T12:00:00",
+  "updatedAt": "2026-07-03T12:00:32.781651",
+  "nextUpdateAt": "2026-07-04T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "신나는 여름방학 일러스트",
-      "prompt": "kawaii chibi illustration style, rounded shapes, a group of diverse children excitedly playing with beach balls and water guns on a bright sunny beach, holding colorful ice cream cones, with a vibrant watermelon slice nearby, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute faces on children, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, 700x700px",
-      "hashtags": "여름방학, 해변, 수박, 어린이, 일러스트, 스티커, 캐릭터, summer, vacation, sticker",
+      "keyword": "귀여운 수박 모자 쓴 서핑 보드",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a cute watermelon wearing a sun hat, riding a surfboard, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, subject fills 90% of the frame with minimal empty space, close-up composition, vibrant saturated colors, a cute watermelon wearing a sun hat, riding a surfboard, big eyes, simple cute face allowed, hand-drawn feel with clean black outlines, professional Korean sticker art style, minimum 700x700px detail level.",
+      "hashtags": "여름 스티커, 수박 일러스트, 서핑 보드, 비치 웨어, 귀여운 그림, 여름방학, 7월 디자인, summer sticker, watermelon art, beach vibe",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "귀여운 동물 캐릭터 간호사",
-      "prompt": "kawaii chibi illustration style, rounded shapes, a fluffy, friendly bear character wearing a white nurse uniform and a stethoscope around its neck, holding a small medical kit, looking kind and helpful, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face on bear, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, 700x700px",
-      "hashtags": "간호사, 동물 캐릭터, 의료, 귀여운, 일러스트, 스티커, 직업, nurse, animal, illustration",
+      "keyword": "추억을 담는 빈티지 카메라",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a vintage camera with a film roll, emitting subtle sparkling effects, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, subject fills 90% of the frame with minimal empty space, close-up composition, vibrant saturated colors, a vintage camera with a film roll, emitting subtle sparkling effects, hand-drawn feel with clean black outlines, professional Korean sticker art style, minimum 700x700px detail level.",
+      "hashtags": "빈티지 스티커, 추억 기록, 감성 사진, 카메라인스타, 옛날 감성, 필름 카메라, 레트로 디자인, vintage sticker, photography art, memory keeper",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "행복한 아이와 동물 친구들",
-      "prompt": "kawaii chibi illustration style, rounded shapes, a joyful young child giggling while surrounded by various cute, colorful cartoon animal characters (e.g., a playful puppy, a curious kitten, a friendly bunny), all in a cheerful setting, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute faces on child and animals, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, 700x700px",
-      "hashtags": "육아, 아동, 동물, 캐릭터, 친구, 행복, 일러스트, kids, animals, sticker",
+      "keyword": "지역 축제 환영 현수막",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a welcoming banner with cheerful abstract patterns and playful font, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, subject fills 90% of the frame with minimal empty space, close-up composition, vibrant saturated colors, a welcoming banner with cheerful abstract patterns and playful font, hand-drawn feel with clean black outlines, professional Korean sticker art style, minimum 700x700px detail level.",
+      "hashtags": "지역 축제, 축제 홍보, 이벤트 안내, 환영 현수막, 한국 축제, 디자인 요소, 배너 디자인, festival banner, local event, welcome sign",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "귀여운 뱀",
-      "prompt": "kawaii chibi illustration style, rounded shapes, a cute baby snake, looking curious, small fangs, playful expression, vibrant green and yellow scales, no eyes, no mouth, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, minimum 700x700px quality.",
-      "hashtags": "뱀, 스티커, 귀여운, 일러스트, PNG, 뱀일러스트, 동물, 파충류, kawaii, sticker",
+      "keyword": "전망대",
+      "prompt": "A cute, round, kawaii chibi illustration of a lookout tower, made of simple geometric shapes, with big, clear windows showing a distant landscape. The tower has a simple, clean design with vibrant, saturated colors and thick, hand-drawn black outlines. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, minimum 700x700px quality.",
+      "hashtags": "전망대, lookout tower, 뷰포인트, viewpoint, 관광, tourism, 여행, travel, 풍경, scenery, 일러스트, illustration, 스티커, sticker, 귀여운, cute, 카와이, kawaii, 미리캔버스",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "야구 경기",
-      "prompt": "kawaii chibi illustration style, rounded shapes, a baseball bat and glove, a baseball, dynamic action pose representing a baseball game, vibrant red baseball, white baseball bat, brown baseball glove, no eyes, no mouth, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, minimum 700x700px quality.",
-      "hashtags": "야구, 스포츠, 스티커, 일러스트, PNG, 야구공, 글러브, 배트, 게임, sports",
+      "keyword": "국민연금공단 (일반화)",
+      "prompt": "A charming kawaii chibi illustration of a secure, stylized building representing a public institution, with '연금' (pension) subtly incorporated into its design through simple, clean signage. The building is depicted with bright, saturated colors and bold, hand-drawn black outlines. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, minimum 700x700px quality.",
+      "hashtags": "연금, pension, 공공기관, public institution, 금융, finance, 재테크, investment, 안전, security, 건물, building, 일러스트, illustration, 스티커, sticker, 귀여운, cute, 카와이, kawaii, 미리캔버스",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "무서운 악어",
-      "prompt": "kawaii chibi illustration style, rounded shapes, a cute but slightly fierce baby alligator, with big, curious eyes and a mischievous grin, sharp tiny teeth, green scaly skin, no mouth, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, minimum 700x700px quality.",
-      "hashtags": "악어, 스티커, 귀여운, 일러스트, PNG, 악어일러스트, 동물, 파충류, kawaii, alligator",
+      "keyword": "고려아연 (일반화)",
+      "prompt": "A stylized, kawaii chibi illustration of a metallic object representing industrial strength and materials, perhaps a stylized ingots or a round metallic disc with a simple, abstract design. It features vibrant, saturated metallic colors like gold and silver, with thick, hand-drawn black outlines. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, minimum 700x700px quality.",
+      "hashtags": "금속, metal, 산업, industry, 소재, materials, 광물, mineral, 황금, gold, 은, silver, 사업, business, 일러스트, illustration, 스티커, sticker, 귀여운, cute, 카와이, kawaii, 미리캔버스",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "한국항공우주산업",
-      "prompt": "kawaii chibi illustration style, rounded shapes, A cute cartoon airplane with big happy eyes, soaring through the sky with tiny fluffy clouds, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, bright saturated colors, style loved by children, reference LINE stickers or Kakao emoticons, no copyrighted specific people/characters/brands, detail level creatable at least 700x700px.",
-      "hashtags": "비행기 스티커,항공 스티커,귀여운 비행기,chibi airplane,kawaii sticker,korean sticker art,png illustration,aerospace,aviation sticker,line sticker",
+      "keyword": "전망대",
+      "prompt": "A kawaii chibi illustration of a futuristic observatory tower with a large dome, rounded shapes, sitting on a white background for chroma key. The observatory has big, friendly windows and a simple, cute design. Vibrant saturated colors, clean black outlines. 1:1 square aspect ratio, subject fills 90% of the frame. NO face on the observatory. Hand-drawn feel with clean black outlines, professional Korean sticker art style similar to LINE stickers. Chroma key green background hex color #00B140. No floor, no shadow, no ground element.",
+      "hashtags": "전망대,관측소,건물,야경,우주,별,여행,풍경,스티커,일러스트,observatory,building,nightview,space,stars,travel,landscape,sticker,illustration,kawaii",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "위택스",
-      "prompt": "kawaii chibi illustration style, rounded shapes, A cute, friendly cartoon piggy bank with a big smile and a small coin being inserted, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, bright saturated colors, style loved by children, reference LINE stickers or Kakao emoticons, no copyrighted specific people/characters/brands, detail level creatable at least 700x700px.",
-      "hashtags": "돼지 저금통 스티커,돈 스티커,재테크 스티커,chibi piggy bank,kawaii sticker,korean sticker art,png illustration,finance sticker,saving money,line sticker",
+      "keyword": "축구하는 남자아이",
+      "prompt": "A kawaii chibi illustration of a cute boy playing soccer, wearing a sporty outfit. He has big, curious eyes and a simple, happy expression, rounded shapes. Kicking a soccer ball with energy. Vibrant saturated colors, clean black outlines. 1:1 square aspect ratio, subject fills 90% of the frame. Hand-drawn feel with clean black outlines, professional Korean sticker art style similar to LINE stickers. Chroma key green background hex color #00B140. No floor, no shadow, no ground element.",
+      "hashtags": "남자아이,축구,스포츠,운동,아이,어린이,활동,캐릭터,일러스트,스티커,boy,soccer,sports,kid,child,activity,character,illustration,sticker,kawaii",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "봄꽃",
-      "prompt": "kawaii chibi illustration style, rounded shapes, A cluster of cheerful, blooming spring flowers with simple, happy faces, like smiling tulips and daisies, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, bright saturated colors, style loved by children, reference LINE stickers or Kakao emoticons, no copyrighted specific people/characters/brands, detail level creatable at least 700x700px.",
-      "hashtags": "봄꽃 스티커,플라워 스티커,귀여운 꽃,chibi flowers,kawaii sticker,korean sticker art,png illustration,spring sticker,floral sticker,line sticker",
+      "keyword": "둥근 귀의 작은 생쥐",
+      "prompt": "A kawaii chibi illustration of a small mouse with big, round ears and a tiny nose, rounded shapes. The mouse is holding a piece of cheese. It has big, innocent eyes and a simple, cute face. Vibrant saturated colors, clean black outlines. 1:1 square aspect ratio, subject fills 90% of the frame. Hand-drawn feel with clean black outlines, professional Korean sticker art style similar to LINE stickers. Chroma key green background hex color #00B140. No floor, no shadow, no ground element.",
+      "hashtags": "생쥐,쥐,동물,귀여운,캐릭터,치즈,음식,일러스트,스티커,손그림,mouse,animal,cute,character,cheese,food,illustration,sticker,handdrawn,kawaii",
       "type": "miri"
     }
   ]

@@ -1,67 +1,68 @@
 {
-  "updatedAt": "2026-07-04T12:00:33.078506",
-  "nextUpdateAt": "2026-07-05T12:00:00",
+  "updatedAt": "2026-07-05T12:00:28.781226",
+  "nextUpdateAt": "2026-07-06T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "여름 물놀이 수박",
-      "prompt": "Kawaii chibi illustration style, rounded shapes. A cute, round watermelon slice character with big eyes and a simple smiling face, wearing tiny sunglasses, splashing in clear blue water. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on characters, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. Clean black outlines on all subjects. No floor, no shadow, no ground element. Bright and highly saturated colors, style that children will love. Reference LINE stickers or Kakao Emoticons style. Copyright-protected specific characters/brands are strictly prohibited. Minimum detail level capable of generating 700x700px or higher quality.",
-      "hashtags": "여름스티커, 수박일러스트, 물놀이, 귀여운스티커, 여름배경, 디자인소스,  png스티커, summer sticker, watermelon illustration, kawaii art",
+      "keyword": "귀여운 수박 여름 일러스트",
+      "prompt": "Kawaii chibi illustration style, rounded shapes, a cute and plump watermelon slice character with a big smile and rosy cheeks, wearing tiny sunglasses, sitting on a pastel blue background. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. Clean black outlines on all subjects. No floor, no shadow, no ground element. Bright and highly saturated colors, style that children will love. Reference LINE stickers or Kakao emoticons style. No copyrighted characters, brands, or real people. Minimum 700x700px quality.",
+      "hashtags": "여름,수박,스티커,일러스트,귀여운,디자인,vector,sticker,illustration,summer",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "팀 회의 긍정",
-      "prompt": "Kawaii chibi illustration style, rounded shapes. A diverse group of three stylized, friendly business people in a collaborative meeting. One person is pointing at a colorful chart, another is nodding enthusiastically, and the third is holding a notebook with a cheerful expression. All characters have big, simple, smiling faces. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subjects fill 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on characters, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. Clean black outlines on all subjects. No floor, no shadow, no ground element. Bright and highly saturated colors, style that children will love. Reference LINE stickers or Kakao Emoticons style. Copyright-protected specific characters/brands are strictly prohibited. Minimum detail level capable of generating 700x700px or higher quality.",
-      "hashtags": "팀협업, 회의일러스트, 비즈니스스티커, 직장인일러스트, 긍정적인분위기, 디자인소스, png스티커, business illustration, team collaboration, work sticker",
+      "keyword": "친절한 간호사 캐릭터",
+      "prompt": "Kawaii chibi illustration style, rounded shapes, a friendly female nurse character in a light blue uniform, holding a stethoscope and smiling warmly, with a subtle blush on her cheeks. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. Clean black outlines on all subjects. No floor, no shadow, no ground element. Bright and highly saturated colors, style that children will love. Reference LINE stickers or Kakao emoticons style. No copyrighted characters, brands, or real people. Minimum 700x700px quality.",
+      "hashtags": "간호사,병원,의료,일러스트,캐릭터,전문직,vector,nurse,illustration,medical",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "지역 축제 꽃길",
-      "prompt": "Kawaii chibi illustration style, rounded shapes. A picturesque scene of a pathway lined with blooming cherry blossom trees, with a few cheerful, stylized people walking along the path. The overall mood is celebratory and joyful, evoking a regional festival atmosphere. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subjects fill 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on characters, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. Clean black outlines on all subjects. No floor, no shadow, no ground element. Bright and highly saturated colors, style that children will love. Reference LINE stickers or Kakao Emoticons style. Copyright-protected specific characters/brands are strictly prohibited. Minimum detail level capable of generating 700x700px or higher quality.",
-      "hashtags": "축제스티커, 벚꽃축제, 꽃일러스트, 지역축제, 봄일러스트, 디자인소스, png스티커, festival sticker, cherry blossom, seasonal illustration",
+      "keyword": "건강 검진 포스터 일러스트",
+      "prompt": "Kawaii chibi illustration style, rounded shapes, a group of diverse cute characters (one holding an apple, one with a checkmark, one with a thermometer sticker on forehead) looking healthy and happy, arranged dynamically. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute faces, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. Clean black outlines on all subjects. No floor, no shadow, no ground element. Bright and highly saturated colors, style that children will love. Reference LINE stickers or Kakao emoticons style. No copyrighted characters, brands, or real people. Minimum 700x700px quality.",
+      "hashtags": "건강,검진,포스터,일러스트,병원,의료,캐릭터,vector,health,poster,illustration",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "슈퍼지구",
-      "prompt": "Kawaii chibi illustration style, rounded shapes, a super Earth planet with a cute smile, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, bright and saturated colors, suitable for children, similar to LINE stickers or Kakao emoticons, no copyrighted characters or brands, detailed enough for at least 700x700px.",
-      "hashtags": "슈퍼지구, 행성, 우주, 귀여운, 일러스트, 스티커, PNG, 미리캔버스, 귀여운 행성, chibiearth, superplanet, space, cute, illustration, sticker, png, miricanvas, kawaiiplanet",
+      "keyword": "보스턴 다이내믹스",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a robotic dog with big friendly eyes and a simple cute face, walking dynamically, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on animals, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, bright saturated colors, style similar to LINE stickers or Kakao emoticons, no copyrighted characters or brands, detail level capable of generating 700x700px or higher quality.",
+      "hashtags": "로봇강아지, AI로봇, 미래기술, 귀여운로봇, 🤖, 🐕, roboticdog, AIrobot, futurology, cuterobot",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "원자력 발전소",
-      "prompt": "Kawaii chibi illustration style, rounded shapes, a simplified nuclear power plant with a friendly, non-anthropomorphic appearance, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth on inanimate objects, bright and saturated colors, suitable for children, similar to LINE stickers or Kakao emoticons, no copyrighted characters or brands, detailed enough for at least 700x700px.",
-      "hashtags": "원자력발전소, 발전소, 에너지, 건물, 귀여운, 일러스트, 스티커, PNG, 미리캔버스, 친환경에너지, nuclearpowerplant, powerplant, energy, building, cute, illustration, sticker, png, miricanvas, friendlybuilding",
+      "keyword": "예금",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a stylized money bag overflowing with coins, no face, no eyes, no mouth, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, bright saturated colors, style similar to LINE stickers or Kakao emoticons, no copyrighted brands, detail level capable of generating 700x700px or higher quality.",
+      "hashtags": "저축, 돈, 재테크, 금융, 귀여운돈, 💰, 💸, savings, money, finance, cutemoney",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "수업",
-      "prompt": "Kawaii chibi illustration style, rounded shapes, a stack of cute, stylized books with a graduation cap on top, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth on inanimate objects, bright and saturated colors, suitable for children, similar to LINE stickers or Kakao emoticons, no copyrighted characters or brands, detailed enough for at least 700x700px.",
-      "hashtags": "수업, 공부, 책, 졸업, 귀여운, 일러스트, 스티커, PNG, 미리캔버스, 학업, class, study, books, graduation, cute, illustration, sticker, png, miricanvas, cutebooks",
+      "keyword": "식이",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a cute, plump healthy vegetable with big friendly eyes and a simple cute face, smiling, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on characters and animals, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, bright saturated colors, style similar to LINE stickers or Kakao emoticons, no copyrighted characters or brands, detail level capable of generating 700x700px or higher quality.",
+      "hashtags": "채소, 건강식, 다이어트, 식단, 귀여운채소, 🥬, 🥦, vegetable, healthyeating, diet, food",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "슈퍼지구",
-      "prompt": "Kawaii chibi illustration style, rounded shapes. A cute, stylized representation of a super earth, a large planet with vibrant continents and swirling nebulae in the background. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes (if any applied to celestial bodies for artistic effect, otherwise no face), simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. Clean black outlines on all subjects. No floor, no shadow, no ground element. Bright saturated colors, style appealing to children. Minimum 700x700px quality.",
-      "hashtags": "슈퍼지구, 행성, 우주, 귀여운, 일러스트, 스티커, PNG, 초롱초롱, 둥근, 챗스티커",
+      "keyword": "로봇 팔",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a cute robot arm with big eyes and a simple cute face, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO floor, NO shadow, NO ground element, minimum 700x700px quality.",
+      "hashtags": "로봇, 로봇팔, 기술, 일러스트, 스티커, 귀여운, 치비, PNG, 아이콘, illustration, robot, sticker",
       "type": "miri"
     },
     {
       "rank": 2,
-      "prompt": "Kawaii chibi illustration style, rounded shapes. A stylized representation of a nuclear power plant, with clean, modern geometric shapes and subtle steam coming from a tower. No face, no eyes, no mouth on the power plant. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes (if any applied to celestial bodies for artistic effect, otherwise no face), simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. Clean black outlines on all subjects. No floor, no shadow, no ground element. Bright saturated colors, style appealing to children. Minimum 700x700px quality.",
-      "hashtags": "원자력발전소, 에너지, 발전소, 귀여운, 일러스트, 스티커, PNG, 친환경, 현대적, 챗스티커",
+      "keyword": "저축 상자",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a cute piggy bank with big eyes and a simple cute face, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO floor, NO shadow, NO ground element, minimum 700x700px quality.",
+      "hashtags": "저축, 돼지저금통, 돈, 금융, 일러스트, 스티커, 귀여운, 치비, PNG, 아이콘, savings, piggybank, finance, sticker",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "수업",
-      "prompt": "Kawaii chibi illustration style, rounded shapes. A cute, cheerful representation of a classroom scene, perhaps with a friendly teacher character (no specific identifiable features, just a generic 'teacher') and a few stylized, diverse child characters with big eyes and simple expressions, engaged in learning. Alternatively, a desk with books and a smiling apple. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers. Clean black outlines on all subjects. No floor, no shadow, no ground element. Bright saturated colors, style appealing to children. Minimum 700x700px quality.",
-      "hashtags": "수업, 공부, 학교, 귀여운, 일러스트, 스티커, PNG, 어린이, 책상, 챗스티커",
+      "keyword": "건강한 채소",
+      "prompt": "kawaii chibi illustration style, rounded shapes, a vibrant collection of healthy vegetables like carrots, broccoli, and tomatoes with simple cute faces, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, NO floor, NO shadow, NO ground element, minimum 700x700px quality.",
+      "hashtags": "건강, 채소, 음식, 다이어트, 일러스트, 스티커, 귀여운, 치비, PNG, 아이콘, healthy, vegetables, food, diet, sticker",
       "type": "miri"
     }
   ]

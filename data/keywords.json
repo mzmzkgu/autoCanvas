@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-07-19T17:59:03.535409",
-  "nextUpdateAt": "2026-07-20T12:00:00",
+  "updatedAt": "2026-07-20T12:00:30.048936",
+  "nextUpdateAt": "2026-07-21T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "대나무숲",
-      "prompt": "A single bamboo forest, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, kawaii chibi illustration style, rounded shapes, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth, bright and saturated colors, children's style, LINE sticker or Kakao emoticon style, no copyrighted characters or brands.",
-      "hashtags": "대나무, 대나무숲, 식물, 자연, 일러스트, 아이콘, PNG, clipart, 배경, sticker",
+      "keyword": "화가",
+      "prompt": "kawaii chibi illustration style, a single painter holding a paintbrush and a palette, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, big eyes, simple cute face, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, high detail for at least 700x700px.",
+      "hashtags": "화가일러스트, 그림그리는사람, 예술가아이콘, Painter, ArtistPNG, PersonClipart, CareerIllustration, CharacterIcon, 미리캔버스, Illustration",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "김밥",
-      "prompt": "A single kimbap (Korean seaweed rice roll), kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, kawaii chibi illustration style, rounded shapes, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth, bright and saturated colors, children's style, LINE sticker or Kakao emoticon style, no copyrighted characters or brands.",
-      "hashtags": "김밥, 음식, 한식, 일러스트, 아이콘, PNG, clipart, food, sticker, 배너",
+      "keyword": "커피",
+      "prompt": "kawaii chibi illustration style, a single steaming cup of coffee, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, no face, no eyes, no mouth, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, high detail for at least 700x700px.",
+      "hashtags": "커피잔, 따뜻한커피, 음료아이콘, CoffeeCup, DrinkPNG, FoodClipart, CafeIllustration, BeverageIcon, 미리캔버스, Sticker",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "강아지와 고양이",
-      "prompt": "A single cute puppy dog and a single cute kitten cat together, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, bright and saturated colors, children's style, LINE sticker or Kakao emoticon style, no copyrighted characters or brands.",
-      "hashtags": "강아지, 고양이, 동물, 친구, 일러스트, 아이콘, PNG, clipart, character, 프레임",
+      "keyword": "달",
+      "prompt": "kawaii chibi illustration style, a single crescent moon, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, no face, no eyes, no mouth, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, high detail for at least 700x700px.",
+      "hashtags": "달일러스트, 밤하늘, 천체아이콘, Moon, NightSkyPNG, SpaceClipart, CelestialIllustration, NatureIcon, 미리캔버스, Icon",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "홈런볼",
-      "prompt": "A single, perfectly round, golden-brown baseball, with clean red stitching subtly visible, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, kawaii chibi illustration style, rounded shapes, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, no face, no eyes, no mouth, no hands.",
-      "hashtags": "야구, baseball, 홈런, home run, 스포츠, sports, 공, ball, 일러스트, illustration, 스티커, sticker, 귀여운, cute, PNG, 미리캔버스, miricanvas",
+      "keyword": "주가",
+      "prompt": "A single stylized stock market graph going up, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, clean black outlines on all subjects, no floor, no shadow, no ground element",
+      "hashtags": "주가, 주식, 상승, 그래프, 금융, 경제, 투자, 재테크, 돈, business",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "정장",
-      "prompt": "A single, well-tailored, navy blue business suit jacket, neatly folded, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, kawaii chibi illustration style, rounded shapes, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, no face, no eyes, no mouth, no hands.",
-      "hashtags": "경영, business, CEO, 리더, leader, 기업, company, 정장, suit, 패션, fashion, 의류, clothing, 일러스트, illustration, 스티커, sticker, 귀여운, cute, PNG, 미리캔버스, miricanvas",
+      "keyword": "여론",
+      "prompt": "A single stylized megaphone, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, clean black outlines on all subjects, no floor, no shadow, no ground element",
+      "hashtags": "여론, 목소리, 뉴스, 소통, 의견, 홍보, 알림, 정보, public opinion, announcement",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "숲",
-      "prompt": "A single, majestic, ancient oak tree, with lush green leaves and sturdy branches, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, kawaii chibi illustration style, rounded shapes, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, no face, no eyes, no mouth, no hands.",
-      "hashtags": "안동, Andong, 자연, nature, 나무, tree, 숲, forest, 풍경, scenery, 식물, plant, 일러스트, illustration, 스티커, sticker, 귀여운, cute, PNG, 미리캔버스, miricanvas",
+      "keyword": "전기차",
+      "prompt": "A single stylized electric car, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, clean black outlines on all subjects, no floor, no shadow, no ground element",
+      "hashtags": "전기차, 자동차, 친환경, 미래, 교통, 운전, 이동, tech, vehicle, eco-friendly",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "야구공",
-      "prompt": "A single baseball, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face, NO eyes, NO mouth on inanimate objects like food/plants/objects, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, hand-drawn feel with clean black outlines, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY, no floor, no shadow, no ground element.",
-      "hashtags": "야구, baseball, 스포츠, sport, 공, ball, 일러스트, illustration, 귀여운, cute, 스티커, sticker, PNG, 미리캔버스, 미리캔버스일러스트",
+      "keyword": "주가",
+      "prompt": "kawaii chibi illustration style, rounded shapes, single isolated subject only, a bright red upward trending stock market graph line, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, no face",
+      "hashtags": "주가, stock price, 그래프, graph, 상승, up, 상승세, trending up, 경제, economy, 투자, investment, 금융, finance, 차트, chart, 일러스트, illustration, 스티커, sticker",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "꽃",
-      "prompt": "A single blooming flower, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face, NO eyes, NO mouth on inanimate objects like food/plants/objects, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, hand-drawn feel with clean black outlines, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY, no floor, no shadow, no ground element.",
-      "hashtags": "꽃, flower, 식물, plant, 봄, spring, 일러스트, illustration, 귀여운, cute, 스티커, sticker, PNG, 미리캔버스, 미리캔버스일러스트",
+      "keyword": "여론",
+      "prompt": "kawaii chibi illustration style, rounded shapes, single isolated subject only, a speech bubble with a question mark inside, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, no face",
+      "hashtags": "여론, public opinion, 소통, communication, 말풍선, speech bubble, 질문, question, 생각, thought, 의견, opinion, 뉴스, news, 심리, psychology, 이모티콘, emoji, 아이콘, icon",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "오뚝이",
-      "prompt": "A single roly-poly toy, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face, NO eyes, NO mouth on inanimate objects like food/plants/objects, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, hand-drawn feel with clean black outlines, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY, no floor, no shadow, no ground element.",
-      "hashtags": "오뚝이, rolypoly, 장난감, toy, 아이, kid, 일러스트, illustration, 귀여운, cute, 스티커, sticker, PNG, 미리캔버스, 미리캔버스일러스트",
+      "keyword": "전기차",
+      "prompt": "kawaii chibi illustration style, rounded shapes, single isolated subject only, a cute electric car with a lightning bolt symbol on the side, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, no floor, no shadow, no ground element, big eyes, simple cute face",
+      "hashtags": "전기차, electric car, 친환경, eco-friendly, 자동차, car, 미래, future, 교통, transport, 운전, driving, 기술, technology, 심볼, symbol, 아이콘, icon, 스티커, sticker",
       "type": "miri"
     }
   ]

@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-07-21T12:00:28.666380",
-  "nextUpdateAt": "2026-07-22T12:00:00",
+  "updatedAt": "2026-07-22T12:00:28.373679",
+  "nextUpdateAt": "2026-07-23T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "주사위",
-      "prompt": "A single, perfectly rendered die, six-sided, showing the number 3 with dots, in a kawaii chibi illustration style with rounded shapes and a chroma key green background hex color #00B140. The subject fills 90% of the frame with minimal empty space, in a close-up composition. This is a single isolated subject only, with no background scene, no secondary objects, no composed scene, and no environment or setting. It features clean black outlines, vibrant saturated colors, and a hand-drawn feel reminiscent of professional Korean sticker art. No floor, no shadow, no ground element. Vibrant saturated colors, suitable for children's designs.",
-      "hashtags": "주사위,게임일러스트,게임아이콘,PNG,clipart,dice,gameelement,sticker,icon,미리캔버스",
-      "type": "steady"
-    },
-    {
-      "rank": 2,
       "keyword": "단풍잎",
-      "prompt": "A single, vibrantly colored maple leaf, showcasing rich autumnal reds and oranges, in a kawaii chibi illustration style with rounded shapes and a chroma key green background hex color #00B140. The subject fills 90% of the frame with minimal empty space, in a close-up composition. This is a single isolated subject only, with no background scene, no secondary objects, no composed scene, and no environment or setting. It features clean black outlines, vibrant saturated colors, and a hand-drawn feel reminiscent of professional Korean sticker art. No face, no eyes, no mouth. No floor, no shadow, no ground element. Vibrant saturated colors, suitable for children's designs.",
-      "hashtags": "단풍잎,가을일러스트,자연아이콘,PNG,clipart,mapleleaf,autumn,fall,sticker,icon",
+      "prompt": "single isolated subject, a vibrant red and orange maple leaf, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face, NO eyes, NO mouth on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, clean black outlines on all subjects, no floor, no shadow, no ground element, minimum 700x700px.",
+      "hashtags": "단풍잎, 가을, 나뭇잎, 일러스트, 아이콘, PNG, clipart, fall, maple leaf, illustration",
+      "type": "steady"
+    },
+    {
+      "rank": 2,
+      "keyword": "주사위",
+      "prompt": "single isolated subject, a single red six-sided die with white dots, kawaii chibi illustration style, rounded shapes, NO face, NO eyes, NO mouth on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, clean black outlines on all subjects, no floor, no shadow, no ground element, minimum 700x700px.",
+      "hashtags": "주사위, 게임, 도박, 일러스트, 아이콘, PNG, clipart, dice, game, illustration",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "선물상자",
-      "prompt": "A single, brightly wrapped gift box with a festive ribbon, in a kawaii chibi illustration style with rounded shapes and a chroma key green background hex color #00B140. The subject fills 90% of the frame with minimal empty space, in a close-up composition. This is a single isolated subject only, with no background scene, no secondary objects, no composed scene, and no environment or setting. It features clean black outlines, vibrant saturated colors, and a hand-drawn feel reminiscent of professional Korean sticker art. No face, no eyes, no mouth. No floor, no shadow, no ground element. Vibrant saturated colors, suitable for children's designs.",
-      "hashtags": "선물상자,이벤트일러스트,축하아이콘,PNG,clipart,giftbox,present,sticker,icon,celebration",
+      "keyword": "책",
+      "prompt": "single isolated subject, a single open book with blank pages, kawaii chibi illustration style, rounded shapes, NO face, NO eyes, NO mouth on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, clean black outlines on all subjects, no floor, no shadow, no ground element, minimum 700x700px.",
+      "hashtags": "책, 독서, 공부, 일러스트, 아이콘, PNG, clipart, book, study, illustration",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "기생충",
-      "prompt": "A single cute plump ant, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY, clean black outlines, vibrant saturated colors, professional Korean sticker art style, no floor, no shadow, no ground element",
-      "hashtags": "개미,ant,chibi,kawaii,cute,sticker,illustration,LINE sticker,korean sticker,emoji",
+      "keyword": "소금빵",
+      "prompt": "A single golden buttery salt bread roll, no face, filling 90% of frame. 2D flat illustration, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element.",
+      "hashtags": "소금빵, 빵, 베이커리, 사물, 음식, 일러스트, salt bread, bakery, food",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "관광객",
-      "prompt": "A single cute excited tourist holding a camera, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY, clean black outlines, vibrant saturated colors, professional Korean sticker art style, no floor, no shadow, no ground element",
-      "hashtags": "관광객,tourist,camera,chibi,kawaii,cute,sticker,illustration,LINE sticker,korean sticker",
+      "keyword": "강아지",
+      "prompt": "A single sitting puppy, cute round eyes, simple face expression, filling 90% of frame. 2D flat illustration, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element.",
+      "hashtags": "강아지, 반려동물, 동물, 캐릭터, 일러스트, puppy, dog, pet illustration",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "청계광장",
-      "prompt": "A single stylized fountain, kawaii chibi illustration style, rounded shapes, no face, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY, clean black outlines, vibrant saturated colors, professional Korean sticker art style, no floor, no shadow, no ground element",
-      "hashtags": "분수,fountain,chibi,kawaii,cute,sticker,illustration,LINE sticker,korean sticker,plaza",
+      "keyword": "물음표",
+      "prompt": "A single bold question mark icon, no face, simple shape, filling frame. 2D flat illustration, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element.",
+      "hashtags": "물음표, 아이콘, 기호, 질문, 심볼, 일러스트, question mark, icon, symbol",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "고우석",
-      "prompt": "A cute chibi baseball player in a dynamic pitching pose, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style, #00B140 chroma key green background, 1:1 square aspect ratio, close-up composition, single isolated subject, no floor, no shadow",
-      "hashtags": "야구선수, 투수, 스포츠, 일러스트, 치비, 귀여운, 캐릭터, PNG, 디자인, 한국",
+      "keyword": "성심당",
+      "prompt": "A single, isolated, freshly baked, golden-brown bread, shaped like a fluffy bun with a slight crack on top, showcasing a warm, inviting texture, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers.",
+      "hashtags": "빵, 베이커리, 제빵, 디저트, 맛있는, 귀여운, 일러스트, 스티커, PNG, Bakery, Bread, Cute, Illustration, Sticker, Food, Dessert, Delicious, PNG, KoreanSticker, Chibi",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "삼천당제약",
-      "prompt": "A stylized, cute pill capsule with a friendly expression, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style, #00B140 chroma key green background, 1:1 square aspect ratio, close-up composition, single isolated subject, no face, no floor, no shadow",
-      "hashtags": "의약품, 알약, 건강, 병원, 일러스트, 치비, 귀여운, 캐릭터, PNG, 디자인",
+      "keyword": "삼성 갤럭시",
+      "prompt": "A single, isolated, sleek, modern smartphone with a large, vibrant screen displaying a colorful app icon, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers.",
+      "hashtags": "스마트폰, 휴대폰, 전자기기, 통신, 기술, IT, 귀여운, 일러스트, 스티커, PNG, Smartphone, Phone, Gadget, Tech, Cute, Illustration, Sticker, PNG, KoreanSticker, Chibi",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "키미3",
-      "prompt": "A fluffy, cute three-eyed monster character with a gentle smile, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style, #00B140 chroma key green background, 1:1 square aspect ratio, close-up composition, single isolated subject, no floor, no shadow",
-      "hashtags": "괴물, 캐릭터, 상상, 일러스트, 치비, 귀여운, 3개눈, PNG, 디자인, 한국",
+      "keyword": "트럭",
+      "prompt": "A single, isolated, bright red toy truck with large, chunky wheels and a simplified, friendly design, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers.",
+      "hashtags": "트럭, 자동차, 운송, 장난감, 차량, 귀여운, 일러스트, 스티커, PNG, Truck, Car, Vehicle, Toy, Cute, Illustration, Sticker, PNG, KoreanSticker, Chibi",
       "type": "miri"
     }
   ]

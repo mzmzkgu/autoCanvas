@@ -245,23 +245,23 @@ const FALLBACK_DATA = {
     {
       type: 'steady',
       rank: 1,
-      keyword: '뛰어노는 아이',
-      prompt: '2D flat illustration style. Two kindergarten children playing and jumping outdoors joyfully. White background, clean outlines, no floor, no shadow, no ground element. Cute and bright colors, simple shapes.',
-      hashtags: '아이, 유치원생, 바깥활동, 어린이, 뛰어놀기, 여름, 야외, 귀여운, 일러스트, children outdoor play'
+      keyword: '액체괴물',
+      prompt: 'A single cute round liquid slime monster character, translucent gooey body, big friendly smiling eyes, no scary features. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Kawaii chibi style, bold black outline, pastel colors.',
+      hashtags: '액체괴물, 슬라임, 몬스터, 괴물, 캐릭터, 어린이, 유치원, 귀여운, slime monster, cute character'
     },
     {
       type: 'steady',
       rank: 2,
-      keyword: '수박',
-      prompt: '2D flat illustration style. A delicious-looking sliced watermelon, juicy and vibrant red inside. White background, clean outlines, no floor, no shadow, no ground element. Fresh summer fruit, cute and bright.',
-      hashtags: '수박, 여름과일, 과일, 여름, 달콤, 신선, 일러스트, 스티커, watermelon, summer fruit'
+      keyword: '꼬마유령',
+      prompt: 'A single tiny cute ghost character, round soft shape, big sparkly eyes, friendly smile, floating pose, no scary features. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Kawaii chibi style, bold black outline, pastel colors.',
+      hashtags: '꼬마유령, 유령, 몬스터, 캐릭터, 어린이, 할로윈, 귀여운, little ghost, cute monster'
     },
     {
       type: 'steady',
       rank: 3,
-      keyword: '해바라기',
-      prompt: '2D flat illustration style. A bright yellow sunflower in full bloom. White background, clean outlines, no floor, no shadow, no ground element. Cheerful summer flower, bold and simple design.',
-      hashtags: '해바라기, 꽃, 여름꽃, 노랑, 식물, 일러스트, 밝은, 스티커, sunflower, summer flower'
+      keyword: '뿔괴물',
+      prompt: 'A single small round monster character with two tiny cute horns, big friendly eyes, soft fuzzy body, no scary features. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Kawaii chibi style, bold black outline, pastel colors.',
+      hashtags: '뿔괴물, 몬스터, 괴물, 캐릭터, 어린이, 유치원, 귀여운, horned monster, cute creature'
     },
     {
       type: 'hot',
@@ -403,7 +403,7 @@ function renderAll(data) {
 
   // Group by type
   const groups = [
-    { type: 'steady', badge: 'badge-steady', label: '🌿 스테디셀러', desc: '계절에 맞는 꾸준한 수요 키워드', numCls: 'num-steady' },
+    { type: 'steady', badge: 'badge-steady', label: '👻 귀여운 몬스터', desc: '아이들이 좋아하는 캐릭터 스테디셀러', numCls: 'num-steady' },
     { type: 'hot',    badge: 'badge-hot',    label: '🔥 요즘 핫한 키워드', desc: 'SNS 트렌드 & 인스타 인기 키워드', numCls: 'num-hot' },
     { type: 'miri',   badge: 'badge-miri',   label: '🏆 미리캔버스 판매 TOP', desc: '미리캔버스 내 판매량 상위 키워드', numCls: 'num-miri' },
   ];

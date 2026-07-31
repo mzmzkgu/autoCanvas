@@ -1,12 +1,23 @@
 """
-miri_keywords.py v2
+miri_keywords.py v4
 ────────────────────
-변경사항:
-  - 저작권 있는 특정 인물/캐릭터 키워드 제외 필터 추가
-  - 배경색 white → 크로마키 그린 (#00B140) 으로 변경
-  - fallback 데이터를 클로드 추천 프롬프트 리스트 기반으로 교체
-  - JSON 저장 완료 메시지 명확화 (git push 오류와 구분)
-  - 계절별 스테디셀러 프롬프트 강화
+v3 → v4 변경사항 (핵심):
+  - ⚠️ 복합 테마/장면 조합 방식 폐기 → "단일 요소(single element)" 방식으로 전환
+    실사용 데이터 확인 결과: "개와고양이", "과학자", "프로그래머", "창고", "태양",
+    "지구", "대나무숲", "퍼즐", "물음표" 등 배경 없는 단일 피사체가 훨씬 잘 팔림.
+    반대로 "봄 벚꽃 청첩장 배경" 같은 복합 장면형은 실제로는 안 팔림.
+  - evergreen_categories(복합 테마 문장) → SINGLE_ELEMENT_CATEGORIES(단일 명사 리스트)로 교체
+  - 모든 Gemini 프롬프트에 "single isolated subject, no background scene,
+    no other elements, no composed scene" 규칙 강제 삽입
+  - 핫/트렌드 키워드도 "트렌드 단어 → 그릴 수 있는 단일 대상 하나로 변환" 지시 추가
+  - fallback 데이터 전부 단일 요소 스타일로 교체
+
+기존 유지사항 (v3와 동일):
+  - 저작권 있는 특정 인물/캐릭터 키워드 제외 필터
+  - 크로마키 그린(#00B140) 배경, 1:1 정사각형, 피사체 90% 구도
+  - 사물/식물/음식은 NO face, 동물/캐릭터는 표정 허용
+  - hand-drawn feel, NOT generic AI look
+  - git push --autostash 방식
 
 실행:
   python3 miri_keywords.py
@@ -18,7 +29,7 @@ cron (매일 12시):
   pip3 install requests beautifulsoup4 google-genai python-dotenv
 """
 
-import os, json, re, time, datetime, logging, pathlib
+import os, json, re, time, datetime, logging, pathlib, random
 import requests
 from bs4 import BeautifulSoup
 from google import genai
@@ -34,8 +45,19 @@ LOG_DIR     = BASE_DIR / "logs"
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY_HERE")
 GEMINI_MODEL   = "gemini-2.5-flash-lite"
 
-# 크로마키 그린 배경 (배경 제거 툴에서 매직완드로 제거하기 쉬운 색)
-BG_COLOR = "chroma key green background, hex color #00B140, 1:1 square aspect ratio"
+# 이미지 생성 공통 배경/스타일 설정
+BG_COLOR = (
+    "chroma key green background hex color #00B140, "
+    "1:1 square aspect ratio, "
+    "subject fills 90% of the frame with minimal empty space, close-up composition, "
+    "SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, "
+    "no composed scene, no environment/setting, just the one subject alone, "
+    "kawaii chibi illustration style, rounded shapes, big eyes, simple cute face allowed on characters and animals, "
+    "NO face only on inanimate objects like food/plants/objects, "
+    "hand-drawn feel with clean black outlines, "
+    "vibrant saturated colors, "
+    "professional Korean sticker art style similar to LINE stickers"
+)
 
 PROXIES = None
 
@@ -56,10 +78,83 @@ COPYRIGHT_FILTER = """
 ⚠️ 저작권 주의사항 (반드시 지킬 것):
 - 특정 실존 인물 이름 절대 사용 금지 (예: 손흥민, 아이유, 방탄소년단 등)
 - 저작권 있는 특정 캐릭터 절대 사용 금지 (예: 미키마우스, 피카츄, 도라에몽 등)
+- 특정 브랜드명 절대 사용 금지 (예: 에르메스, 나이키, 스타벅스 등)
 - 대신 일반적 묘사 사용:
   - 특정 인물 → "뛰어노는 어린이", "축구하는 남자아이" 등 일반 묘사
   - 특정 캐릭터 → "둥근 귀의 작은 생쥐", "노란 전기 동물" 등 일반 묘사
+  - 특정 브랜드 → "명품 핸드백", "운동화" 등 일반 묘사
 """
+
+# ── 이미지 프롬프트 공통 규칙 ──
+PROMPT_RULES = f"""
+이미지 프롬프트 규칙 (반드시 모두 포함):
+- ⭐ 반드시 "단일 피사체(single subject)" 하나만 그릴 것. 장면(scene)이나 배경 요소,
+  두 개 이상의 서로 다른 대상을 조합한 구도는 절대 금지 (단, 같은 종류 2마리 조합은 예외 허용:
+  예) 강아지+고양이처럼 실제로 잘 팔린 조합은 허용)
+- kawaii chibi illustration style, rounded shapes
+- {BG_COLOR}
+- clean black outlines on all subjects
+- no floor, no shadow, no ground element
+- 동물/사람 캐릭터: 귀여운 큰 눈, 단순한 얼굴 표정 허용
+- 사물/식물/음식: NO face, NO eyes, NO mouth
+- 밝고 채도 높은 색상, 어린이도 좋아할 스타일
+- LINE 스티커나 카카오 이모티콘 스타일 참고
+- 저작권 있는 특정 인물/캐릭터/브랜드 절대 사용 금지
+- 최소 700x700px 이상 퀄리티로 생성 가능한 디테일 수준
+"""
+
+# ═══════════════════════════════════════════════════
+# ★ 단일 요소 카테고리 풀 (복합 테마 대신 사용)
+#   실사용 데이터 기반: 동물/직업/자연물/건물/아이콘/사물/음식/탈것/게임요소
+# ═══════════════════════════════════════════════════
+SINGLE_ELEMENT_CATEGORIES = {
+    "동물": [
+        "강아지", "고양이", "토끼", "햄스터", "판다", "여우", "곰", "펭귄",
+        "부엉이", "다람쥐", "거북이", "물고기", "공룡", "호랑이", "사자", "강아지와 고양이",
+    ],
+    "직업_캐릭터": [
+        "과학자", "프로그래머", "의사", "간호사", "교사", "요리사", "소방관",
+        "경찰관", "우체부", "농부", "화가", "음악가", "운동선수", "택배기사",
+        "미용사", "약사", "회계사", "변호사",
+    ],
+    "자연_사물": [
+        "태양", "달", "구름", "무지개", "번개", "지구", "별", "산",
+        "나무", "대나무숲", "꽃", "단풍잎", "눈송이", "물방울",
+    ],
+    "건물_장소": [
+        "창고", "집", "학교", "병원", "카페", "도서관", "공장", "농장",
+    ],
+    "아이콘_기호": [
+        "물음표", "느낌표", "체크표시", "금지표시", "하트", "별표", "화살표",
+        "말풍선", "돋보기", "톱니바퀴", "자물쇠", "전구", "시계",
+    ],
+    "사물_도구": [
+        "우산", "가방", "책", "노트북", "커피잔", "안경", "카메라", "열쇠",
+        "선물상자", "편지봉투", "핸드폰", "가위", "연필",
+    ],
+    "음식": [
+        "케이크", "수박", "송편", "붕어빵", "떡볶이", "김밥", "라면",
+        "아이스크림", "커피", "빵", "과일바구니",
+    ],
+    "탈것": [
+        "자동차", "자전거", "비행기", "기차", "배", "오토바이",
+    ],
+    "퍼즐_게임요소": [
+        "퍼즐조각", "체스말", "주사위", "카드", "트로피", "메달",
+    ],
+}
+
+# ═══════════════════════════════════════════════════
+# ★ 스테디셀러 전용: 아이들이 좋아할 귀여운 몬스터 카테고리
+#   무섭지 않고 kawaii한 몬스터로 한정. 육아/교육 콘텐츠(포스터, 학습지,
+#   유치원 안내문 등)에 포인트 요소로 자주 쓰이는 타입 위주.
+# ═══════════════════════════════════════════════════
+CUTE_MONSTER_KEYWORDS = [
+    "액체괴물", "슬라임괴물", "꼬마유령", "눈알괴물", "뿔괴물", "털복숭이괴물",
+    "우주괴물", "물방울괴물", "뾰족이괴물", "동글이괴물", "도깨비", "꼬마드래곤",
+    "박쥐괴물", "마법사괴물", "구름괴물", "별괴물", "촉수괴물", "이빨괴물",
+    "젤리괴물", "안경쓴괴물", "왕관쓴괴물", "날개달린괴물", "알사탕괴물", "무지개괴물",
+]
 
 
 def gemini_ask(prompt: str) -> str:
@@ -76,7 +171,7 @@ def parse_json_response(text: str) -> list:
 
 
 # ═══════════════════════════════════════════════════
-# 1. 계절 판단
+# 1. 계절 판단 (유지)
 # ═══════════════════════════════════════════════════
 def get_season_context() -> dict:
     now = datetime.datetime.now()
@@ -89,7 +184,7 @@ def get_season_context() -> dict:
 
 
 # ═══════════════════════════════════════════════════
-# 2. Google Trends 수집 (②③ 공유)
+# 2. Google Trends 수집 + 필터링 (유지)
 # ═══════════════════════════════════════════════════
 def fetch_google_trends(limit: int = 20) -> list[dict]:
     """Google Trends 한국 일간 트렌드 RSS 수집"""
@@ -115,38 +210,53 @@ def fetch_google_trends(limit: int = 20) -> list[dict]:
         return []
 
 
+def filter_trends(trends: list[dict]) -> list[dict]:
+    """저작권/인물명/브랜드명/부정적 키워드 코드 레벨 필터링"""
+    exclude_patterns = [
+        r'에르메스|샤넬|루이비통|구찌|프라다|나이키|아디다스|스타벅스|맥도날드',  # 브랜드
+        r'청장|장관|대통령|국회|정부|경찰|검찰|법원|의원|국무',                   # 정치/공직
+        r'사망|사고|범죄|재판|수사|의혹|논란|충돌|폭행|피해|사건',               # 부정적 뉴스
+        r'선수|배우|가수|아이돌|감독|코치',                                        # 특정 인물 직함
+    ]
+    filtered = []
+    for t in trends:
+        kw = t['keyword']
+        excluded = any(re.search(p, kw) for p in exclude_patterns)
+        if not excluded:
+            filtered.append(t)
+    log.info(f"  필터링 후: {len(filtered)}/{len(trends)}개")
+    return filtered
+
+
 # ═══════════════════════════════════════════════════
-# 3. 스테디셀러 키워드 (Gemini + 계절 + 한국 이벤트)
+# 3. 스테디셀러 키워드 (★ 단일 요소 카테고리 기반으로 전면 교체)
 # ═══════════════════════════════════════════════════
 def get_steady_keywords(season_ctx: dict) -> list[dict]:
-    """계절/한국 이벤트 기반 스테디셀러 키워드 3개 생성"""
-    log.info("📌 스테디셀러 키워드 생성 중...")
+    """★ 귀여운 몬스터 카테고리에서 랜덤 3개 뽑아 프롬프트 생성 (아이들 타겟 스테디셀러)"""
+    log.info("📌 스테디셀러(귀여운 몬스터) 키워드 생성 중...")
 
-    m = season_ctx["month"]
-
-    # 월별 힌트 (클로드 추천 리스트 기반)
-    monthly_hint = {
-        1:  "새해, 설날, 새해 카운트다운, 연하장",
-        2:  "발렌타인데이, 겨울 감성, 눈꽃",
-        3:  "입학식, 새학기, 봄 시작, 벚꽃, 유치원/초등학교",
-        4:  "봄 결혼식, 웨딩 일러스트, 청첩장, 벚꽃",
-        5:  "어린이날, 어버이날, 스승의날, 가정의달",
-        6:  "우산, 수국, 장마, 현충일",
-        7:  "여름방학, 해변, 수박, 아이스크림, 수영",
-        8:  "여름방학, 피서, 해변, 열대과일, 선풍기",
-        9:  "추석, 송편, 보름달, 가을 정취, 코스모스",
-        10: "할로윈, 단풍, 가을 감성, 고구마",
-        11: "단풍, 낙엽, 가을 끝, 겨울 준비",
-        12: "크리스마스, 연말, 새해 카운트다운, 산타",
-    }.get(m, "계절 감성")
+    # 매일 다른 조합, 같은 날은 같은 결과 (시드 고정)
+    rnd = random.Random(datetime.datetime.now().strftime("%Y%m%d") + "_monster")
+    picked = rnd.sample(CUTE_MONSTER_KEYWORDS, 3)
+    picked_text = "\n".join([f"- {subj}" for subj in picked])
 
     prompt = f"""
-당신은 한국 디자인 플랫폼 '미리캔버스'에서 PNG 일러스트 스티커를 판매하는 전문가입니다.
-지금은 {season_ctx['year']}년 {season_ctx['month']}월 ({season_ctx['season']} 시즌)입니다.
+당신은 한국 디자인 플랫폼 '미리캔버스'에서 PNG 일러스트 요소(element)를 판매하는 전문가입니다.
 
-이달의 주요 테마: {monthly_hint}
+⭐ 스테디셀러 컨셉: "아이들이 좋아할 만한 귀여운 몬스터" 시리즈입니다.
+유치원/초등학교 안내문, 학습지, 육아 콘텐츠, 어린이 포스터 등에 포인트로
+붙여넣기 좋은 단일 몬스터 캐릭터를 만듭니다.
 
-위 테마를 참고해서 이 시기에 미리캔버스에서 꾸준히 잘 팔리는 일러스트 키워드 3개를 추천해주세요.
+⭐ 매우 중요: 무섭거나 징그러운 몬스터가 아니라, 동글동글하고 사랑스러운
+kawaii 스타일 몬스터여야 합니다 (픽사/지브리풍 귀여움, 공포/괴기 요소 절대 금지).
+그리고 실제 판매 데이터상 배경 없이 몬스터 "하나만" 있는 단일 요소 클립아트가
+장면형 이미지보다 훨씬 잘 팔립니다 (파포/포스터에 붙여쓰는 용도이기 때문).
+
+오늘 다룰 몬스터 3개 (아래 그대로 사용, 서로 합치거나 장면으로 만들지 말 것):
+{picked_text}
+
+각 항목에 대해 절대 배경 장면 없이, 그 몬스터 "하나만" 그리는 프롬프트를 작성해주세요.
+몸통 형태, 색상, 특징(뿔/눈/촉수 등)은 몬스터 이름에 어울리게 자유롭게 구체화해도 됩니다.
 
 {COPYRIGHT_FILTER}
 
@@ -154,23 +264,19 @@ def get_steady_keywords(season_ctx: dict) -> list[dict]:
 [
   {{
     "rank": 1,
-    "keyword": "키워드 (한국어)",
-    "prompt": "이미지 생성 프롬프트 (영어, 2D flat illustration, {BG_COLOR} 형식)",
+    "keyword": "키워드 (한국어, 몬스터 이름)",
+    "prompt": "이미지 생성 프롬프트 (영어, 단일 몬스터 캐릭터만)",
     "hashtags": "미리캔버스 태그 10개 (한국어+영어 혼용, 쉼표 구분)"
   }}
 ]
 
-이미지 프롬프트 규칙:
-- 2D flat illustration style 명시
-- {BG_COLOR} 포함
-- clean black outlines on all subjects 포함
-- no floor, no shadow, no ground element 포함
-- 귀엽고 밝은 색상, 심플한 디자인
-- 저작권 있는 특정 인물/캐릭터 절대 사용 금지
+{PROMPT_RULES}
+- 몬스터는 반드시 귀엽고 친근한 표정(웃는 눈, 동그란 눈 등)을 가질 것, 무서운 표정 금지
 
 해시태그 규칙:
 - 10개 이하, 한국어 7개 + 영어 3개 조합
-- 미리캔버스 검색 최적화 (프레임, 배너, 섬네일 등 플랫폼 키워드 활용)
+- "몬스터, 괴물, 캐릭터, 어린이, 유치원, 귀여운" 등 육아/교육 검색어 위주로 포함
+- 키워드 자체 + "일러스트/캐릭터/PNG/clipart" 조합도 포함
 """
 
     try:
@@ -178,7 +284,7 @@ def get_steady_keywords(season_ctx: dict) -> list[dict]:
         items = parse_json_response(text)
         for it in items:
             it["type"] = "steady"
-        log.info(f"  ✅ 스테디셀러 {len(items)}개 생성 완료")
+        log.info(f"  ✅ 스테디셀러(단일요소) {len(items)}개 생성 완료")
         return items
     except Exception as e:
         log.error(f"  ❌ 스테디셀러 생성 실패: {e}")
@@ -186,15 +292,15 @@ def get_steady_keywords(season_ctx: dict) -> list[dict]:
 
 
 # ═══════════════════════════════════════════════════
-# 4. 핫 키워드 (Google Trends → Gemini 선별)
+# 4. 핫 키워드 (★ 트렌드 단어 → 단일 대상으로 변환하도록 지시 추가)
 # ═══════════════════════════════════════════════════
 def get_hot_keywords(trends: list[dict]) -> list[dict]:
-    """Google Trends 실시간 데이터에서 핫 키워드 3개 선별"""
-    log.info("🔥 핫 키워드 생성 중...")
+    """Google Trends 실시간 데이터에서 '단일 대상으로 그릴 수 있는' 핫 키워드 3개 선별"""
+    log.info("🔥 핫 키워드(단일요소 변환) 생성 중...")
 
     trends_text = "\n".join([f"- {t['keyword']} ({t.get('traffic','?')} 검색)" for t in trends[:15]])
     if not trends_text:
-        trends_text = "- 소금빵\n- 감성캠핑\n- 레트로 디자인"
+        trends_text = "- 소금빵\n- 고양이\n- 우산"
 
     prompt = f"""
 한국의 요즘 인기 검색어 목록입니다:
@@ -202,27 +308,28 @@ def get_hot_keywords(trends: list[dict]) -> list[dict]:
 
 {COPYRIGHT_FILTER}
 
-이 중에서 미리캔버스 PNG 일러스트 스티커로 만들기 적합한 키워드 3개를 골라주세요.
-(추상적/정치적 키워드 제외, 사물/음식/자연 등 시각화 가능한 것 우선)
-(특정 인물명/캐릭터명이 트렌드에 있어도 반드시 제외)
+⭐ 매우 중요: 이 트렌드 키워드들을 그대로 쓰지 말고, 각 트렌드에서 연상되는
+"단일 사물/동물/음식/인물 캐릭터 하나"로 단순화해서 뽑아주세요.
+예) "소금빵 챌린지" 트렌드 → "소금빵" (빵 하나만 그림, 챌린지 장면 X)
+예) "제주도 여행" 트렌드 → "야자수" 또는 "여행가방" (여행 풍경 X, 단일 사물 O)
+
+이 중에서 미리캔버스 PNG 일러스트 요소로 만들기 적합한, 단일 대상으로 단순화 가능한
+키워드 3개를 골라주세요.
+(추상적/정치적 키워드 제외, 복합 장면으로만 표현 가능한 것도 제외)
+(특정 인물명/캐릭터명/브랜드명이 트렌드에 있어도 반드시 제외)
+(적합한 것이 없으면 현재 계절에 맞는 단일 사물/동물 키워드로 자유롭게 생성)
 
 각 항목에 대해 아래 형식으로 JSON 배열만 반환하세요 (마크다운 없이 순수 JSON):
 [
   {{
     "rank": 1,
-    "keyword": "키워드 (한국어)",
-    "prompt": "이미지 생성 프롬프트 (영어, 2D flat illustration, {BG_COLOR} 형식)",
+    "keyword": "키워드 (한국어, 단일 명사)",
+    "prompt": "이미지 생성 프롬프트 (영어, 단일 피사체만)",
     "hashtags": "미리캔버스 태그 10개 (한국어+영어 혼용, 쉼표 구분)"
   }}
 ]
 
-이미지 프롬프트 규칙:
-- 2D flat illustration style 명시
-- {BG_COLOR} 포함
-- clean black outlines on all subjects 포함
-- no floor, no shadow, no ground element 포함
-- 귀엽고 밝은 색상
-- 저작권 있는 특정 인물/캐릭터 절대 사용 금지
+{PROMPT_RULES}
 """
 
     try:
@@ -230,7 +337,7 @@ def get_hot_keywords(trends: list[dict]) -> list[dict]:
         items = parse_json_response(text)
         for it in items:
             it["type"] = "hot"
-        log.info(f"  ✅ 핫 키워드 {len(items)}개 생성 완료")
+        log.info(f"  ✅ 핫 키워드(단일요소) {len(items)}개 생성 완료")
         return items
     except Exception as e:
         log.error(f"  ❌ 핫 키워드 생성 실패: {e}")
@@ -238,16 +345,16 @@ def get_hot_keywords(trends: list[dict]) -> list[dict]:
 
 
 # ═══════════════════════════════════════════════════
-# 5. 트렌드 TOP (Google Trends → Gemini, 중복 제외)
+# 5. 트렌드 TOP (★ 동일하게 단일요소 변환 지시 추가, 중복 제외 유지)
 # ═══════════════════════════════════════════════════
 def get_miri_top_keywords(trends: list[dict], hot_keywords: list[dict]) -> list[dict]:
-    """Google Trends에서 핫 키워드와 중복 없는 TOP 3 선별"""
-    log.info("🏆 트렌드 TOP 키워드 생성 중...")
+    """Google Trends에서 핫 키워드와 중복 없는, 단일 대상 변환 가능한 TOP 3 선별"""
+    log.info("🏆 트렌드 TOP 키워드(단일요소 변환) 생성 중...")
 
     hot_kw_names = [it.get("keyword", "") for it in hot_keywords]
     trends_text = "\n".join([f"- {t['keyword']} ({t.get('traffic','?')} 검색)" for t in trends[:20]])
     if not trends_text:
-        trends_text = "- 수박\n- 바다\n- 아이스크림"
+        trends_text = "- 수박\n- 지구본\n- 자전거"
 
     already_picked = ", ".join(hot_kw_names) if hot_kw_names else "없음"
 
@@ -259,28 +366,26 @@ def get_miri_top_keywords(trends: list[dict], hot_keywords: list[dict]) -> list[
 
 {COPYRIGHT_FILTER}
 
-위 목록에서 미리캔버스 PNG 일러스트 스티커로 만들기 좋은 키워드 3개를 골라주세요.
+⭐ 매우 중요: 트렌드 키워드를 그대로 쓰지 말고, 연상되는 "단일 사물/동물/음식/인물 캐릭터 하나"로
+단순화해서 뽑아주세요. 복합 장면(예: "~하는 풍경", "~축제 현장")은 절대 금지, 오직 단일 대상만.
+
+위 목록에서 미리캔버스 PNG 일러스트 요소로 만들기 좋은, 단일 대상으로 변환 가능한 키워드
+3개를 골라주세요.
 - 이미 선택된 키워드와 절대 겹치지 않게 선택
-- 특정 인물명/캐릭터명 제외
-- 목록에 적합한 것이 부족하면 계절감 있는 일반 키워드로 자유롭게 채우기
+- 특정 인물명/캐릭터명/브랜드명 제외
+- 목록에 적합한 것이 부족하면 계절감 있는 단일 사물/동물 키워드로 자유롭게 채우기
 
 각 항목에 대해 아래 형식으로 JSON 배열만 반환하세요 (마크다운 없이 순수 JSON):
 [
   {{
     "rank": 1,
-    "keyword": "키워드 (한국어)",
-    "prompt": "이미지 생성 프롬프트 (영어, 2D flat illustration, {BG_COLOR} 형식)",
+    "keyword": "키워드 (한국어, 단일 명사)",
+    "prompt": "이미지 생성 프롬프트 (영어, 단일 피사체만)",
     "hashtags": "미리캔버스 태그 10개 (한국어+영어 혼용, 쉼표 구분)"
   }}
 ]
 
-이미지 프롬프트 규칙:
-- 2D flat illustration style 명시
-- {BG_COLOR} 포함
-- clean black outlines on all subjects 포함
-- no floor, no shadow, no ground element 포함
-- 귀엽고 밝은 색상
-- 저작권 있는 특정 인물/캐릭터 절대 사용 금지
+{PROMPT_RULES}
 """
 
     try:
@@ -288,7 +393,7 @@ def get_miri_top_keywords(trends: list[dict], hot_keywords: list[dict]) -> list[
         items = parse_json_response(text)
         for it in items:
             it["type"] = "miri"
-        log.info(f"  ✅ 트렌드 TOP {len(items)}개 생성 완료")
+        log.info(f"  ✅ 트렌드 TOP(단일요소) {len(items)}개 생성 완료")
         return items
     except Exception as e:
         log.error(f"  ❌ 트렌드 TOP 생성 실패: {e}")
@@ -296,7 +401,7 @@ def get_miri_top_keywords(trends: list[dict], hot_keywords: list[dict]) -> list[
 
 
 # ═══════════════════════════════════════════════════
-# 6. JSON 저장
+# 6. JSON 저장 (유지)
 # ═══════════════════════════════════════════════════
 def save_json(items: list) -> None:
     """keywords.json 저장 후 명확한 완료 메시지 출력"""
@@ -314,7 +419,6 @@ def save_json(items: list) -> None:
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    # git push 오류와 구분되도록 명확한 완료 메시지
     log.info("─" * 50)
     log.info(f"✅ JSON 저장 완료!")
     log.info(f"   파일: {OUTPUT_FILE}")
@@ -325,16 +429,16 @@ def save_json(items: list) -> None:
 
 
 # ═══════════════════════════════════════════════════
-# 7. Git Push (선택)
+# 7. Git Push (유지)
 # ═══════════════════════════════════════════════════
 def git_push() -> None:
+    """GitHub 자동 push (--autostash로 충돌 방지)"""
     import subprocess
     log.info("📤 GitHub push 시도 중...")
     try:
         subprocess.run(["git", "-C", str(BASE_DIR), "add", "data/keywords.json"], check=True)
         subprocess.run(["git", "-C", str(BASE_DIR), "commit", "-m",
                         f"auto: update keywords {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}"], check=True)
-        # stash 없이 바로 pull --rebase
         subprocess.run(["git", "-C", str(BASE_DIR), "pull", "--rebase", "--autostash", "origin", "main"], check=True)
         subprocess.run(["git", "-C", str(BASE_DIR), "push"], check=True)
         log.info("🚀 GitHub push 완료!")
@@ -343,139 +447,94 @@ def git_push() -> None:
 
 
 # ═══════════════════════════════════════════════════
-# Fallback 데이터 (클로드 추천 프롬프트 리스트 기반)
+# ★ Fallback 데이터 (전부 단일 요소 스타일로 교체)
+#   실제 잘 팔린 것들: 동물, 직업 캐릭터, 자연물, 건물, 아이콘 기반
 # ═══════════════════════════════════════════════════
 
-# 크로마키 배경 공통 suffix
-_BG = f"{BG_COLOR}, clean black outlines on all subjects, no floor, no shadow, no ground element"
+_BG = (
+    f"{BG_COLOR}, "
+    "clean black outlines on all subjects, "
+    "no floor, no shadow, no ground element"
+)
 
 def _fallback_steady(ctx: dict) -> list[dict]:
-    """Gemini 실패 시 월별 하드코딩 기본값 (클로드 추천 리스트 기반)"""
-    m = ctx["month"]
-    defaults = {
-        1: [  # 새해/설날
-            ("새해 풍경", f"New Year decorations with golden bell and star confetti. 2D flat illustration, {_BG}.", "새해, 설날, 연하장, 새해복, 황금, 별, 일러스트, New Year, celebration, confetti"),
-            ("설날 한복", f"Traditional Korean hanbok outfit in festive colors, cute chibi style. 2D flat illustration, {_BG}.", "설날, 한복, 전통, 명절, 귀여운, 한국, 일러스트, Hanbok, Korean traditional, holiday"),
-            ("복주머니", f"Traditional Korean lucky money pouch in red and gold. 2D flat illustration, {_BG}.", "복주머니, 세뱃돈, 설날, 행운, 빨강, 황금, 일러스트, lucky pouch, Korean New Year, fortune"),
-        ],
-        2: [  # 발렌타인
-            ("하트 초콜릿", f"Heart-shaped chocolate box with ribbon. 2D flat illustration, {_BG}.", "초콜릿, 발렌타인, 하트, 선물, 달콤, 사랑, 일러스트, chocolate, Valentine, heart"),
-            ("겨울 눈꽃", f"Delicate snowflake crystal pattern. 2D flat illustration, {_BG}.", "눈꽃, 겨울, 결정, 하얀, 크리스탈, 일러스트, snowflake, winter, crystal"),
-            ("따뜻한 코코아", f"Steaming hot cocoa mug with marshmallows. 2D flat illustration, {_BG}.", "코코아, 겨울음료, 마시멜로, 따뜻한, 머그컵, 일러스트, hot cocoa, winter drink, cozy"),
-        ],
-        3: [  # 입학/봄
-            ("입학 꽃다발", f"Colorful flower bouquet for school entrance ceremony, cheerful and bright. 2D flat illustration, {_BG}.", "입학, 꽃다발, 새학기, 봄, 화사한, 학교, 일러스트, school entrance, bouquet, spring"),
-            ("벚꽃", f"Pink cherry blossom branch with petals falling. 2D flat illustration, {_BG}.", "벚꽃, 봄, 분홍, 꽃잎, 나뭇가지, 화사한, 일러스트, cherry blossom, spring, pink"),
-            ("책가방", f"Cute colorful school backpack with stationery. 2D flat illustration, {_BG}.", "책가방, 새학기, 학교, 귀여운, 문구, 입학, 일러스트, school bag, backpack, stationery"),
-        ],
-        4: [  # 봄/웨딩
-            ("웨딩 부케", f"Elegant wedding bouquet with white roses and ribbons. 2D flat illustration, {_BG}.", "웨딩, 부케, 결혼, 장미, 흰색, 청첩장, 일러스트, wedding bouquet, bridal, roses"),
-            ("봄꽃 화환", f"Spring flower wreath with tulips and daisies. 2D flat illustration, {_BG}.", "봄꽃, 화환, 튤립, 데이지, 봄, 꽃, 일러스트, spring wreath, flower, tulip"),
-            ("나비", f"Colorful butterfly with detailed wing pattern. 2D flat illustration, {_BG}.", "나비, 봄, 날개, 화사한, 곤충, 자연, 일러스트, butterfly, spring, colorful wings"),
-        ],
-        5: [  # 가정의달
-            ("어린이날 풍선", f"Colorful balloons and confetti for children's day celebration. 2D flat illustration, {_BG}.", "어린이날, 풍선, 색종이, 파티, 축하, 오월, 일러스트, Children's Day, balloon, celebration"),
-            ("카네이션", f"Red and pink carnation flower for parents' day. 2D flat illustration, {_BG}.", "카네이션, 어버이날, 스승의날, 감사, 빨강, 분홍, 일러스트, carnation, Parents Day, gratitude"),
-            ("가족 피크닉 소품", f"Picnic basket with checkered blanket and fruits. 2D flat illustration, {_BG}.", "피크닉, 가족, 나들이, 바구니, 봄, 소풍, 일러스트, picnic, family, basket"),
-        ],
-        6: [  # 장마/우산
-            ("우산", f"Colorful rain umbrella with raindrops. 2D flat illustration, {_BG}.", "우산, 장마, 비, 여름, 색깔, 빗방울, 일러스트, umbrella, rainy season, colorful"),
-            ("수국", f"Blue and purple hydrangea flower cluster. 2D flat illustration, {_BG}.", "수국, 꽃, 파랑, 보라, 장마, 여름꽃, 일러스트, hydrangea, flower, purple blue"),
-            ("개구리", f"Cute green frog sitting on lily pad in rain. 2D flat illustration, {_BG}.", "개구리, 장마, 비, 귀여운, 초록, 연잎, 일러스트, frog, rain, cute green"),
-        ],
-        7: [  # 여름방학
-            ("수박", f"Fresh sliced watermelon with seeds, vibrant red and green. 2D flat illustration, {_BG}.", "수박, 여름, 과일, 빨강, 초록, 시원한, 일러스트, watermelon, summer fruit, fresh"),
-            ("아이스크림", f"Colorful ice cream cone with double scoop. 2D flat illustration, {_BG}.", "아이스크림, 여름, 콘, 달콤, 디저트, 파스텔, 일러스트, ice cream, summer, sweet"),
-            ("해바라기", f"Bright yellow sunflower in full bloom. 2D flat illustration, {_BG}.", "해바라기, 꽃, 노랑, 여름꽃, 밝은, 식물, 일러스트, sunflower, yellow, summer flower"),
-        ],
-        8: [  # 여름 피서
-            ("파도", f"Cute stylized ocean wave with foam and sparkles. 2D flat illustration, {_BG}.", "파도, 바다, 여름, 파란색, 시원한, 해양, 일러스트, wave, ocean, summer sea"),
-            ("튜브", f"Colorful inflatable swimming ring/tube. 2D flat illustration, {_BG}.", "튜브, 수영, 여름, 바다, 수영장, 파스텔, 일러스트, swim ring, summer, pool"),
-            ("열대과일", f"Tropical fruits collection: mango, pineapple, coconut. 2D flat illustration, {_BG}.", "열대과일, 망고, 파인애플, 코코넛, 여름, 과일, 일러스트, tropical fruit, mango, pineapple"),
-        ],
-        9: [  # 추석
-            ("송편", f"Traditional Korean rice cake songpyeon in various colors. 2D flat illustration, {_BG}.", "송편, 추석, 명절, 한국, 전통음식, 오색, 일러스트, songpyeon, Chuseok, Korean rice cake"),
-            ("보름달", f"Round full moon with soft golden glow and rabbit silhouette. 2D flat illustration, {_BG}.", "보름달, 추석, 달, 토끼, 황금, 가을, 일러스트, full moon, Chuseok, harvest moon"),
-            ("단풍", f"Colorful autumn maple leaves in red and orange. 2D flat illustration, {_BG}.", "단풍, 가을, 빨강, 주황, 낙엽, 나뭇잎, 일러스트, autumn leaf, maple, fall colors"),
-        ],
-        10: [  # 할로윈
-            ("호박 랜턴", f"Jack-o-lantern pumpkin with carved face and candle glow. 2D flat illustration, {_BG}.", "할로윈, 호박, 랜턴, 주황, 유령, 무서운, 일러스트, Halloween, pumpkin, jack-o-lantern"),
-            ("단풍나무", f"Autumn maple tree with colorful red and orange leaves. 2D flat illustration, {_BG}.", "단풍, 나무, 가을, 빨강, 주황, 노랑, 일러스트, maple tree, autumn, fall"),
-            ("도토리", f"Cute acorn with cap, autumn forest element. 2D flat illustration, {_BG}.", "도토리, 가을, 귀여운, 숲, 갈색, 자연, 일러스트, acorn, autumn, forest"),
-        ],
-        11: [  # 가을 끝
-            ("낙엽", f"Scattered autumn leaves in warm colors. 2D flat illustration, {_BG}.", "낙엽, 가을, 단풍, 낙엽놀이, 주황, 갈색, 일러스트, fallen leaves, autumn, warm colors"),
-            ("감", f"Ripe orange persimmon fruit with green stem. 2D flat illustration, {_BG}.", "감, 가을과일, 주황, 과일, 추석, 달콤, 일러스트, persimmon, autumn fruit, orange"),
-            ("코스모스", f"Pink and white cosmos flowers swaying gently. 2D flat illustration, {_BG}.", "코스모스, 꽃, 가을꽃, 분홍, 흰색, 들꽃, 일러스트, cosmos, autumn flower, pink"),
-        ],
-        12: [  # 크리스마스
-            ("크리스마스트리", f"Decorated Christmas tree with colorful ornaments, lights and star on top. 2D flat illustration, {_BG}.", "크리스마스, 트리, 산타, 겨울, 선물, 별, 일러스트, Christmas tree, holiday, xmas"),
-            ("눈사람", f"Cheerful snowman with red scarf and hat, button eyes. 2D flat illustration, {_BG}.", "눈사람, 겨울, 눈, 귀여운, 크리스마스, 스카프, 일러스트, snowman, winter, cute"),
-            ("선물 상자", f"Colorful wrapped gift boxes with ribbons and bows. 2D flat illustration, {_BG}.", "선물, 크리스마스, 리본, 상자, 빨강, 초록, 일러스트, gift box, Christmas present, ribbon"),
-        ],
-    }
+    """Gemini 실패 시 기본값 - 귀여운 몬스터 3종 (아이들 타겟 스테디셀러)"""
+    pool = [
+        ("액체괴물", f"A single cute round liquid slime monster character, translucent gooey body, big friendly smiling eyes, no scary features, filling 90% of frame. 2D flat illustration, {_BG}.",
+         "액체괴물, 슬라임, 몬스터, 괴물, 캐릭터, 어린이, 유치원, 귀여운, slime monster, cute character"),
+        ("꼬마유령", f"A single tiny cute ghost character, round soft shape, big sparkly eyes, friendly smile, floating pose, no scary features, filling 90% of frame. 2D flat illustration, {_BG}.",
+         "꼬마유령, 유령, 몬스터, 캐릭터, 어린이, 할로윈, 귀여운, little ghost, cute monster"),
+        ("뿔괴물", f"A single small round monster character with two tiny cute horns, big friendly eyes, soft fuzzy body, no scary features, filling 90% of frame. 2D flat illustration, {_BG}.",
+         "뿔괴물, 몬스터, 괴물, 캐릭터, 어린이, 유치원, 귀여운, horned monster, cute creature"),
+        ("눈알괴물", f"A single round fluffy monster character with one big cute cyclops eye, friendly smile, soft fur texture, no scary features, filling 90% of frame. 2D flat illustration, {_BG}.",
+         "눈알괴물, 몬스터, 괴물, 캐릭터, 어린이, 유치원, 귀여운, one eyed monster, cute character"),
+        ("우주괴물", f"A single small round alien monster character with antennae, big sparkly eyes, pastel purple body, friendly smile, no scary features, filling 90% of frame. 2D flat illustration, {_BG}.",
+         "우주괴물, 외계인, 몬스터, 캐릭터, 어린이, 유치원, 귀여운, space alien monster, cute character"),
+        ("도깨비", f"A single cute round Korean dokkaebi goblin character with a small horn, big friendly eyes, soft rounded body, no scary features, filling 90% of frame. 2D flat illustration, {_BG}.",
+         "도깨비, 몬스터, 괴물, 전래동화, 캐릭터, 어린이, 귀여운, dokkaebi, cute goblin character"),
+    ]
+    rnd = random.Random(ctx.get("month", 1))
+    picks = rnd.sample(pool, 3)
     items = []
-    for i, (kw, pt, ht) in enumerate(defaults.get(m, defaults[7])):
+    for i, (kw, pt, ht) in enumerate(picks):
         items.append({"rank": i+1, "keyword": kw, "prompt": pt, "hashtags": ht, "type": "steady"})
     return items
 
 
 def _fallback_hot() -> list[dict]:
-    """핫 키워드 생성 실패 시 기본값"""
+    """핫 키워드 생성 실패 시 기본값 - 단일 요소"""
     return [
-        {"rank":1,"keyword":"소금빵","prompt":f"Golden buttery salt bread roll, freshly baked and glossy. 2D flat illustration, {_BG}.","hashtags":"소금빵, 빵, 베이커리, 카페, 맛있는, 디저트, 일러스트, salt bread, bakery, butter bread","type":"hot"},
-        {"rank":2,"keyword":"감성 캠핑","prompt":f"Cozy camping lantern with warm glow, minimalist style. 2D flat illustration, {_BG}.","hashtags":"캠핑, 랜턴, 감성캠핑, 아웃도어, 자연, 여름캠핑, 일러스트, camping lantern, outdoor, cozy","type":"hot"},
-        {"rank":3,"keyword":"플래너 소품","prompt":f"Cute stationery items: notebook, pen, sticky notes, paper clips. 2D flat illustration, {_BG}.","hashtags":"플래너, 다이어리, 문구, 스티커, 귀여운, 공부, 일러스트, planner, stationery, diary","type":"hot"},
+        {"rank":1,"keyword":"소금빵","prompt":f"A single golden buttery salt bread roll, no face, filling 90% of frame. 2D flat illustration, {_BG}.","hashtags":"소금빵, 빵, 베이커리, 사물, 음식, 일러스트, salt bread, bakery, food","type":"hot"},
+        {"rank":2,"keyword":"강아지","prompt":f"A single sitting puppy, cute round eyes, simple face expression, filling 90% of frame. 2D flat illustration, {_BG}.","hashtags":"강아지, 반려동물, 동물, 캐릭터, 일러스트, puppy, dog, pet illustration","type":"hot"},
+        {"rank":3,"keyword":"물음표","prompt":f"A single bold question mark icon, no face, simple shape, filling frame. 2D flat illustration, {_BG}.","hashtags":"물음표, 아이콘, 기호, 질문, 심볼, 일러스트, question mark, icon, symbol","type":"hot"},
     ]
 
 
 def _fallback_miri() -> list[dict]:
-    """트렌드 TOP 생성 실패 시 기본값"""
+    """트렌드 TOP 생성 실패 시 기본값 - 단일 요소"""
     return [
-        {"rank":1,"keyword":"감성 카페","prompt":f"Cute coffee cup with latte art and steam. 2D flat illustration, {_BG}.","hashtags":"카페, 커피, 라떼, 감성, 음료, 카페인, 일러스트, cafe, coffee, latte art","type":"miri"},
-        {"rank":2,"keyword":"고양이","prompt":f"Cute sitting cat with simple round eyes and soft fur pattern. 2D flat illustration, {_BG}.","hashtags":"고양이, 귀여운, 반려동물, 캐릭터, 동물, 일러스트, cat, cute, pet illustration","type":"miri"},
-        {"rank":3,"keyword":"플래너 배경","prompt":f"Minimalist weekly planner layout elements with small decorative icons. 2D flat illustration, {_BG}.","hashtags":"플래너, 다이어리, 배경, 미니멀, 일정, 스케줄, 일러스트, planner background, weekly, minimal","type":"miri"},
+        {"rank":1,"keyword":"커피잔","prompt":f"A single coffee cup with latte art, no face, filling 90% of frame. 2D flat illustration, {_BG}.","hashtags":"커피, 카페, 컵, 음료, 사물, 일러스트, coffee cup, cafe, drink","type":"miri"},
+        {"rank":2,"keyword":"태양","prompt":f"A single stylized smiling sun with rays, filling 90% of frame. 2D flat illustration, {_BG}.","hashtags":"태양, 해, 날씨, 자연, 밝은, 일러스트, sun, weather, nature","type":"miri"},
+        {"rank":3,"keyword":"퍼즐조각","prompt":f"A single colorful puzzle piece, no face, filling frame. 2D flat illustration, {_BG}.","hashtags":"퍼즐, 조각, 게임, 협업, 사물, 일러스트, puzzle piece, game, object","type":"miri"},
     ]
 
 
 # ═══════════════════════════════════════════════════
-# MAIN
+# MAIN (유지)
 # ═══════════════════════════════════════════════════
 def run():
     log.info("=" * 50)
-    log.info("🚀 Miri Creator 키워드 수집 시작")
+    log.info("🚀 Miri Creator 키워드 수집 시작 (단일요소 v4)")
     log.info(f"   {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     log.info("=" * 50)
 
     season_ctx = get_season_context()
     log.info(f"🌍 현재 시즌: {season_ctx['season']} ({season_ctx['month']}월) {season_ctx['emoji']}")
 
-    # Google Trends 한 번만 수집 → ②③ 공유
+    # Google Trends 수집 + 코드 레벨 필터링
     trends = fetch_google_trends(limit=20)
+    trends = filter_trends(trends)
 
     all_items = []
 
-    # ① 스테디셀러
+    # ① 스테디셀러 (단일요소 카테고리 기반)
     steady = get_steady_keywords(season_ctx)
     all_items.extend(steady)
     time.sleep(2)
 
-    # ② 핫 키워드
+    # ② 핫 키워드 (트렌드 → 단일요소 변환)
     hot = get_hot_keywords(trends)
     all_items.extend(hot)
     time.sleep(2)
 
-    # ③ 트렌드 TOP (중복 제외)
+    # ③ 트렌드 TOP (중복 제외, 단일요소 변환)
     miri = get_miri_top_keywords(trends, hot)
     all_items.extend(miri)
 
     log.info(f"\n📊 수집 결과: 스테디 {len(steady)}개 / 핫 {len(hot)}개 / 트렌드TOP {len(miri)}개")
     log.info(f"   총 {len(all_items)}개 항목")
 
-    # JSON 저장 (명확한 완료 메시지 포함)
     save_json(all_items)
-
-    # Git push (HTTPS 토큰 설정 후 주석 해제)
     git_push()
 
     log.info("🎉 모든 작업 완료!\n")

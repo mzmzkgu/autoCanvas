@@ -1,68 +1,68 @@
 {
-  "updatedAt": "2026-08-11T12:00:27.042665",
-  "nextUpdateAt": "2026-08-12T12:00:00",
+  "updatedAt": "2026-08-12T12:00:29.300527",
+  "nextUpdateAt": "2026-08-13T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "액체괴물",
-      "prompt": "A single subject, a cute slime monster character, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face, vibrant saturated colors, hand-drawn feel with clean black outlines, no floor, no shadow, no ground element. The slime monster is translucent, jelly-like, with a bright cyan body, some small bubbles inside, and two tiny antenna-like protrusions on top. It has a wide, happy smile and big, sparkling eyes. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, professional Korean sticker art style similar to LINE stickers. Minimum 700x700px quality. No scary or grotesque elements, just pure cuteness.",
-      "hashtags": "액체괴물,슬라임,귀여운몬스터,어린이캐릭터,유치원,학습지,일러스트,clipart,cute monster,PNG",
+      "keyword": "박쥐괴물",
+      "prompt": "A single, adorable, rounded, chibi-style bat monster, isolated, on a chroma key green background (hex color #00B140). It has big, cute, sparkling eyes, a small, gentle smile, and short, stubby wings that look like soft fabric. Its body is plump and spherical, colored in a soft lavender or a gentle plum purple. It has two small, rounded ears on top of its head and tiny, non-threatening feet. The overall style is kawaii and friendly, with thick, clean black outlines. No floor, no shadow, no background scene, no other objects. Close-up composition, 1:1 square aspect ratio, subject fills 90% of the frame. Hand-drawn feel with vibrant saturated colors. Professional Korean sticker art style.",
+      "hashtags": "박쥐몬스터, 귀여운괴물, 캐릭터일러스트, 어린이그림, 유치원자료, 아동미술, PNG, clipart, cute monster, chibi illustration",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "이빨괴물",
-      "prompt": "A single subject, a cute tooth monster character, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face, vibrant saturated colors, hand-drawn feel with clean black outlines, no floor, no shadow, no ground element. The tooth monster is a bright white, rounded molar shape, with a single, oversized, friendly smile showing many small, blunt, rounded white teeth. It has two large, curious eyes and tiny, stubby arms. The overall impression is adorable and non-threatening. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, professional Korean sticker art style similar to LINE stickers. Minimum 700x700px quality. No scary or grotesque elements, just pure cuteness.",
-      "hashtags": "이빨괴물,치아캐릭터,어린이치과,귀여운캐릭터,유치원,그림,일러스트,monster,adorable,clipart",
+      "keyword": "물방울괴물",
+      "prompt": "A single, cute, plump, water droplet monster, isolated, on a chroma key green background (hex color #00B140). The monster is a clear, light cyan or aquamarine color, with a translucent, jelly-like texture. It has two large, round, friendly eyes with gentle pupils and a simple, happy smile. Its body is a perfect, smooth teardrop shape, with no sharp edges. Tiny, almost invisible feet are subtly suggested at the bottom. The style is extremely kawaii and rounded, with bold, clean black outlines. No floor, no shadow, no background scene, no other objects. Close-up composition, 1:1 square aspect ratio, subject fills 90% of the frame. Hand-drawn feel with vibrant saturated colors. Professional Korean sticker art style.",
+      "hashtags": "물방울괴물, 귀여운캐릭터, 어린이일러스트, 학습지그림, 스티커디자인, PNG, clipart, kawaii character, water droplet monster",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "꼬마드래곤",
-      "prompt": "A single subject, a cute baby dragon character, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face, vibrant saturated colors, hand-drawn feel with clean black outlines, no floor, no shadow, no ground element. The baby dragon has a round, chubby body, soft pastel green scales, small stubby wings, a short tail, and tiny, cute horns. It has a gentle, happy expression with its mouth slightly open in a cheerful smile and big, innocent eyes. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, professional Korean sticker art style similar to LINE stickers. Minimum 700x700px quality. No scary or grotesque elements, just pure cuteness.",
-      "hashtags": "꼬마드래곤,아기용,귀여운동물,캐릭터디자인,어린이그림,동화,일러스트,baby dragon,kawaii,PNG",
+      "keyword": "안경쓴괴물",
+      "prompt": "A single, charming, round-bodied monster wearing oversized, cute, circular glasses, isolated, on a chroma key green background (hex color #00B140). The monster has a soft, fuzzy texture, colored in a warm, friendly orange or a cheerful yellow. It has big, expressive, slightly surprised or curious eyes peeking through the round lenses of its thick-rimmed glasses. A small, innocent smile completes its face. It has short, stubby arms and legs that are also rounded. The overall aesthetic is extremely kawaii and huggable, with clear, solid black outlines. No floor, no shadow, no background scene, no other objects. Close-up composition, 1:1 square aspect ratio, subject fills 90% of the frame. Hand-drawn feel with vibrant saturated colors. Professional Korean sticker art style.",
+      "hashtags": "안경몬스터, 귀여운캐릭터, 괴물이미지, 교육자료, 어린이포스터, PNG, clipart, character sticker, funny monster",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "새",
-      "prompt": "a single cute bird, kawaii chibi illustration style, rounded shapes, big eyes, simple cute face, clean black outlines, vibrant saturated colors, professional Korean sticker art style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, no floor, no shadow, no ground element",
-      "hashtags": "새,bird,귀여운새,cute bird,일러스트,illustration,스티커,sticker,이모티콘,emoticon,동물,animal,캐릭터,character, chibi,카와이,kawaii,미리캔버스,mirae canvas",
+      "keyword": "말복",
+      "prompt": "A ripe, juicy watermelon slice, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element",
+      "hashtags": "여름,과일,수박,시원한,디저트,건강,음식,디자인,일러스트,summer,fruit,watermelon,refreshing,dessert,healthy,food,design,illustration,sticker",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "시계",
-      "prompt": "a single vintage alarm clock, kawaii chibi illustration style, rounded shapes, clean black outlines, vibrant saturated colors, professional Korean sticker art style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth",
-      "hashtags": "시계,clock,알람시계,alarm clock,빈티지시계,vintage clock,일러스트,illustration,스티커,sticker,이모티콘,emoticon,시간,time,오브젝트,object,단일,single,미리캔버스,mirae canvas",
+      "keyword": "국채",
+      "prompt": "A stack of gold coins, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element",
+      "hashtags": "돈,금,투자,재테크,부자,경제,금융,축복,행운,money,gold,investment,finance,rich,economy,blessing,fortune,sticker,illustration",
       "type": "hot"
     },
     {
       "rank": 3,
-      "prompt": "a single running shoe, kawaii chibi illustration style, rounded shapes, clean black outlines, vibrant saturated colors, professional Korean sticker art style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, no floor, no shadow, no ground element, NO face, NO eyes, NO mouth",
-      "keyword": "운동화",
-      "hashtags": "운동화,sneakers,신발,shoes,스포츠,sports,러닝화,running shoe,일러스트,illustration,스티커,sticker,이모티콘,emoticon,패션,fashion,오브젝트,object,단일,single,미리캔버스,mirae canvas",
+      "keyword": "국가장학금",
+      "prompt": "A graduation cap with a tassel, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY — no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element",
+      "hashtags": "졸업,학업,장학금,교육,성공,미래,꿈,행복,축하,graduation,study,scholarship,education,success,future,dream,happiness,congratulations,sticker",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "괴롭힘",
-      "prompt": "A single, distressed little cartoon character looking sad and lonely, kawaii chibi illustration style, rounded shapes, big sad eyes, simple cute face, clean black outlines, vibrant saturated colors, professional Korean sticker art style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY, no floor, no shadow, no ground element.",
-      "hashtags": "괴롭힘, 왕따, 슬픔, 외로움, 멘탈케어, empathy, support, anti-bullying, sticker, illustration",
+      "keyword": "팥빙수",
+      "prompt": "A single, isolated, perfectly formed red bean bingsu, representing the peak of summer's heat, in a clear glass bowl, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, no face, no eyes, no mouth, bright and highly saturated colors, 700x700px.",
+      "hashtags": "#팥빙수 #여름 #디저트 #빙수 #먹방 #귀여운 #일러스트 #스티커 #미리캔버스 #koreanfood",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "인터넷 속도",
-      "prompt": "A single, abstract representation of fast internet speed, depicted as a stylized lightning bolt icon with a playful, energetic vibe, kawaii chibi illustration style, rounded shapes, clean black outlines, vibrant saturated colors, professional Korean sticker art style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY, no floor, no shadow, no ground element.",
-      "hashtags": "인터넷, 속도, 와이파이, 연결, 빠름, internet, speed, wifi, connection, fast",
+      "keyword": "골프공",
+      "prompt": "A single, isolated, pristine white golf ball, symbolizing the drive and ambition of hitting a new record, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, no face, no eyes, no mouth, bright and highly saturated colors, 700x700px.",
+      "hashtags": "#골프 #스포츠 #운동 #타격 #공 #귀여운 #일러스트 #스티커 #미리캔버스 #golfball",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "울산과학대학교",
-      "prompt": "A single, stylized graduation cap with a playful, encouraging expression, kawaii chibi illustration style, rounded shapes, big cheerful eyes, simple cute face, clean black outlines, vibrant saturated colors, professional Korean sticker art style, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, SINGLE ISOLATED SUBJECT ONLY, no floor, no shadow, no ground element.",
-      "hashtags": "대학, 졸업, 꿈, 희망, 교육, university, graduation, dream, hope, education",
+      "keyword": "국화",
+      "prompt": "A single, isolated, vibrant yellow chrysanthemum flower, representing autumn's quiet beauty and solemnity, kawaii chibi illustration style, rounded shapes, chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, no background scene, no secondary objects, no composed scene, no environment/setting, just the one subject alone, big eyes, simple cute face allowed on characters and animals, NO face only on inanimate objects like food/plants/objects, hand-drawn feel with clean black outlines, vibrant saturated colors, professional Korean sticker art style similar to LINE stickers, clean black outlines on all subjects, no floor, no shadow, no ground element, no face, no eyes, no mouth, bright and highly saturated colors, 700x700px.",
+      "hashtags": "#국화 #가을 #꽃 #식물 #자연 #귀여운 #일러스트 #스티커 #미리캔버스 #chrysanthemum",
       "type": "miri"
     }
   ]

@@ -328,7 +328,10 @@ async function fetchData() {
   setStatus('loading', '데이터 불러오는 중...');
 
   try {
-    const res = await fetch(DATA_URL, {cache: 'no-cache'});
+    // raw.githubusercontent.com은 Fastly CDN을 거쳐 캐싱되므로(보통 5분 내외),
+    // 매 요청마다 다른 쿼리 파라미터를 붙여서 캐시를 강제로 우회함
+    const bustedUrl = DATA_URL + '?t=' + Date.now();
+    const res = await fetch(bustedUrl, {cache: 'no-store'});
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     currentData = data;

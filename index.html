@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>Miri Creator — 키워드 대시보드</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%23000000'/%3E%3Ctext x='32' y='30' font-family='Outfit, Arial, sans-serif' font-size='20' font-weight='700' fill='%23ffffff' text-anchor='middle'%3EM%3C/text%3E%3Ctext x='32' y='47' font-family='Outfit, Arial, sans-serif' font-size='15' font-weight='700' fill='%23ffffff' text-anchor='middle'%3EAuto%3C/text%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -16,6 +15,7 @@
   --warn:#ffaa22;--warn-glow:rgba(255,170,34,.12);
   --hot:#ff6b9d;--hot-glow:rgba(255,107,157,.12);
   --miri:#7c6ef7;--miri-glow:rgba(124,110,247,.12);
+  --sticker:#ffcc4d;--sticker-glow:rgba(255,204,77,.12);
   --radius:12px;--radius-sm:7px;
 }
 html,body{min-height:100%;font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text)}
@@ -64,6 +64,7 @@ main{max-width:760px;margin:0 auto;padding:20px 14px;display:flex;flex-direction
 .badge-steady{color:var(--accent);border-color:rgba(0,229,160,.35);background:var(--accent-glow)}
 .badge-hot{color:var(--hot);border-color:rgba(255,107,157,.35);background:var(--hot-glow)}
 .badge-miri{color:var(--miri);border-color:rgba(124,110,247,.35);background:var(--miri-glow)}
+.badge-sticker{color:var(--sticker);border-color:rgba(255,204,77,.35);background:var(--sticker-glow)}
 .section-desc{font-size:12px;color:var(--text-muted);line-height:1.4}
 
 /* ── CARD ── */
@@ -90,6 +91,7 @@ main{max-width:760px;margin:0 auto;padding:20px 14px;display:flex;flex-direction
 .num-steady{background:var(--accent-glow);color:var(--accent)}
 .num-hot{background:var(--hot-glow);color:var(--hot)}
 .num-miri{background:var(--miri-glow);color:var(--miri)}
+.num-sticker{background:var(--sticker-glow);color:var(--sticker)}
 
 .keyword-tag{
   display:inline-flex;align-items:center;gap:4px;
@@ -305,6 +307,27 @@ const FALLBACK_DATA = {
       keyword: '공룡화석',
       prompt: 'A single museum dinosaur fossil bone display, no face. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Kawaii chibi style, bold black outline, pastel colors.',
       hashtags: '공룡화석, 박물관, 체험학습, 전시, 공룡, 교육, 일러스트, dinosaur fossil, museum, education'
+    },
+    {
+      type: 'sticker',
+      rank: 1,
+      keyword: '동물칭찬별스티커모음',
+      prompt: 'A grid sheet of about 35 star-shaped stickers arranged neatly in rows on a white background. Each star sticker has a bold black outline and a mint-green dashed cut-line around it. Mix of cute kawaii chibi animals (bear, rabbit, chick, dinosaur, cat, fox) inside some stars, and short Korean praise text ("잘했어", "최고", "참 잘했어요", "응원해!", "대단해") inside other stars. Varied pastel background colors per sticker (yellow, pink, purple, sky blue, green, orange). Clean flat 2D illustration, high resolution print-ready quality, professional Korean sticker sheet style similar to teacher reward stickers.',
+      hashtags: '칭찬스티커, 보상스티커, 유치원, 초등학교, 담임선생님, 스티커모음, 별스티커, praise sticker, reward sticker, kids sticker'
+    },
+    {
+      type: 'sticker',
+      rank: 2,
+      keyword: '동물격려하트스티커모음',
+      prompt: 'A grid sheet of about 35 heart-shaped stickers arranged neatly in rows on a white background. Each heart sticker has a bold black outline and a mint-green dashed cut-line around it. Mix of cute kawaii chibi animals (puppy, koala, chick, cat) inside some hearts, and short Korean encouragement text ("힘내", "할 수 있어", "멋져", "굿잡", "파이팅") inside other hearts. Varied pastel background colors per sticker. Clean flat 2D illustration, high resolution print-ready quality, professional Korean sticker sheet style.',
+      hashtags: '격려스티커, 응원스티커, 하트스티커, 유치원, 초등학교, 스티커모음, encouragement sticker, heart sticker, kids sticker'
+    },
+    {
+      type: 'sticker',
+      rank: 3,
+      keyword: '생활습관보상스티커모음',
+      prompt: 'A grid sheet of about 35 rounded-square stickers arranged neatly in rows on a white background. Each sticker has a bold black outline and a mint-green dashed cut-line around it. Mix of cute kawaii chibi icons (toothbrush, folded clothes, handwashing, tidy desk) inside some stickers, and short Korean habit text ("정리정돈", "손씻기 완료", "양치 완료", "약속 지킴") inside other stickers. Varied pastel background colors per sticker. Clean flat 2D illustration, high resolution print-ready quality, professional Korean sticker sheet style.',
+      hashtags: '생활습관스티커, 보상스티커, 유치원, 초등학교, 담임선생님, 스티커모음, habit sticker, reward sticker, kids sticker'
     }
   ]
 };
@@ -410,6 +433,7 @@ function renderAll(data) {
     { type: 'steady', badge: 'badge-steady', label: '👻 귀여운 몬스터', desc: '아이들이 좋아하는 캐릭터 스테디셀러', numCls: 'num-steady' },
     { type: 'hot',    badge: 'badge-hot',    label: '🔥 요즘 핫한 키워드', desc: 'SNS 트렌드 & 인스타 인기 키워드', numCls: 'num-hot' },
     { type: 'miri',   badge: 'badge-miri',   label: '🏫 아이들 많이 쓰는 키워드', desc: '어린이집·유치원·학교·키즈카페·박물관 실사용 요소', numCls: 'num-miri' },
+    { type: 'sticker', badge: 'badge-sticker', label: '🌟 칭찬·보상 스티커 모음', desc: '유치원생·초등학생에게 주기 좋은 스티커 시트', numCls: 'num-sticker' },
   ];
 
   groups.forEach(g => {

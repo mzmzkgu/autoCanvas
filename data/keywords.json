@@ -1,110 +1,110 @@
 {
-  "updatedAt": "2026-09-06T12:00:36.776689",
-  "nextUpdateAt": "2026-09-07T12:00:00",
+  "updatedAt": "2026-09-07T12:00:39.623541",
+  "nextUpdateAt": "2026-09-08T12:00:00",
   "items": [
     {
       "rank": 1,
       "keyword": "안경쓴괴물",
-      "prompt": "A single, friendly, round-bodied monster with large, clear glasses, wearing a subtle, gentle smile and wide, curious eyes. The monster is a soft, cheerful blue color with two short, stubby horns on its head. Clean bold outlines, minimalist flat vector illustration style, on a solid chroma key green background (#00B140), 1:1 square aspect ratio, close-up composition filling 90% of the frame.",
-      "hashtags": "몬스터,괴물,안경,캐릭터,어린이,유치원,귀여운,monster,character,clipart",
+      "prompt": "A single friendly, round-bodied monster wearing large, circular glasses. The monster has a soft, purple body with two small, stubby arms and two short legs. Its eyes are peeking out from behind the glasses with a gentle, curious expression. The overall style is clean, modern flat vector illustration with bold outlines, on a solid #00B140 chroma key green background, 1:1 square aspect ratio, isolated subject filling 90% of the frame.",
+      "hashtags": "안경괴물,몬스터일러스트,귀여운캐릭터,유아교육,어린이일러스트,플랫디자인,monster,cute character,illustration,clipart",
       "type": "steady"
     },
     {
       "rank": 2,
-      "keyword": "촉수괴물",
-      "prompt": "A single, adorable, blob-like monster with a playful, welcoming expression, featuring three short, thick, and slightly wavy tentacles at its base instead of legs. The monster is a vibrant, friendly orange color. Its eyes are simple, round dots, and it has a small, cheerful smile. Clean bold outlines, minimalist flat vector illustration style, on a solid chroma key green background (#00B140), 1:1 square aspect ratio, close-up composition filling 90% of the frame.",
-      "hashtags": "몬스터,괴물,촉수,캐릭터,어린이,학습지,귀여운,monster,tentacle,illustration",
+      "keyword": "젤리괴물",
+      "prompt": "A single, translucent, jelly-like monster with a squishy, amorphous shape. The monster has a vibrant, light blue color with a slightly wobbly texture. It has two big, round, friendly eyes and a small, simple smile. The form is rounded and soft, giving a huggable impression. Clean, modern flat vector illustration style with bold outlines, on a solid #00B140 chroma key green background, 1:1 square aspect ratio, isolated subject filling 90% of the frame.",
+      "hashtags": "젤리괴물,말랑이,캐릭터디자인,어린이포스터,육아템,아이콘,jelly monster,kids illustration,png,character",
       "type": "steady"
     },
     {
       "rank": 3,
-      "keyword": "물방울괴물",
-      "prompt": "A single, charming, water-drop shaped monster with a smooth, transparent-looking light purple body and a single, large, friendly, round eye with a subtle happy expression. It has a gentle, upward curve for a mouth. Clean bold outlines, minimalist flat vector illustration style, on a solid chroma key green background (#00B140), 1:1 square aspect ratio, close-up composition filling 90% of the frame.",
-      "hashtags": "몬스터,괴물,물방울,캐릭터,귀여운,수채화,일러스트,monster,waterdrop,png",
+      "keyword": "액체괴물",
+      "prompt": "A single, flowing, liquid-like monster with a smooth, amorphous form. The monster is a cheerful, bright green color, with gentle curves and a slightly viscous appearance. It has simple, large, round black eyes and a wide, happy smile. The shape suggests it can easily change form but is depicted in a stable, friendly pose. Clean, modern flat vector illustration style with bold outlines, on a solid #00B140 chroma key green background, 1:1 square aspect ratio, isolated subject filling 90% of the frame.",
+      "hashtags": "액체괴물,슬라임,괴물이미지,친근한캐릭터,학습지,벡터아트,slime monster,monster illustration,vector art,clipart",
       "type": "steady"
     },
     {
       "rank": 1,
-      "keyword": "축구공",
-      "prompt": "A minimalist flat vector illustration of a soccer ball, on a solid chroma key green (#00B140) background. The ball is centrally placed, filling 90% of the 1:1 square frame. Clean bold outlines, simple and clear design suitable for business presentations. No text, numbers, or shadows. The ball has clean, smooth shapes and vibrant, tasteful colors, with no facial features.",
-      "hashtags": "축구공, Soccer ball, 스포츠, Sports, 운동, Exercise, 공, Ball, 일러스트, Illustration, PNG, 아이콘, Icon, 그래픽, Graphic, 단색, Solid color, 벡터, Vector",
+      "keyword": "야자수",
+      "prompt": "A single palm tree, minimal flat design, clean vector art style, isolated on a solid #00B140 chroma key green background, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, clean bold outlines, vibrant but tasteful colors, suitable for business presentations.",
+      "hashtags": "야자수,tropical tree,vector illustration,flat design,icon,minimalist,green background,presentation graphic,single object,green",
       "type": "hot"
     },
     {
       "rank": 2,
-      "keyword": "테니스공",
-      "prompt": "A minimalist flat vector illustration of a tennis ball, on a solid chroma key green (#00B140) background. The ball is centrally placed, filling 90% of the 1:1 square frame. Clean bold outlines, simple and clear design suitable for business presentations. No text, numbers, or shadows. The ball has clean, smooth shapes and vibrant, tasteful colors, with no facial features.",
-      "hashtags": "테니스공, Tennis ball, 스포츠, Sports, 운동, Exercise, 공, Ball, 일러스트, Illustration, PNG, 아이콘, Icon, 그래픽, Graphic, 단색, Solid color, 벡터, Vector",
+      "keyword": "공",
+      "prompt": "A single sports ball, minimal flat design, clean vector art style, isolated on a solid #00B140 chroma key green background, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, clean bold outlines, vibrant but tasteful colors, suitable for business presentations.",
+      "hashtags": "스포츠공,ball,vector art,flat illustration,icon,minimal,green screen,presentation asset,single subject,sports",
       "type": "hot"
     },
     {
       "rank": 3,
-      "keyword": "꽃",
-      "prompt": "A minimalist flat vector illustration of a single stylized flower, on a solid chroma key green (#00B140) background. The flower is centrally placed, filling 90% of the 1:1 square frame. Clean bold outlines, simple and clear design suitable for business presentations. No text, numbers, or shadows. The flower has clean, smooth shapes and vibrant, tasteful colors, with no facial features.",
-      "hashtags": "꽃, Flower, 식물, Plant, 자연, Nature, 일러스트, Illustration, PNG, 아이콘, Icon, 그래픽, Graphic, 단색, Solid color, 벡터, Vector, 봄, Spring",
+      "keyword": "운동화",
+      "prompt": "A single athletic shoe, minimal flat design, clean vector art style, isolated on a solid #00B140 chroma key green background, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, clean bold outlines, vibrant but tasteful colors, suitable for business presentations.",
+      "hashtags": "운동화,sneaker,running shoe,vector graphic,flat icon,minimal design,chroma key,presentation element,single item,footwear",
       "type": "hot"
     },
     {
       "rank": 1,
-      "keyword": "리코더",
-      "prompt": "A minimalist flat vector illustration of a recorder, isolated on a solid chroma key green background (#00B140), 1:1 square aspect ratio, subject fills 90% of the frame, close-up composition, clean modern flat vector art style, smooth clean shapes, friendly and approachable, clean bold outlines, vibrant but tasteful colors, professional stock-illustration style, no text, no letters, no numbers.",
-      "hashtags": "리코더,음악,악기,학교,초등학교,음악시간,교육,music,instrument,school",
+      "keyword": "손 씻기",
+      "prompt": "Minimal flat vector icon of a hand being washed under running water, in a clean, modern, isolated style. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, single isolated subject only. Clean bold outlines.",
+      "hashtags": "손씻기,위생,안내,아이콘,일러스트,생활습관,washhands,hygiene,icon",
       "type": "miri"
     },
     {
       "rank": 2,
-      "keyword": "장화",
-      "prompt": "A minimalist flat vector illustration of a pair of rain boots (wellies), isolated on a solid chroma key green background (#00B140), 1:1 square aspect ratio, subject fills 90% of the frame, close-up composition, clean modern flat vector art style, smooth clean shapes, friendly and approachable, clean bold outlines, vibrant but tasteful colors, professional stock-illustration style, no text, no letters, no numbers.",
-      "hashtags": "장화,비오는날,우산,어린이집,유치원,등원룩,날씨,rainboots,kidswear,kindergarten",
+      "keyword": "지구본",
+      "prompt": "Minimal flat vector icon of a simple globe showing continents, in a clean, modern, isolated style. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, single isolated subject only. Clean bold outlines.",
+      "hashtags": "지구본,세계,학습,교육,박물관,아이콘,일러스트,globe,education,icon",
       "type": "miri"
     },
     {
       "rank": 3,
-      "keyword": "풍선",
-      "prompt": "A minimalist flat vector illustration of a bunch of colorful balloons, isolated on a solid chroma key green background (#00B140), 1:1 square aspect ratio, subject fills 90% of the frame, close-up composition, clean modern flat vector art style, smooth clean shapes, friendly and approachable, clean bold outlines, vibrant but tasteful colors, professional stock-illustration style, no text, no letters, no numbers.",
-      "hashtags": "풍선,파티,생일,이벤트,키즈카페,축하,장식,balloons,party,kids",
+      "keyword": "낮잠 이불",
+      "prompt": "Minimal flat vector icon of a rolled-up nap blanket, in a clean, modern, isolated style. Chroma key green background hex color #00B140, 1:1 square aspect ratio, subject fills 90% of the frame with minimal empty space, close-up composition, single isolated subject only. Clean bold outlines.",
+      "hashtags": "낮잠이불,어린이집,유치원,생활,준비물,아이콘,일러스트,napblanket,kindergarten,icon",
       "type": "miri"
     },
     {
       "rank": 1,
-      "keyword": "귀여운 동물보상구름스티커모음",
-      "prompt": "A sticker sheet compilation of approximately 30-40 mini stickers arranged in a dense grid format. Each sticker is shaped like a cloud. Inside each cloud-shaped sticker, there are cute animal characters. These animals are depicted receiving rewards, represented by symbols such as trophies, gold medals, and crowns. All symbols are purely illustrative, with absolutely no text, letters, or numbers. Each sticker has a thick black outline and a mint green dotted cutting line. The inner background color of each sticker varies across a palette of pastel yellow, pink, purple, and orange. The overall image is a 1:1 square aspect ratio, with the grid of stickers filling the frame almost to the edges, minimizing outer margins. The style is modern, clean flat vector illustration with natural proportions and subtle expressions, using bright, saturated colors. The background of the entire sticker sheet, including the spaces between stickers, is a solid chroma key green (#00B140). High resolution, suitable for printing, no copyrighted characters or brands. Absolutely no text or numbers on any sticker.",
-      "hashtags": "칭찬스티커, 보상스티커, 유치원, 초등학교, 선생님선물, 스티커팩, kidsrewards, animalstickers, cuteillustrations, sticker sheet",
+      "keyword": "공룡하트 격려 스티커모음",
+      "prompt": "A 1:1 square sticker sheet, densely packed with approximately 30-40 mini stickers arranged in a neat grid, filling the frame with minimal outer margin. Each sticker is heart-shaped and features a cute dinosaur character inside, alongside encouraging graphic symbols like a rainbow, a clenched fist in a 'fighting' pose, or a cheering flag. Absolutely no text, numbers, or letters are present on any sticker; only pure pictorial elements. The outline of each sticker is a bold black line, with a mint green dashed cut line around it. The inner background of each sticker displays a variety of pastel colors (excluding green/mint), such as yellow, pink, purple, and orange. The overall style is a modern, clean flat vector illustration with natural proportions and subtle expressions, using bright and saturated colors. The entire sticker sheet, including the grid and spaces between stickers, is set against a chroma key green background (#00B140). High resolution, at least 1200x1200px, suitable for printing.",
+      "hashtags": "칭찬스티커, 보상스티커, 유치원, 초등학교, 캐릭터스티커, 다꾸, 스티커모음, dinosaursticker, preschool, kindergarten",
       "type": "sticker"
     },
     {
       "rank": 2,
-      "keyword": "바다생물격려구름스티커모음",
-      "prompt": "A sticker sheet compilation of approximately 30-40 mini stickers arranged in a dense grid format. Each sticker is shaped like a cloud. Inside each cloud-shaped sticker, there are cute sea creature characters. These creatures are depicted in encouraging situations, represented by symbols such as rainbows, fists in a 'fighting' pose, and small cheering flags. All symbols are purely illustrative, with absolutely no text, letters, or numbers. Each sticker has a thick black outline and a mint green dotted cutting line. The inner background color of each sticker varies across a palette of pastel yellow, pink, purple, and orange. The overall image is a 1:1 square aspect ratio, with the grid of stickers filling the frame almost to the edges, minimizing outer margins. The style is modern, clean flat vector illustration with natural proportions and subtle expressions, using bright, saturated colors. The background of the entire sticker sheet, including the spaces between stickers, is a solid chroma key green (#00B140). High resolution, suitable for printing, no copyrighted characters or brands. Absolutely no text or numbers on any sticker.",
-      "hashtags": "격려스티커, 응원스티커, 어린이선물, 아이스크림, 파이팅, 스티커아트, encouragementstickers, oceanlife, stickerart, printable stickers",
+      "keyword": "우주구름 칭찬 스티커모음",
+      "prompt": "A 1:1 square sticker sheet, tightly filled with around 30-40 mini stickers organized in a precise grid, with very little border space. Each sticker is cloud-shaped and contains a charming space-themed character along with praise symbols such as a thumbs-up hand, sparkling stars, or a smiling face stamp. No textual elements, characters, or numbers are allowed on any sticker; all meaning is conveyed through graphics only. Each sticker has a thick black outline and a mint green dotted cutting line. The internal backgrounds of the stickers are a diverse mix of pastel shades like yellow, pink, purple, and orange (no green/mint tones for inner backgrounds). The art style is modern, minimalist flat vector illustration with realistic proportions and gentle expressions, employing vibrant and saturated colors. The entire composition, including the stickers and their arrangement, rests on a chroma key green (#00B140) background. High resolution, minimum 1200x1200px, for clear printing.",
+      "hashtags": "칭찬스티커, 보상스티커, 유치원, 초등학교, 우주스티커, 캐릭터스티커, 스티커판매, spacesticker, rewardsticker, kids",
       "type": "sticker"
     },
     {
       "rank": 3,
-      "keyword": "공룡칭찬구름스티커모음",
-      "prompt": "A sticker sheet compilation of approximately 30-40 mini stickers arranged in a dense grid format. Each sticker is shaped like a cloud. Inside each cloud-shaped sticker, there are cute dinosaur characters. These dinosaurs are depicted receiving praise, represented by symbols such as thumbs-up hand gestures, sparkling stars, and smiling face stamps. All symbols are purely illustrative, with absolutely no text, letters, or numbers. Each sticker has a thick black outline and a mint green dotted cutting line. The inner background color of each sticker varies across a palette of pastel yellow, pink, purple, and orange. The overall image is a 1:1 square aspect ratio, with the grid of stickers filling the frame almost to the edges, minimizing outer margins. The style is modern, clean flat vector illustration with natural proportions and subtle expressions, using bright, saturated colors. The background of the entire sticker sheet, including the spaces between stickers, is a solid chroma key green (#00B140). High resolution, suitable for printing, no copyrighted characters or brands. Absolutely no text or numbers on any sticker.",
-      "hashtags": "칭찬스티커, 공룡스티커, 어린이보상, 유치원선물, 초등학생, 스티커디자인, dinosaurstickers, praise stickers, kidsrewards, welldeserved",
+      "keyword": "공룡하트 생활습관 스티커",
+      "prompt": "A 1:1 square sticker sheet, densely populated with approximately 30-40 small stickers arranged in a uniform grid, maximizing the use of the frame with minimal outer margins. Each sticker is heart-shaped and showcases a cute dinosaur character, complemented by graphic symbols representing good habits, such as a sparkling toothbrush, a clean hand icon, or an organized box. It is strictly prohibited to include any text, letters, or numbers on the stickers; communication must be purely visual. Every sticker features a prominent black outline and a mint green dashed cutting line. The interior of each sticker is colored with a varied palette of pastel tones including yellow, pink, purple, and orange (avoiding green/mint as inner backgrounds). The aesthetic is a modern, clean flat vector illustration with natural proportions and subtle expressions, utilizing bright, saturated colors. The entire arrangement of stickers on the chroma key green (#00B140) background is presented as a complete sheet. High resolution, at least 1200x1200px, ensuring sharp print quality.",
+      "hashtags": "칭찬스티커, 보상스티커, 생활습관, 유치원, 초등학교, 캐릭터스티커, 스티커모음, habitsticker, dinosaursticker, children",
       "type": "sticker"
     },
     {
       "rank": 1,
-      "keyword": "반도체칩",
-      "prompt": "Minimal flat design icon of a semiconductor chip, on a solid chroma key green background (#00B140), 1:1 square aspect ratio, the subject fills 90% of the frame with minimal empty space, close-up composition, single isolated subject only, clean modern flat vector illustration style, semi-simplified but natural proportions, smooth clean shapes, clean bold outlines, vibrant but tasteful colors, professional stock-illustration style, no text, no letters, no numbers, no typography, no floor, no shadow, no ground element.",
-      "hashtags": "반도체, 칩, IT, 컴퓨터, 기술, 데이터, Icon, Chip, Tech",
+      "keyword": "링거",
+      "prompt": "A single, clean, minimal flat vector illustration of an IV drip bag and tubing, isolated on a solid #00B140 chroma key green background. The subject fills 90% of the 1:1 square frame with close-up composition. The style is professional stock-illustration with smooth, bold outlines and vibrant but tasteful colors, suitable for business presentations and documents. Absolutely no text, numbers, or watermarks.",
+      "hashtags": "링거, 의료, 건강, 병원, 아이콘, 일러스트, medical, health, icon, hospital",
       "type": "utility"
     },
     {
       "rank": 2,
-      "keyword": "비디오테이프",
-      "prompt": "Minimal flat design icon of a VHS video cassette tape, on a solid chroma key green background (#00B140), 1:1 square aspect ratio, the subject fills 90% of the frame with minimal empty space, close-up composition, single isolated subject only, clean modern flat vector illustration style, semi-simplified but natural proportions, smooth clean shapes, clean bold outlines, vibrant but tasteful colors, professional stock-illustration style, no text, no letters, no numbers, no typography, no floor, no shadow, no ground element.",
-      "hashtags": "비디오테이프, 레트로, 추억, 빈티지, 복고, VHS, Retro, Vintage, Cassette",
+      "keyword": "다이얼전화기",
+      "prompt": "A single, clean, minimal flat vector illustration of a vintage rotary dial telephone, isolated on a solid #00B140 chroma key green background. The subject fills 90% of the 1:1 square frame with close-up composition. The style is professional stock-illustration with smooth, bold outlines and vibrant but tasteful colors, suitable for retro-themed blogs and documents. Absolutely no text, numbers, or watermarks.",
+      "hashtags": "레트로, 전화기, 추억, 빈티지, 아이콘, 일러스트, retro, vintage, telephone, icon",
       "type": "utility"
     },
     {
       "rank": 3,
-      "keyword": "계산기",
-      "prompt": "Minimal flat design icon of a calculator, on a solid chroma key green background (#00B140), 1:1 square aspect ratio, the subject fills 90% of the frame with minimal empty space, close-up composition, single isolated subject only, clean modern flat vector illustration style, semi-simplified but natural proportions, smooth clean shapes, clean bold outlines, vibrant but tasteful colors, professional stock-illustration style, no text, no letters, no numbers, no typography, no floor, no shadow, no ground element.",
-      "hashtags": "계산기, 사무, 비즈니스, 금융, 숫자, 통계, Calculator, Business, Finance",
+      "keyword": "회로기판",
+      "prompt": "A single, clean, minimal flat vector illustration of a printed circuit board (PCB), isolated on a solid #00B140 chroma key green background. The subject fills 90% of the 1:1 square frame with close-up composition. The style is professional stock-illustration with smooth, bold outlines and vibrant but tasteful colors, suitable for IT and tech-related documents and presentations. Absolutely no text, numbers, or watermarks.",
+      "hashtags": "회로, 반도체, IT, 컴퓨터, 아이콘, 기술, circuit, tech, pcb, icon",
       "type": "utility"
     }
   ]

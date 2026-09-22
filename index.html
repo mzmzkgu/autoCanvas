@@ -13,10 +13,10 @@
   --text:#e8e8f0;--text-dim:#8888a0;--text-muted:#555570;
   --accent:#00e5a0;--accent-dim:#00c088;--accent-glow:rgba(0,229,160,.12);
   --warn:#ffaa22;--warn-glow:rgba(255,170,34,.12);
-  --hot:#ff6b9d;--hot-glow:rgba(255,107,157,.12);
-  --miri:#7c6ef7;--miri-glow:rgba(124,110,247,.12);
-  --sticker:#ffcc4d;--sticker-glow:rgba(255,204,77,.12);
-  --utility:#4dd0e1;--utility-glow:rgba(77,208,225,.12);
+  --friendship:#ff6b9d;--friendship-glow:rgba(255,107,157,.12);
+  --thinking:#7c6ef7;--thinking-glow:rgba(124,110,247,.12);
+  --discovery:#ffcc4d;--discovery-glow:rgba(255,204,77,.12);
+  --investigate:#4dd0e1;--investigate-glow:rgba(77,208,225,.12);
   --radius:12px;--radius-sm:7px;
 }
 html,body{min-height:100%;font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text)}
@@ -62,11 +62,11 @@ main{max-width:760px;margin:0 auto;padding:20px 14px;display:flex;flex-direction
   padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600;
   border:1px solid;letter-spacing:.2px;white-space:nowrap
 }
-.badge-steady{color:var(--accent);border-color:rgba(0,229,160,.35);background:var(--accent-glow)}
-.badge-hot{color:var(--hot);border-color:rgba(255,107,157,.35);background:var(--hot-glow)}
-.badge-miri{color:var(--miri);border-color:rgba(124,110,247,.35);background:var(--miri-glow)}
-.badge-sticker{color:var(--sticker);border-color:rgba(255,204,77,.35);background:var(--sticker-glow)}
-.badge-utility{color:var(--utility);border-color:rgba(77,208,225,.35);background:var(--utility-glow)}
+.badge-growth{color:var(--accent);border-color:rgba(0,229,160,.35);background:var(--accent-glow)}
+.badge-friendship{color:var(--friendship);border-color:rgba(255,107,157,.35);background:var(--friendship-glow)}
+.badge-thinking{color:var(--thinking);border-color:rgba(124,110,247,.35);background:var(--thinking-glow)}
+.badge-discovery{color:var(--discovery);border-color:rgba(255,204,77,.35);background:var(--discovery-glow)}
+.badge-investigate{color:var(--investigate);border-color:rgba(77,208,225,.35);background:var(--investigate-glow)}
 .section-desc{font-size:12px;color:var(--text-muted);line-height:1.4}
 
 /* ── CARD ── */
@@ -90,11 +90,11 @@ main{max-width:760px;margin:0 auto;padding:20px 14px;display:flex;flex-direction
   font-family:'Space Mono',monospace;font-size:11px;font-weight:700;
   flex-shrink:0
 }
-.num-steady{background:var(--accent-glow);color:var(--accent)}
-.num-hot{background:var(--hot-glow);color:var(--hot)}
-.num-miri{background:var(--miri-glow);color:var(--miri)}
-.num-sticker{background:var(--sticker-glow);color:var(--sticker)}
-.num-utility{background:var(--utility-glow);color:var(--utility)}
+.num-growth{background:var(--accent-glow);color:var(--accent)}
+.num-friendship{background:var(--friendship-glow);color:var(--friendship)}
+.num-thinking{background:var(--thinking-glow);color:var(--thinking)}
+.num-discovery{background:var(--discovery-glow);color:var(--discovery)}
+.num-investigate{background:var(--investigate-glow);color:var(--investigate)}
 
 .keyword-tag{
   display:inline-flex;align-items:center;gap:4px;
@@ -249,109 +249,39 @@ const FALLBACK_DATA = {
   })(),
   items: [
     {
-      type: 'steady',
+      type: 'investigate',
       rank: 1,
-      keyword: '액체괴물',
-      prompt: 'A single cute round liquid slime monster character, translucent gooey body, big friendly smiling eyes, no scary features. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), bold outline, no text/letters/numbers in image, pastel colors.',
-      hashtags: '액체괴물, 슬라임, 몬스터, 괴물, 캐릭터, 어린이, 유치원, 귀여운, slime monster, cute character'
+      keyword: '돋보기아이',
+      prompt: 'A single child holding a large magnifying glass up to one eye, with the eye visibly enlarged and clearly visible through the lens glass — this magnified-eye detail is essential and must be drawn explicitly. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), thick confident black outline, subtle gradient/shading for volume (not flat single-tone), no text/letters/numbers in image.',
+      hashtags: '돋보기, 관찰, 탐구, 조사, 호기심많은아이, 일러스트, magnifying glass, curious kid, investigate'
     },
     {
-      type: 'steady',
+      type: 'growth',
       rank: 2,
-      keyword: '꼬마유령',
-      prompt: 'A single tiny cute ghost character, round soft shape, big sparkly eyes, friendly smile, floating pose, no scary features. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), bold outline, no text/letters/numbers in image, pastel colors.',
-      hashtags: '꼬마유령, 유령, 몬스터, 캐릭터, 어린이, 할로윈, 귀여운, little ghost, cute monster'
+      keyword: '새싹키우는손',
+      prompt: 'A single cupped hand gently cradling a small green sprout with two fresh leaves, soil visibly clinging to the tiny roots where the sprout meets the palm — this hand-to-sprout contact detail is essential and must be drawn explicitly. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), thick confident black outline, subtle gradient/shading for volume (not flat single-tone), no text/letters/numbers in image.',
+      hashtags: '새싹, 성장, 힐링, 자연, 식물키우기, 일러스트, sprout, growth, healing plant'
     },
     {
-      type: 'steady',
+      type: 'friendship',
       rank: 3,
-      keyword: '뿔괴물',
-      prompt: 'A single small round monster character with two tiny cute horns, big friendly eyes, soft fuzzy body, no scary features. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), bold outline, no text/letters/numbers in image, pastel colors.',
-      hashtags: '뿔괴물, 몬스터, 괴물, 캐릭터, 어린이, 유치원, 귀여운, horned monster, cute creature'
+      keyword: '강아지와고양이',
+      prompt: 'A single dog and cat leaning their bodies against each other, cheek to cheek, with visible fur overlap where they touch — this physical contact detail is essential and must be drawn explicitly. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), thick confident black outline, subtle gradient/shading for volume (not flat single-tone), no text/letters/numbers in image.',
+      hashtags: '강아지, 고양이, 우정, 반려동물, 친구, 일러스트, dog and cat, friendship, pets'
     },
     {
-      type: 'hot',
-      rank: 1,
-      keyword: '소금빵',
-      prompt: '2D flat illustration style. A golden buttery salt bread (소금빵), freshly baked and delicious looking. White background, clean outlines, no floor, no shadow, no ground element. Warm tones, cute bakery style.',
-      hashtags: '소금빵, 빵, 베이커리, 카페, 맛있는, 디저트, 일러스트, 소금빵스티커, salt bread, bakery'
+      type: 'thinking',
+      rank: 4,
+      keyword: '턱괴고생각하는아이',
+      prompt: 'A single child resting their chin on one hand in a thinking pose, with the fingers visibly pressing into the cheek and a faint furrowed brow showing deep thought — this hand-to-face pressure detail is essential and must be drawn explicitly. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), thick confident black outline, subtle gradient/shading for volume (not flat single-tone), no text/letters/numbers in image.',
+      hashtags: '생각, 고민, 사고, 골똘히생각하는아이, 아이디어, 일러스트, thinking pose, contemplation, kid'
     },
     {
-      type: 'hot',
-      rank: 2,
-      keyword: '감성 캠핑',
-      prompt: '2D flat illustration style. A cozy camping lantern glowing softly at night, minimalist and aesthetic. White background, clean outlines, no floor, no shadow. Warm light, muted earthy tones, hygge vibes.',
-      hashtags: '캠핑, 랜턴, 감성캠핑, 아웃도어, 텐트, 자연, 여름캠핑, 일러스트, camping, outdoor'
-    },
-    {
-      type: 'hot',
-      rank: 3,
-      keyword: '레트로 아이스크림',
-      prompt: '2D flat illustration style. A retro-style ice cream cone with soft pastel swirl. White background, clean outlines, no floor, no shadow, no ground element. Nostalgic summer dessert, vintage color palette.',
-      hashtags: '아이스크림, 레트로, 여름, 디저트, 콘아이스크림, 복고, 달콤, 일러스트, ice cream, retro summer'
-    },
-    {
-      type: 'miri',
-      rank: 1,
-      keyword: '등원가방',
-      prompt: 'A single cute kids backpack for daycare/kindergarten, no face, rounded pastel design. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), bold outline, no text/letters/numbers in image, pastel colors.',
-      hashtags: '등원가방, 유치원, 어린이집, 가방, 등원, 사물, 일러스트, kids backpack, daycare, kindergarten'
-    },
-    {
-      type: 'miri',
-      rank: 2,
-      keyword: '손씻기아이콘',
-      prompt: 'A single simple hand washing icon, soap bubbles and water droplets, flat icon style, no face. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), bold outline, no text/letters/numbers in image, pastel colors.',
-      hashtags: '손씻기, 안내아이콘, 유치원, 학교, 위생, 규칙, 일러스트, hand washing icon, hygiene, school'
-    },
-    {
-      type: 'miri',
-      rank: 3,
-      keyword: '공룡화석',
-      prompt: 'A single museum dinosaur fossil bone display, no face. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), bold outline, no text/letters/numbers in image, pastel colors.',
-      hashtags: '공룡화석, 박물관, 체험학습, 전시, 공룡, 교육, 일러스트, dinosaur fossil, museum, education'
-    },
-    {
-      type: 'sticker',
-      rank: 1,
-      keyword: '동물칭찬별스티커모음',
-      prompt: 'A 1:1 square grid sheet of about 35 star-shaped stickers arranged neatly in rows, filling the frame edge to edge with minimal outer margin, on a chroma key green background (hex color #00B140). Each star sticker has a bold black outline and a mint-green dashed cut-line around it. Mix of friendly animal characters (bear, rabbit, chick, dinosaur, cat, fox) inside some stars, and praise/reward symbols (trophy, sparkling star, checkmark stamp, thumbs up) inside other stars — NO text, NO letters, NO numbers anywhere, only illustrations. Varied pastel background colors per sticker (yellow, pink, purple, sky blue, orange — avoid green/mint tones to prevent chroma key conflict). Clean modern flat vector illustration, natural proportions, high resolution print-ready quality, professional sticker sheet style similar to teacher reward stickers.',
-      hashtags: '칭찬스티커, 보상스티커, 유치원, 초등학교, 담임선생님, 스티커모음, 별스티커, praise sticker, reward sticker, kids sticker'
-    },
-    {
-      type: 'sticker',
-      rank: 2,
-      keyword: '동물격려하트스티커모음',
-      prompt: 'A 1:1 square grid sheet of about 35 heart-shaped stickers arranged neatly in rows, filling the frame edge to edge with minimal outer margin, on a chroma key green background (hex color #00B140). Each heart sticker has a bold black outline and a mint-green dashed cut-line around it. Mix of friendly animal characters (puppy, koala, chick, cat) inside some hearts, and encouragement symbols (rainbow, fist pump, flag, firework) inside other hearts — NO text, NO letters, NO numbers anywhere, only illustrations. Varied pastel background colors per sticker (avoid green/mint tones to prevent chroma key conflict). Clean modern flat vector illustration, natural proportions, high resolution print-ready quality, professional sticker sheet style.',
-      hashtags: '격려스티커, 응원스티커, 하트스티커, 유치원, 초등학교, 스티커모음, encouragement sticker, heart sticker, kids sticker'
-    },
-    {
-      type: 'sticker',
-      rank: 3,
-      keyword: '생활습관보상스티커모음',
-      prompt: 'A 1:1 square grid sheet of about 35 rounded-square stickers arranged neatly in rows, filling the frame edge to edge with minimal outer margin, on a chroma key green background (hex color #00B140). Each sticker has a bold black outline and a mint-green dashed cut-line around it. Mix of habit-related icons (toothbrush, folded clothes, tidy desk) inside some stickers, and checkmark/sparkle reward symbols inside other stickers — NO text, NO letters, NO numbers anywhere, only illustrations. Varied pastel background colors per sticker (avoid green/mint tones to prevent chroma key conflict). Clean modern flat vector illustration, natural proportions, high resolution print-ready quality, professional sticker sheet style.',
-      hashtags: '생활습관스티커, 보상스티커, 유치원, 초등학교, 담임선생님, 스티커모음, habit sticker, reward sticker, kids sticker'
-    },
-    {
-      type: 'utility',
-      rank: 1,
-      keyword: '반도체칩',
-      prompt: 'A single semiconductor chip icon, isometric style, no face. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), bold outline, no text/letters/numbers in image, pastel colors.',
-      hashtags: '반도체, 반도체칩, IT, 전자부품, 블로그, 문서, 일러스트, semiconductor chip, IT icon, tech'
-    },
-    {
-      type: 'utility',
-      rank: 2,
-      keyword: '청진기',
-      prompt: 'A single stethoscope icon, no face. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), bold outline, no text/letters/numbers in image, pastel colors.',
-      hashtags: '청진기, 의료, 병원, 건강, 블로그, 문서, 일러스트, stethoscope, medical icon, health'
-    },
-    {
-      type: 'utility',
-      rank: 3,
-      keyword: '비디오테이프',
-      prompt: 'A single retro VHS video tape cassette, no face. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), bold outline, no text/letters/numbers in image, pastel colors.',
-      hashtags: '비디오테이프, 레트로, 추억, 복고, 블로그, 문서, 일러스트, VHS tape, retro, nostalgia'
+      type: 'discovery',
+      rank: 5,
+      keyword: '전구켜지는순간',
+      prompt: 'A single glowing light bulb with a bright starburst of light rays radiating outward from the filament, the glass surface visibly reflecting the warm glow — this radiating-light detail is essential and must be drawn explicitly. Chroma key green background (#00B140), 1:1 square, subject fills 90% of frame, no floor, no shadow. Clean modern flat vector illustration style, natural proportions (not exaggerated chibi), thick confident black outline, subtle gradient/shading for volume (not flat single-tone), no text/letters/numbers in image.',
+      hashtags: '전구, 아이디어, 영감, 발견, 유레카, 일러스트, light bulb, idea, discovery moment'
     }
   ]
 };
@@ -452,13 +382,13 @@ function renderAll(data) {
   container.appendChild(countdownEl);
   startCountdown(data.nextUpdateAt);
 
-  // Group by type
+  // Group by type — 판매 데이터 기반 범용 개념 5축
   const groups = [
-    { type: 'steady', badge: 'badge-steady', label: '👻 귀여운 몬스터', desc: '아이들이 좋아하는 캐릭터 스테디셀러', numCls: 'num-steady' },
-    { type: 'hot',    badge: 'badge-hot',    label: '🔥 요즘 핫한 키워드', desc: 'SNS 트렌드 & 인스타 인기 키워드', numCls: 'num-hot' },
-    { type: 'miri',   badge: 'badge-miri',   label: '🏫 아이들 많이 쓰는 키워드', desc: '어린이집·유치원·학교·키즈카페·박물관 실사용 요소', numCls: 'num-miri' },
-    { type: 'sticker', badge: 'badge-sticker', label: '🌟 칭찬·보상 스티커 모음', desc: '유치원생·초등학생에게 주기 좋은 스티커 시트', numCls: 'num-sticker' },
-    { type: 'utility', badge: 'badge-utility', label: '💼 블로그·문서용 실용 아이콘', desc: 'IT·의료·비즈니스·레트로 등 범용 실용 요소', numCls: 'num-utility' },
+    { type: 'investigate', badge: 'badge-investigate', label: '🔍 조사·분석·탐구', desc: '승자 사례(돋보기아이) 기반 범용 개념', numCls: 'num-investigate' },
+    { type: 'growth',      badge: 'badge-growth',      label: '🌱 성장·발전·힐링', desc: '승자 사례(대나무숲) 기반 범용 개념', numCls: 'num-growth' },
+    { type: 'friendship',  badge: 'badge-friendship',  label: '🐾 우정·협업·관계', desc: '승자 사례(개와고양이) 기반 범용 개념', numCls: 'num-friendship' },
+    { type: 'thinking',    badge: 'badge-thinking',    label: '🤔 고민·생각·사고', desc: '프레젠테이션 상시 수요 범용 개념', numCls: 'num-thinking' },
+    { type: 'discovery',   badge: 'badge-discovery',   label: '💡 발견·아이디어·영감', desc: '프레젠테이션 상시 수요 범용 개념', numCls: 'num-discovery' },
   ];
 
   groups.forEach(g => {

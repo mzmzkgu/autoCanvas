@@ -58,7 +58,11 @@ GEMINI_MODEL   = "gemini-2.5-flash-lite"
 BG_COLOR = (
     "chroma key green background hex color #00B140, pure flat solid color with NO gradient on the background itself, "
     "1:1 square aspect ratio, "
-    "subject fills 90% of the frame with minimal empty space, close-up composition, "
+    "subject fills about 80% of the frame, leaving a small clean even margin of the green background "
+    "clearly visible on ALL FOUR SIDES (top, bottom, left, right) — this margin is a strict platform "
+    "requirement, ABSOLUTELY NO part of the subject (no limb, hand, foot, edge, or accessory) may touch, "
+    "extend past, or be cropped off by the canvas border, the ENTIRE subject (or duo) fully visible and "
+    "NOT cropped into an extreme close-up of only one body part or detail, "
     "SINGLE SUBJECT, OR TWO SUBJECTS ACTIVELY INTERACTING WITH EACH OTHER (e.g. a dog and cat leaning "
     "against each other, two kids holding hands) — no wider scene, no extra background elements, "
     "no environment/setting beyond the subject(s) themselves, "
@@ -68,8 +72,9 @@ BG_COLOR = (
     "simple minimal facial expression allowed on characters and animals only (subtle, not big anime eyes), "
     "NO face only on inanimate objects like food/plants/objects, "
     "THICK, CONFIDENT, CONSISTENT-WEIGHT BLACK OUTLINE on every subject — no thin, sketchy, or wavering lines, "
-    "saturated but tasteful colors rendered WITH SUBTLE GRADIENT/SHADING for a sense of volume and depth "
-    "(NOT flat single-tone fill on the subject), "
+    "saturated but tasteful colors with SOFT 2-3 STEP CEL-SHADING for a light sense of volume "
+    "(NOT flat single-tone fill, but also NOT photorealistic rendering, NOT dozens of fine gradient bands, "
+    "NOT intricate repetitive micro-texture like individual hair strands or countless rings/lines), "
     "professional stock-illustration / icon-marketplace style suitable for universal design use "
     "(business documents, blogs, presentations, posters — not tied to a single cutesy sticker aesthetic), "
     "ABSOLUTELY NO TEXT, NO LETTERS, NO NUMBERS, NO TYPOGRAPHY OF ANY KIND anywhere in the image"
@@ -106,7 +111,9 @@ PROMPT_RULES = f"""
 - 스타일: 미니멀 플랫 디자인, 깔끔한 벡터 아트 스타일, 누구나 직관적으로 이해할 수 있는 아이콘 같은 그림체
 - 배경: 완전한 단색 초록색(#00B140) 크로마키 배경, 그림자·텍스처·그라데이션 없이 순수 단색만
   (그라데이션/음영은 배경이 아니라 피사체 자체의 색감에만 적용할 것)
-- 구도: 정중앙 배치, 1:1 정사각형 비율, 피사체가 프레임의 90% 이상을 채워 여백 최소화
+- 구도: 정중앙 배치, 1:1 정사각형 비율, 피사체가 프레임의 약 80% 정도를 채우되
+  상하좌우 4면에 초록 배경 여백이 고르게 살짝 남아야 함 (미리캔버스 마켓 정책상 필수 — 손/발/사물
+  끝부분이 캔버스 가장자리에 닿거나 잘려나가는 것 절대 금지)
 - 용도: 비즈니스 프레젠테이션(PPT) 삽화로 바로 쓸 수 있는 범용 스타일
 - 크기: 최소 700x700px 이상 퀄리티
 - 추가 요구사항: 텍스트/글자/숫자/워터마크 절대 없음, 사실적 사진 스타일 아님
@@ -114,16 +121,23 @@ PROMPT_RULES = f"""
 ⭐⭐ 판매 데이터로 검증된 "승자 공식" — 반드시 전부 반영할 것 ⭐⭐
 1. 굵고 확신 있는 검정 아웃라인. 얇거나 흐릿하거나 두께가 들쭉날쭉한 선 절대 금지
 2. 고채도이지만 촌스럽지 않은 색감. 피사체를 단색으로 납작하게 채우지 말고
-   그라데이션/음영을 넣어 입체감과 볼륨감을 살릴 것
+   은은한 2~3단계 셀쉐이딩 정도로만 입체감을 살릴 것. 사진처럼 정교한 무한 그라데이션이나
+   촘촘한 반복 텍스처(예: 나이테 수십 겹, 낱낱의 머리카락)는 절대 금지 — 어디까지나 심플한
+   벡터 일러스트여야 함
 3. 축소된 썸네일 크기에서도 한눈에 무엇인지 인지되는 단순명료한 구도.
    디테일 과잉으로 실루엣이 뭉개지지 않게 할 것
-4. ⭐ 가장 중요 — 구체적인 물리적 상호작용 디테일을 최소 1개 이상 그림 안에 실제로 그려넣을 것.
-   단순히 두 대상을 나란히 배치하는 것이 아니라, 예를 들어 "돋보기를 든 아이"라면 돋보기
-   렌즈 안에 확대되어 비치는 눈을 실제로 그리는 식. 대상 사이의 진짜 접촉/반응/작용을 구체화할 것
+4. ⭐ 가장 중요 — 구체적인 물리적 상호작용 디테일을 최소 1개 이상 그림 안에 자연스럽게 포함할 것.
+   단, ⚠️ 반드시 피사체(캐릭터/사물) 전체가 프레임 안에 온전히 보이는 구도를 유지한 채로 디테일을
+   녹여낼 것 — 특정 부위(눈/손 등) 하나만 사진처럼 초근접으로 확대해서 그리는 것은 절대 금지.
+   예) "돋보기를 든 아이"라면 아이의 몸 전체가 보이면서 돋보기 렌즈 안에 눈이 살짝 비치는 정도로
+   표현하는 것이지, 눈 하나만 화면 가득 확대해서 그리는 게 아님
 5. 범용성 — 특정 시즌/이벤트/유행어가 아니라 프레젠테이션에서 상시로 통하는 범용 개념
    (반려동물·우정, 자연·성장·힐링, 조사·분석·탐구 등)
 
 ⭐ 그 외 필수 규칙:
+- ⭐ 여백 필수(미리캔버스 마켓 정책): 피사체를 프레임 가장자리까지 꽉 채우지 말 것. 손/발/팔다리/
+  사물의 끝부분이 캔버스 4면 중 어디든 닿거나 잘려나가면 절대 안 됨 — 상하좌우에 초록 배경 여백이
+  고르게 살짝 보여야 함
 - {BG_COLOR}
 - 반드시 "단일 피사체" 하나만 그리거나, 위 예외에 해당하는 "서로 상호작용하는 두 피사체"만
   그릴 것. 그 이상의 다중 요소나 배경 장면 조합은 절대 금지
@@ -201,14 +215,17 @@ BANNED_KEYWORD_PATTERNS = [
 
 def _is_valid_single_keyword(kw: str) -> bool:
     """★ Gemini가 자유 제안한 키워드가 '단일 명사(구)'로 안전한지 코드 레벨 검증.
-    카테고리 이탈한 랜덤 단어나 문장형 응답이 그대로 나가는 것을 막기 위한 안전장치.
+    카테고리 이탈한 랜덤 단어나 완전한 문장형 응답이 그대로 나가는 것을 막기 위한 안전장치.
+    ⚠️ 범용 개념 축(v7)은 "손을 맞잡은 두 아이"처럼 짧은 구(句)형 키워드가 자연스러우므로
+    공백/길이 기준을 완전한 문장만 걸러지도록 완화함 (너무 엄격하면 멀쩡한 제안까지 불필요하게
+    폴백 처리되어 다양성이 떨어짐).
     """
     if not kw:
         return False
     kw = kw.strip()
-    if len(kw) < 2 or len(kw) > 12:
+    if len(kw) < 2 or len(kw) > 16:
         return False
-    if kw.count(" ") >= 2:
+    if kw.count(" ") >= 3:
         return False
     if re.search(r'(다|요|음|는|하는|있는|그리고)$', kw):
         return False
@@ -217,9 +234,12 @@ def _is_valid_single_keyword(kw: str) -> bool:
     return True
 
 
-def _validate_or_fallback(items: list, picked_axes: list, example_pool: dict, log_label: str = "") -> list:
+def _validate_or_fallback(items: list, picked_axes: list, log_label: str = "") -> list:
     """★ Gemini가 자유 제안한 키워드를 그대로 살리되(다양성 유지),
-    검증(_is_valid_single_keyword)에 실패한 항목만 해당 축의 예시 풀에서 랜덤으로 안전하게 대체.
+    검증(_is_valid_single_keyword)에 실패한 항목만 AXIS_FALLBACK_ITEMS에서 안전하게 대체.
+    ⚠️ 버그 수정: 예전 버전은 키워드만 바꿔치기해서 프롬프트/해시태그가 원래(반려된) 키워드
+    내용 그대로 남아 "제목과 그림이 따로 노는" 문제가 있었음 → keyword/prompt/hashtags를
+    반드시 세트로 통째 교체해서 항상 서로 매칭되도록 함.
     """
     if len(items) != len(picked_axes):
         log.warning(
@@ -233,9 +253,11 @@ def _validate_or_fallback(items: list, picked_axes: list, example_pool: dict, lo
         kw = (it.get("keyword") or "").strip()
         if _is_valid_single_keyword(kw):
             continue  # 유효한 신규 제안 → 그대로 살려서 다양성 확보
-        fallback = random.choice(example_pool[axis]["examples"])
-        log.warning(f"  ⚠️ {log_label}: '{kw}'가 검증 실패(축:{axis}) → 예시 '{fallback}'로 대체")
-        it["keyword"] = fallback
+        fallback_item = random.choice(AXIS_FALLBACK_ITEMS[axis])
+        log.warning(f"  ⚠️ {log_label}: '{kw}'가 검증 실패(축:{axis}) → '{fallback_item['keyword']}' 세트로 통째 대체")
+        it["keyword"] = fallback_item["keyword"]
+        it["prompt"] = fallback_item["prompt"]
+        it["hashtags"] = fallback_item["hashtags"]
     return items
 
 
@@ -263,13 +285,18 @@ def get_universal_concept_keywords() -> list[dict]:
 
 ⭐ 아래는 11개월치 실제 판매 데이터 분석(217건 거래)으로 확인된 "잘 팔리는 요소"의 공통 공식입니다:
 1. 굵고 확신 있는 검정 아웃라인 (얇거나 흐릿한 선 없이 일관된 두께)
-2. 고채도이지만 촌스럽지 않은 색감 — 단색이 아니라 그라데이션/음영으로 입체감을 살림
+2. 고채도이지만 촌스럽지 않은 색감 — 단색이 아니라 은은한 2~3단계 셀쉐이딩으로 입체감을 살림
+   (사진처럼 정교한 무한 그라데이션이나 촘촘한 반복 텍스처는 금지, 심플한 벡터 유지)
 3. 축소된 썸네일에서도 즉시 인지되는 단순명료한 구도
-4. ⭐ 가장 중요: 물리적 상호작용을 구체적으로 표현 — 예를 들어 "돋보기 + 아이"를 그냥 나란히
-   배치하는 게 아니라, 돋보기 렌즈 안에 확대된 눈이 실제로 비치는 디테일까지 그려넣는 식.
-   이런 구체적 디테일 하나가 퀄리티 체감을 크게 좌우함
+4. ⭐ 가장 중요: 물리적 상호작용을 구체적으로 표현하되, 반드시 피사체 전체(캐릭터/사물의 몸통 전체)가
+   프레임 안에 다 보이는 채로 표현할 것. 예를 들어 "돋보기 + 아이"라면 아이의 몸 전체가 보이는
+   구도를 유지하면서 돋보기 렌즈 안에 눈이 살짝 비치는 정도로만 그리는 것이지, 눈 하나만 사진처럼
+   화면 가득 확대해서 그리는 게 아님. 대상 사이의 진짜 접촉/반응/작용을 "은은하게" 구체화할 것
 5. 범용성 — 특정 시즌/이벤트가 아니라 프레젠테이션에서 상시로 필요한 개념
    (반려동물·우정, 자연·성장·힐링, 조사·분석·탐구 등)
+6. ⭐ 여백 필수(미리캔버스 마켓 정책 위반 시 등록 불가) — 피사체를 프레임 가장자리까지 꽉 채우면
+   안 됨. 손/발/팔다리/사물 끝부분이 캔버스 4면 중 어디든 닿거나 잘려나가는 구도는 절대 금지.
+   피사체는 프레임의 약 80% 정도만 채우고 상하좌우에 초록 배경 여백이 고르게 남아야 함
 
 ⭐ 반대로 실제로 잘 안 팔린 것: 매일 바뀌는 트렌드 키워드, 복합 장면형 배경, 특정 시즌/이벤트
 한정 소재. → 그래서 오늘부터는 아래 5개 "범용 개념" 축으로만 키워드를 만듭니다.
@@ -287,7 +314,7 @@ def get_universal_concept_keywords() -> list[dict]:
   {{
     "rank": 1,
     "keyword": "키워드 (한국어, 2~10자 정도의 명사구)",
-    "prompt": "이미지 생성 프롬프트 (영어 한 문단, 위 승자 공식 5가지를 모두 반영하고 구체적인 물리적 상호작용/디테일을 최소 1개 명시적으로 묘사할 것)",
+    "prompt": "이미지 생성 프롬프트 (영어 한 문단, 위 승자 공식 6가지를 모두 반영하고 구체적인 물리적 상호작용/디테일을 최소 1개 명시적으로 묘사하며, 여백을 남기고 가장자리에 잘리지 않게 할 것)",
     "hashtags": "미리캔버스 태그 10개 (한국어+영어 혼용, 쉼표 구분)"
   }}
 ]
@@ -303,7 +330,7 @@ def get_universal_concept_keywords() -> list[dict]:
     try:
         text = gemini_ask(prompt)
         items = parse_json_response(text)
-        items = _validate_or_fallback(items, axes, example_pool=UNIVERSAL_CONCEPTS, log_label="범용개념")
+        items = _validate_or_fallback(items, axes, log_label="범용개념")
         for i, it in enumerate(items):
             it["type"] = axes[i] if i < len(axes) else axes[-1]
         log.info(f"  ✅ 범용 개념 키워드 {len(items)}개 생성 완료")
@@ -360,32 +387,67 @@ def git_push() -> None:
 
 
 # ═══════════════════════════════════════════════════
-# ★ Fallback 데이터 (Gemini 실패 시 축당 1개씩 5개, 승자 공식 반영)
+# ★ Fallback 데이터 (축당 keyword+prompt+hashtags를 반드시 "세트"로 관리)
+#   - _validate_or_fallback(): Gemini 키워드가 검증 실패했을 때 축별로 랜덤 선택해 통째 대체
+#   - _fallback_universal(): Gemini 호출 자체가 실패했을 때 축당 1번째 세트로 5개 구성
+#   물리적 상호작용 디테일은 "은은하게, 피사체 전체가 다 보이는 채로" 넣도록 명시
+#   (과거 버전은 "눈만 화면 가득 확대" 같은 초근접 클로즈업이 나오는 문제가 있었음)
 # ═══════════════════════════════════════════════════
 _BG = (
     f"{BG_COLOR}, no floor, no shadow, no ground element"
 )
 
-def _fallback_universal() -> list[dict]:
-    """Gemini 실패 시 기본값 — 범용 개념 5축 × 1개, 승자 공식(굵은 아웃라인/그라데이션 음영/
-    물리적 상호작용 디테일) 반영."""
-    return [
-        {"rank": 1, "type": "investigate", "keyword": "돋보기아이",
-         "prompt": f"A single child holding a large magnifying glass up to one eye, with the eye visibly enlarged and clearly visible through the lens glass — this magnified-eye detail is essential and must be drawn explicitly. {_BG}",
+AXIS_FALLBACK_ITEMS = {
+    "investigate": [
+        {"keyword": "돋보기아이",
+         "prompt": f"A single child, whole upper body clearly visible and not cropped, holding a magnifying glass up near one eye; only a small, subtle stylized hint of the enlarged eye shows through the lens glass — this one gentle magnified-eye detail is the physical-interaction detail, without cropping out the child's face or body. {_BG}",
          "hashtags": "돋보기, 관찰, 탐구, 조사, 호기심많은아이, 일러스트, magnifying glass, curious kid, investigate"},
-        {"rank": 2, "type": "growth", "keyword": "새싹키우는손",
-         "prompt": f"A single cupped hand gently cradling a small green sprout with two fresh leaves, soil visibly clinging to the tiny roots where the sprout meets the palm — this hand-to-sprout contact detail is essential and must be drawn explicitly. {_BG}",
+        {"keyword": "현미경보는과학자",
+         "prompt": f"A single scientist character, whole upper body clearly visible and not cropped, leaning over a microscope with one hand resting on the focus knob — this hand-on-knob contact is the one physical-interaction detail, without cropping out the character's face or body. {_BG}",
+         "hashtags": "현미경, 과학자, 탐구, 조사, 연구, 일러스트, microscope, scientist, research"},
+    ],
+    "growth": [
+        {"keyword": "새싹키우는손",
+         "prompt": f"A single cupped hand holding a small sprout with two fresh leaves, a few small flecks of soil visible where the roots meet the palm — this one hand-to-sprout contact is the physical-interaction detail. {_BG}",
          "hashtags": "새싹, 성장, 힐링, 자연, 식물키우기, 일러스트, sprout, growth, healing plant"},
-        {"rank": 3, "type": "friendship", "keyword": "강아지와고양이",
-         "prompt": f"A single dog and cat leaning their bodies against each other, cheek to cheek, with visible fur overlap where they touch — this physical contact detail is essential and must be drawn explicitly. {_BG}",
+        {"keyword": "대나무숲",
+         "prompt": f"A small cluster of about 5-6 bamboo stalks of varying height with simple leaf clusters, the stalks gently overlapping and touching one another — this one overlapping-stalk contact is the physical-interaction detail, kept simple without excessive repeated segment lines. {_BG}",
+         "hashtags": "대나무숲, 성장, 자연, 힐링, 숲, 일러스트, bamboo forest, nature, growth"},
+    ],
+    "friendship": [
+        {"keyword": "강아지와고양이",
+         "prompt": f"A single dog and cat, both whole bodies clearly visible and not cropped, leaning their bodies against each other cheek to cheek — this one body-contact detail is the physical-interaction detail. {_BG}",
          "hashtags": "강아지, 고양이, 우정, 반려동물, 친구, 일러스트, dog and cat, friendship, pets"},
-        {"rank": 4, "type": "thinking", "keyword": "턱괴고생각하는아이",
-         "prompt": f"A single child resting their chin on one hand in a thinking pose, with the fingers visibly pressing into the cheek and a faint furrowed brow showing deep thought — this hand-to-face pressure detail is essential and must be drawn explicitly. {_BG}",
+        {"keyword": "손을맞잡은두아이",
+         "prompt": f"Two children, upper bodies clearly visible and not cropped, standing side by side holding hands with fingers gently interlocked — this one interlocked-fingers detail is the physical-interaction detail. {_BG}",
+         "hashtags": "우정, 협업, 손잡기, 친구, 아이들, 일러스트, holding hands, friendship, kids"},
+    ],
+    "thinking": [
+        {"keyword": "턱괴고생각하는아이",
+         "prompt": f"A single child, whole upper body clearly visible and not cropped, resting their chin lightly on one hand in a thinking pose, fingers gently pressing the cheek — this one hand-to-cheek pressure detail is the physical-interaction detail. {_BG}",
          "hashtags": "생각, 고민, 사고, 골똘히생각하는아이, 아이디어, 일러스트, thinking pose, contemplation, kid"},
-        {"rank": 5, "type": "discovery", "keyword": "전구켜지는순간",
-         "prompt": f"A single glowing light bulb with a bright starburst of light rays radiating outward from the filament, the glass surface visibly reflecting the warm glow — this radiating-light detail is essential and must be drawn explicitly. {_BG}",
+        {"keyword": "물음표보는사람",
+         "prompt": f"A single person, whole upper body clearly visible and not cropped, looking up at a large stylized question mark floating just above their head, one hand raised slightly toward it — this one hand-reaching gesture is the physical-interaction detail. {_BG}",
+         "hashtags": "고민, 생각, 질문, 물음표, 사고, 일러스트, question mark, thinking, contemplation"},
+    ],
+    "discovery": [
+        {"keyword": "전구켜지는순간",
+         "prompt": f"A single light bulb, fully visible with both its glass dome and base in frame, glowing warmly with a few simple light rays around it — the glowing filament visible through the glass is the one physical-interaction detail, kept simple without excessive rays or reflections. {_BG}",
          "hashtags": "전구, 아이디어, 영감, 발견, 유레카, 일러스트, light bulb, idea, discovery moment"},
-    ]
+        {"keyword": "보물찾은아이",
+         "prompt": f"A single child, whole upper body clearly visible and not cropped, holding up a small sparkling gem with both hands close to their chest, a few simple sparkle marks around the gem — the gem resting in the child's open palms is the one physical-interaction detail. {_BG}",
+         "hashtags": "발견, 아이디어, 보물, 영감, 탐험, 일러스트, treasure, discovery, idea"},
+    ],
+}
+
+def _fallback_universal() -> list[dict]:
+    """Gemini 호출 자체가 실패했을 때 사용하는 기본값 — 범용 개념 5축 × 1개(각 축의 첫 세트)."""
+    axes = list(AXIS_FALLBACK_ITEMS.keys())
+    items = []
+    for i, axis in enumerate(axes):
+        base = AXIS_FALLBACK_ITEMS[axis][0]
+        items.append({"rank": i + 1, "type": axis, **base})
+    return items
 
 
 # ═══════════════════════════════════════════════════

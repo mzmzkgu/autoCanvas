@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-10-06T12:00:25.104846",
-  "nextUpdateAt": "2026-10-07T12:00:00",
+  "updatedAt": "2026-10-07T12:00:24.858480",
+  "nextUpdateAt": "2026-10-08T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "돋보기 탐구",
-      "prompt": "A minimalistic flat vector illustration of a scientist with a thick, confident black outline, holding a magnifying glass. The scientist is looking intently at something just out of frame, with a subtle, focused expression. The figure is rendered with saturated but tasteful colors, featuring soft 2-3 step cel-shading to give a light sense of volume, maintaining a simple vector art style. The entire subject is centrally placed on a pure solid #00B140 chroma key green background, filling approximately 80% of the 1:1 square frame, with a clean, even margin of green visible on all four sides, ensuring no part of the subject touches or is cropped by the canvas border. The overall composition is simple and instantly recognizable, suitable for business presentations. No text, numbers, or watermarks are present. The magnifying glass subtly reflects a single, simplified eye from the scientist's perspective.",
-      "hashtags": "조사, 분석, 탐구, 과학자, 돋보기, 일러스트, 캐릭터, PNG, investigation, research",
+      "keyword": "보물지도 탐험",
+      "prompt": "A minimalist flat design vector illustration of an explorer, seen in full body, holding a rolled-up treasure map and a compass, looking ahead with a determined expression. The explorer has a thick, confident black outline and is rendered with subtle 2-3 step cel-shading for volume. The colors are saturated but tasteful, avoiding any photorealistic gradients or intricate textures. The composition is simple and clear, easily recognizable even at thumbnail size. The entire explorer figure is centered and fills approximately 80% of the 1:1 square frame, ensuring a clean, even margin of solid chroma key green background (#00B140) on all four sides, with no part of the figure touching or being cropped by the canvas edge. This image is designed for universal use in business presentations and general graphic design, with no text or watermarks. The interaction shown is the explorer actively planning a journey.",
+      "hashtags": "탐험,지도,보물찾기,모험,일러스트,캐릭터,PNG,clipart,explorer,adventure,map",
       "type": "investigate"
     },
     {
       "rank": 2,
-      "keyword": "새싹 틔우기",
-      "prompt": "A minimalistic flat vector illustration of a pair of hands gently holding and watering a small, newly sprouted seedling. The hands and seedling have thick, confident black outlines. The colors are saturated yet tasteful, with soft 2-3 step cel-shading applied to the hands and the plant for a light sense of volume, adhering to a simple vector art style. The subject is centrally positioned on a pure solid #00B140 chroma key green background, occupying about 80% of the 1:1 square frame, with a clear, even margin of green on all sides, preventing any part of the subject from touching or being cropped by the canvas edge. This universally applicable image is ideal for presentations on growth and development. No text, numbers, or watermarks are included. The water droplets are depicted as simple, stylized shapes.",
-      "hashtags": "성장, 발전, 힐링, 새싹, 손, 물주기, 일러스트, PNG, character, growth, seedling",
+      "keyword": "새싹 돋는 손",
+      "prompt": "A minimalist flat design vector illustration depicting a pair of hands, shown in full view, gently cupping a small, vibrant green seedling that is just beginning to sprout. The hands and seedling have thick, confident black outlines and are colored with saturated but tasteful hues, enhanced by subtle 2-3 step cel-shading for a hint of volume. The composition is simple and immediately understandable. The entire subject, the hands and the seedling, is centered and occupies about 80% of the 1:1 square frame, leaving a clear, even margin of solid chroma key green background (#00B140) on all sides, with no cropped edges. This versatile illustration, free of any text or watermarks, is ideal for business presentations and general design, symbolizing growth and care through the physical act of nurturing a plant.",
+      "hashtags": "성장,새싹,발아,키우기,손,힐링,일러스트,캐릭터,PNG,clipart,growth,seedling,nurturing",
       "type": "growth"
     },
     {
       "rank": 3,
-      "keyword": "어깨동무 친구",
-      "prompt": "A minimalistic flat vector illustration of two children standing side-by-side, with their arms around each other's shoulders, a clear symbol of friendship. Both figures have thick, confident black outlines. The colors are saturated but not garish, enhanced by soft 2-3 step cel-shading to create a gentle volume, all within a simple vector art style. The duo is centrally placed on a pure solid #00B140 chroma key green background, filling roughly 80% of the 1:1 square frame, with a clean, evenly distributed margin of the green background visible on all four sides, ensuring neither child's limbs nor head are cropped by the canvas border. This universally applicable scene is perfect for business presentations on collaboration. No text, numbers, or watermarks are visible. Their facial expressions are simple and friendly.",
-      "hashtags": "우정, 협업, 관계, 친구, 어깨동무, 아이들, 일러스트, PNG, friendship, collaboration",
+      "keyword": "강아지와고양이",
+      "prompt": "A single dog and cat, both whole bodies clearly visible and not cropped, leaning their bodies against each other cheek to cheek — this one body-contact detail is the physical-interaction detail. chroma key green background hex color #00B140, pure flat solid color with NO gradient on the background itself, 1:1 square aspect ratio, subject fills about 80% of the frame, leaving a small clean even margin of the green background clearly visible on ALL FOUR SIDES (top, bottom, left, right) — this margin is a strict platform requirement, ABSOLUTELY NO part of the subject (no limb, hand, foot, edge, or accessory) may touch, extend past, or be cropped off by the canvas border, the ENTIRE subject (or duo) fully visible and NOT cropped into an extreme close-up of only one body part or detail, SINGLE SUBJECT, OR TWO SUBJECTS ACTIVELY INTERACTING WITH EACH OTHER (e.g. a dog and cat leaning against each other, two kids holding hands) — no wider scene, no extra background elements, no environment/setting beyond the subject(s) themselves, clean modern flat vector illustration style, semi-simplified but natural/balanced proportions (NOT exaggerated chibi or super-deformed anime style), smooth clean shapes, friendly and approachable but not overly cutesy, simple minimal facial expression allowed on characters and animals only (subtle, not big anime eyes), NO face only on inanimate objects like food/plants/objects, THICK, CONFIDENT, CONSISTENT-WEIGHT BLACK OUTLINE on every subject — no thin, sketchy, or wavering lines, saturated but tasteful colors with SOFT 2-3 STEP CEL-SHADING for a light sense of volume (NOT flat single-tone fill, but also NOT photorealistic rendering, NOT dozens of fine gradient bands, NOT intricate repetitive micro-texture like individual hair strands or countless rings/lines), professional stock-illustration / icon-marketplace style suitable for universal design use (business documents, blogs, presentations, posters — not tied to a single cutesy sticker aesthetic), ABSOLUTELY NO TEXT, NO LETTERS, NO NUMBERS, NO TYPOGRAPHY OF ANY KIND anywhere in the image, no floor, no shadow, no ground element",
+      "hashtags": "강아지, 고양이, 우정, 반려동물, 친구, 일러스트, dog and cat, friendship, pets",
       "type": "friendship"
     },
     {
       "rank": 4,
-      "keyword": "고민 저울질",
-      "prompt": "A minimalistic flat vector illustration of a person standing in front of a simple scale, with one hand reaching out as if weighing options. The figure and the scale have thick, confident black outlines. Saturated but tasteful colors are used, with soft 2-3 step cel-shading giving a subtle sense of volume, in a clean vector art style. The entire subject is centered on a pure solid #00B140 chroma key green background, occupying approximately 80% of the 1:1 square frame, with an equal, clear margin of green on all four sides, preventing any part of the person or scale from touching or being cropped by the canvas edge. This universally relevant image is ideal for presentations on decision-making and contemplation. No text, numbers, or watermarks are present. The scale balances two simple, abstract shapes.",
-      "hashtags": "고민, 생각, 사고, 저울, 사람, 결정, 일러스트, PNG, character, thinking, dilemma",
+      "keyword": "미로 앞 고민",
+      "prompt": "A minimalist flat design vector illustration of a person standing at the entrance of a complex maze, depicted in full body, with a thoughtful expression. The figure has a thick, confident black outline and is colored with saturated but tasteful hues, enhanced by subtle 2-3 step cel-shading to add a gentle sense of volume. The composition is straightforward and instantly recognizable. The person is centrally positioned, occupying about 80% of the 1:1 square frame, ensuring a clean, even margin of solid chroma key green background (#00B140) surrounds them on all four sides, with no limbs or edges cropped by the canvas border. This universally applicable illustration, devoid of any text or watermarks, is perfect for business presentations to visually represent contemplation and decision-making, showing the physical stance of facing a challenging situation.",
+      "hashtags": "고민,생각,사고,미로,결정,문제,일러스트,캐릭터,PNG,clipart,dilemma,thinking,maze",
       "type": "thinking"
     },
     {
       "rank": 5,
-      "keyword": "열쇠 발견",
-      "prompt": "A minimalistic flat vector illustration showing a hand reaching out to grasp a simple, old-fashioned key, symbolizing discovery and ideas. The hand and key feature thick, confident black outlines. The colors are saturated yet not overwhelming, with soft 2-3 step cel-shading adding a subtle volume, maintaining a clean vector art aesthetic. The entire subject is centrally positioned on a pure solid #00B140 chroma key green background, filling about 80% of the 1:1 square frame, with a distinct, even margin of green on all four sides, ensuring no part of the hand or the key extends beyond or is cropped by the canvas border. This universally useful illustration is perfect for presentations about breakthroughs. No text, numbers, or watermarks are included. The key has a simple, uncluttered design.",
-      "hashtags": "발견, 아이디어, 영감, 열쇠, 손, 보물, 일러스트, PNG, discovery, idea",
+      "keyword": "전구 든 아이",
+      "prompt": "A minimalist flat design vector illustration of a child, shown in full body, holding a glowing lightbulb above their head. The child has a thick, confident black outline and is rendered with saturated but tasteful colors, incorporating subtle 2-3 step cel-shading for a hint of dimension. The design is simple and easily understood. The child and lightbulb are centrally aligned, filling approximately 80% of the 1:1 square frame, with a consistent and visible margin of solid chroma key green background (#00B140) on all sides, ensuring no part of the figure is cropped by the canvas edge. This versatile illustration, free of any text or watermarks, is ideal for business presentations and general design, representing the discovery of an idea through the physical action of holding the lightbulb.",
+      "hashtags": "아이디어,발견,영감,전구,창의력,생각,일러스트,캐릭터,PNG,clipart,idea,inspiration,lightbulb",
       "type": "discovery"
     }
   ]

@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-10-14T12:00:23.070421",
-  "nextUpdateAt": "2026-10-15T12:00:00",
+  "updatedAt": "2026-10-15T12:00:24.595243",
+  "nextUpdateAt": "2026-10-16T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "퍼즐 분석",
-      "prompt": "Minimal flat design vector illustration of a single jigsaw puzzle piece being analyzed by a magnifying glass. The magnifying glass is held by an unseen hand, showing a slight reflection of a simple eye within its lens. The entire magnifying glass and the puzzle piece are clearly visible, with the puzzle piece showing a section of a complex pattern. The colors are saturated but tasteful, with soft 2-3 step cel-shading for volume. A thick, confident, consistent black outline frames both elements. The artwork is centered on a pure solid #00B140 green background with no gradients or textures. The subject fills approximately 80% of the 1:1 square frame, leaving a clean, even margin of green background on all four sides. No text, no shadows, no floor. Suitable for business presentations.",
-      "hashtags": "퍼즐분석, 조각찾기, 탐구, 분석, 일러스트, clipart, investigation, analysis, puzzle, png",
+      "keyword": "돋보기 분석",
+      "prompt": "A minimalist flat vector illustration of an explorer holding a magnifying glass, examining a map. The explorer's entire body is visible, with the magnifying glass positioned to clearly show a portion of the map within its lens, suggesting close observation. The illustration features a thick, confident black outline, saturated but tasteful colors with subtle 2-3 step cel-shading for volume, and is set against a solid, pure #00B140 chroma key green background. The subject is centrally placed, filling approximately 80% of the 1:1 square frame, ensuring a clean, even margin of the green background is visible on all four sides, with no part of the explorer or map touching the canvas border. This design is intended for universal use in business presentations.",
+      "hashtags": "돋보기,탐험,분석,조사,아이콘,일러스트,캐릭터,PNG,magnifying glass,analysis",
       "type": "investigate"
     },
     {
       "rank": 2,
-      "keyword": "새싹 돋기",
-      "prompt": "Minimal flat design vector illustration of a small sprout pushing through soil, with a single droplet of water falling onto it from above. The entire sprout and a portion of the soil are visible, with the water droplet suspended mid-air. The colors are saturated but tasteful, with soft 2-3 step cel-shading for volume. A thick, confident, consistent black outline frames the sprout and soil. The artwork is centered on a pure solid #00B140 green background with no gradients or textures. The subject fills approximately 80% of the 1:1 square frame, leaving a clean, even margin of green background on all four sides. No text, no shadows, no floor. Suitable for business presentations.",
-      "hashtags": "성장, 새싹, 힐링, 자연, 일러스트, 캐릭터, png, growth, sprout, healing, illustration",
+      "keyword": "새싹 힐링",
+      "prompt": "A minimalist flat vector illustration of a pair of hands gently cupping and nurturing a small, vibrant sprout. The entire hands and sprout are clearly visible, showing a delicate interaction of care. The artwork has a thick, confident black outline and uses saturated but tasteful colors with soft 2-3 step cel-shading for a hint of volume. It is set on a solid, pure #00B140 chroma key green background. The composition is centered, with the subjects occupying about 80% of the 1:1 square frame, leaving a visible, even margin of green on all sides, ensuring no part of the hands or sprout extends to the canvas edge. This versatile illustration is ideal for presentations on growth and healing.",
+      "hashtags": "성장,힐링,새싹,손,케어,일러스트,아이콘,PNG,growth,healing",
       "type": "growth"
     },
     {
       "rank": 3,
-      "keyword": "함께 걷는 친구",
-      "prompt": "Minimal flat design vector illustration of two children walking side-by-side, with their hands loosely linked. Both children are fully visible from head to toe. Their expressions are simple and neutral. The colors are saturated but tasteful, with soft 2-3 step cel-shading for volume. Thick, confident, consistent black outlines frame both figures. The artwork is centered on a pure solid #00B140 green background with no gradients or textures. The subjects fill approximately 80% of the 1:1 square frame, leaving a clean, even margin of green background on all four sides. No text, no shadows, no floor. Suitable for business presentations.",
-      "hashtags": "우정, 협업, 친구, 관계, 일러스트, 캐릭터, png, friendship, collaboration, friends",
+      "keyword": "어깨동무 친구",
+      "prompt": "A minimalist flat vector illustration depicting two diverse figures standing side-by-side, with their arms around each other's shoulders in a gesture of friendship. Both figures are fully visible from head to toe, showcasing a clear and direct interaction. The illustration is defined by a thick, confident black outline and employs saturated but tasteful colors with subtle 2-3 step cel-shading for light volume. The background is a solid, pure #00B140 chroma key green. The subjects are centrally aligned and fill roughly 80% of the 1:1 square frame, maintaining a clean, uniform margin of green background on all four sides, with no cropped limbs or edges. This image is suitable for universal presentation graphics.",
+      "hashtags": "우정,협업,친구,관계,동행,일러스트,캐릭터,PNG,friendship,collaboration",
       "type": "friendship"
     },
     {
       "rank": 4,
-      "keyword": "미로 갈림길",
-      "prompt": "Minimal flat design vector illustration of a single person standing at a crossroads within a simple maze. The person is fully visible from head to toe, looking thoughtfully at the diverging paths. The colors are saturated but tasteful, with soft 2-3 step cel-shading for volume. A thick, confident, consistent black outline frames the person and maze. The artwork is centered on a pure solid #00B140 green background with no gradients or textures. The subject fills approximately 80% of the 1:1 square frame, leaving a clean, even margin of green background on all four sides. No text, no shadows, no floor. Suitable for business presentations.",
-      "hashtags": "고민, 생각, 사고, 갈림길, 일러스트, 캐릭터, png, dilemma, thought, crossroads, illustration",
+      "keyword": "미로 고민",
+      "prompt": "A minimalist flat vector illustration of a person standing thoughtfully at the entrance of a maze, contemplating the path ahead. The entire person is clearly depicted within the frame, engaged in a moment of mental exploration. It features a thick, confident black outline and saturated, tasteful colors with subtle 2-3 step cel-shading for a touch of volume. The background is a solid, pure #00B140 chroma key green. The subject is centered, occupying approximately 80% of the 1:1 square frame, with a consistent, clean margin of green visible on all sides, preventing any cropping of the person's form at the canvas edge. This icon is designed for broad application in presentations.",
+      "hashtags": "고민,생각,결정,미로,인생,일러스트,아이콘,PNG,thinking,dilemma",
       "type": "thinking"
     },
     {
       "rank": 5,
       "keyword": "전구 아이디어",
-      "prompt": "Minimal flat design vector illustration of a single glowing lightbulb that has just illuminated, symbolizing an idea. The entire lightbulb is clearly visible. The colors are saturated but tasteful, with soft 2-3 step cel-shading for volume. A thick, confident, consistent black outline frames the lightbulb. The artwork is centered on a pure solid #00B140 green background with no gradients or textures. The subject fills approximately 80% of the 1:1 square frame, leaving a clean, even margin of green background on all four sides. No text, no shadows, no floor. Suitable for business presentations.",
-      "hashtags": "발견, 아이디어, 영감, 전구, 일러스트, png, idea, inspiration, discovery, lightbulb",
+      "prompt": "A minimalist flat vector illustration of a single, glowing lightbulb with a subtle spark or idea symbol emanating from it. The entire lightbulb is fully visible, representing a moment of inspiration. The design incorporates a thick, confident black outline and uses saturated but not gaudy colors with soft 2-3 step cel-shading to add a slight sense of dimension. It's set against a solid, pure #00B140 chroma key green background. The lightbulb is centrally positioned, filling about 80% of the 1:1 square frame, ensuring a clear, even margin of the green background surrounds it on all sides, with no part of the bulb touching the frame border. This graphic is suitable for universal presentation needs.",
+      "hashtags": "아이디어,발견,영감,전구,창의력,일러스트,아이콘,PNG,idea,inspiration",
       "type": "discovery"
     }
   ]

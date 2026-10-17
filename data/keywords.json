@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-10-16T12:00:21.912358",
-  "nextUpdateAt": "2026-10-17T12:00:00",
+  "updatedAt": "2026-10-17T12:00:20.333186",
+  "nextUpdateAt": "2026-10-18T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "별자리 관측",
-      "prompt": "A minimalist flat design illustration of a person looking through a telescope at a starry night sky. The person is depicted from the chest up, with their entire body visible within the frame, looking upwards. The telescope is held with a clear physical interaction, showing a hand steadying it. The scene features a thick, confident black outline and saturated, tasteful colors with soft 2-3 step cel-shading for volume. The background is a pure, solid chroma key green (#00B140) with no gradients or textures. The subject fills approximately 80% of the 1:1 square frame, leaving an even margin of green background on all sides, ensuring no part of the person or telescope touches the canvas edge. This is a versatile illustration suitable for business presentations. High quality, vector art style, no text or watermarks.",
-      "hashtags": "별자리,관측,천문학,탐구,우주,일러스트,vector,icon,celshading,png",
+      "keyword": "탐정 아이",
+      "prompt": "A single young detective, fully visible within the frame, is intently examining a magnifying glass. The magnifying glass is positioned to subtly reflect a single, clear eye of the child within its lens, showcasing a moment of discovery without cropping. The child's entire body is depicted, with a confident, thick black outline and smooth, 2-3 step cel-shading for a touch of volume on their outfit. The colors are saturated but tasteful. This minimalist flat vector illustration is presented on a pure, solid #00B140 chroma key green background, filling approximately 80% of the 1:1 square frame, leaving a clean, even margin on all four sides. Suitable for business presentations. Absolutely no text or extraneous elements.",
+      "hashtags": "탐정, 아이, 조사, 분석, 현미경, 일러스트, 캐릭터, PNG, clipart, detective",
       "type": "investigate"
     },
     {
       "rank": 2,
-      "keyword": "대나무 성장",
-      "prompt": "A minimalist flat design illustration showcasing a young bamboo shoot emerging from the soil, with several mature bamboo stalks in the background to signify growth. The focus is on the vibrant green of the bamboo, rendered with a thick, confident black outline and subtle 2-3 step cel-shading for a sense of volume. The entire bamboo shoot and some surrounding soil are clearly visible, demonstrating a clear physical interaction with the earth. The composition is simple and immediately recognizable even at thumbnail size. The background is a pure, solid chroma key green (#00B140) with no gradients. The bamboo fills about 80% of the 1:1 square frame, with a consistent, clean margin of green background on all four sides, ensuring no part is cropped. This versatile illustration is ideal for presentations on growth and development. High quality, vector art style, no text.",
-      "hashtags": "대나무,성장,자연,힐링,식물,일러스트,bamboo,growth,vector,png",
+      "keyword": "햇살 해바라기",
+      "prompt": "A single vibrant sunflower, its entire stalk and bloom clearly within the frame, is depicted with its face gently turning towards a soft, implied sunlight source. The interaction is subtle, showing the natural tendency of the plant. The illustration features a thick, consistent black outline and a saturated, pleasing color palette with gentle 2-3 step cel-shading to add subtle volume to the petals and leaves. Presented on a solid #00B140 chroma key green background in a 1:1 square aspect ratio, the sunflower occupies about 80% of the space, ensuring a clean, even margin of green on all sides. This is a versatile graphic for presentations, free of text and cropped elements.",
+      "hashtags": "해바라기, 성장, 힐링, 식물, 자연, 일러스트, PNG, clipart, sunflower, growth",
       "type": "growth"
     },
     {
       "rank": 3,
       "keyword": "우산 친구",
-      "prompt": "A minimalist flat design illustration of two children sharing a single umbrella while walking side-by-side. Both children and their full bodies are visible, and the umbrella clearly shows them huddling together, demonstrating a physical interaction of togetherness. They are depicted with thick, confident black outlines and saturated, tasteful colors with soft 2-3 step cel-shading for volume. The background is a pure, solid chroma key green (#00B140) with no gradients. The subjects fill approximately 80% of the 1:1 square frame, with an even, clean margin of green background on all sides, ensuring no part of the children or umbrella is cropped by the canvas edge. This is a versatile image for themes of friendship and collaboration in presentations. High quality, vector art style, no text.",
-      "hashtags": "우정,협업,친구,우산,관계,일러스트,friendship,collaboration,vector,clipart",
+      "prompt": "Two children, their entire bodies fully visible and clearly interacting, are sharing a single umbrella. One child is holding the umbrella pole, while the other stands close beside them, emphasizing their connection. The image utilizes thick, confident black outlines for both figures and the umbrella, with saturated, tasteful colors enhanced by soft 2-3 step cel-shading for gentle volume. The composition is placed centrally on a solid #00B140 chroma key green background in a 1:1 square format, with the subjects occupying around 80% of the frame to maintain essential, even green margins on all four sides. This universal illustration is ideal for business presentations, with no text or cropped parts.",
+      "hashtags": "우정, 협업, 친구, 우산, 함께, 일러스트, 캐릭터, PNG, clipart, friendship",
       "type": "friendship"
     },
     {
       "rank": 4,
-      "keyword": "갈림길 고민",
-      "prompt": "A minimalist flat design illustration of a person standing at a clear crossroads, with two distinct paths diverging. The person's entire body is visible, depicted from a slightly elevated angle, looking towards the diverging paths, symbolizing a decision point. The illustration uses a thick, confident black outline and saturated, tasteful colors with soft 2-3 step cel-shading to add subtle volume. The background is a pure, solid chroma key green (#00B140) with no gradients or textures. The subject occupies about 80% of the 1:1 square frame, with a consistent, clean margin of green background on all four sides, ensuring no part of the person or paths touch the edge. This is a versatile graphic for representing choices and contemplation in presentations. High quality, vector art style, no text.",
-      "hashtags": "고민,생각,결정,갈림길,사고,일러스트,decision,thinking,vector,png",
+      "keyword": "생각하는 아이",
+      "prompt": "A single child, entirely visible, is shown resting their chin on their hand in a pose of deep thought. The interaction is the child's own contemplation, visually represented by their posture. The character is drawn with a thick, decisive black outline and saturated, appealing colors with subtle 2-3 step cel-shading for a hint of volume. This minimalist vector art is set against a pure, flat #00B140 chroma key green background, occupying approximately 80% of the 1:1 square frame, ensuring a distinct and even green border on all sides. The image is designed for universal use in presentations, devoid of text or any cropped elements.",
+      "hashtags": "고민, 생각, 사고, 아이, 질문, 일러스트, 캐릭터, PNG, clipart, thinking",
       "type": "thinking"
     },
     {
       "rank": 5,
       "keyword": "전구 아이디어",
-      "prompt": "A minimalist flat design illustration of a stylized light bulb illuminating brightly above a person's head. The person's entire head and upper body are visible, looking up at the glowing light bulb, representing a moment of inspiration or a new idea. The light bulb and the person's head show a clear, gentle physical proximity and conceptual interaction. The illustration features a thick, confident black outline and saturated, tasteful colors with soft 2-3 step cel-shading for volume. The background is a pure, solid chroma key green (#00B140) with no gradients. The subject fills approximately 80% of the 1:1 square frame, with an even, clean margin of green background on all sides, ensuring no part of the head or light bulb is cropped. This versatile image is perfect for presentations on discovery and ideas. High quality, vector art style, no text.",
-      "hashtags": "아이디어,영감,발견,전구,생각,일러스트,idea,inspiration,vector,clipart",
+      "prompt": "A single child, fully depicted from head to toe, is enthusiastically pointing at a glowing lightbulb that has just 'turned on' above their head, signifying an idea. The interaction is the child's excited reaction to the conceptual lightbulb. The figure and the lightbulb are rendered with a thick, solid black outline and saturated, attractive colors with simple 2-3 step cel-shading for minimal volume. This clean vector illustration is centered on a #00B140 solid chroma key green background, filling about 80% of the 1:1 square canvas, which leaves a necessary and clean green margin on all four sides. This versatile image is perfect for business presentations and contains no text or cropped edges.",
+      "hashtags": "발견, 아이디어, 영감, 전구, 생각, 일러스트, 캐릭터, PNG, clipart, idea",
       "type": "discovery"
     }
   ]

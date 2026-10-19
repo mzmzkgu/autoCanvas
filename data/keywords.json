@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-10-18T12:00:20.374735",
-  "nextUpdateAt": "2026-10-19T12:00:00",
+  "updatedAt": "2026-10-19T12:00:19.604989",
+  "nextUpdateAt": "2026-10-20T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "돋보기 속 아이",
-      "prompt": "Minimal flat design vector illustration of a curious child with their entire body visible, holding a magnifying glass to examine a tiny ant on a leaf. The child's eyes are slightly visible through the magnifying glass lens, and the ant is also fully depicted. The scene uses saturated but not gaudy colors with soft 2-3 step cel-shading for subtle volume. A thick, confident black outline frames the subjects. The composition is centered on a solid #00B140 chroma key green background, with the subjects filling approximately 80% of the frame, ensuring a clean, even margin of green on all four sides. This is a universal concept for presentations, suitable for immediate business use. No text, numbers, or watermarks. 700x700px minimum quality.",
-      "hashtags": "돋보기, 아이, 조사, 분석, 탐구, 일러스트, character, PNG, clipart, investigation",
+      "keyword": "현미경 탐구",
+      "prompt": "A scientist, fully visible with their body and legs, is looking through a microscope. The microscope's lens shows a subtle, enlarged reflection of a single-celled organism, depicting a clear physical interaction. The entire subject is centered and fills approximately 80% of the frame, with a clean, even margin of solid #00B140 green background on all four sides. The illustration is in a minimal flat design with a thick, confident black outline and 2-3 step cel-shading for subtle volume. The background is a pure, solid #00B140 green chroma key.",
+      "hashtags": "탐구, 과학, 현미경, 분석, 조사, 연구, illustration, microscope, png",
       "type": "investigate"
     },
     {
       "rank": 2,
-      "keyword": "새싹 키우기",
-      "prompt": "Minimal flat design vector illustration of a young person's hands gently watering a small sprouting seedling. The hands and the entire plant are fully visible and well-proportioned within the frame. The colors are high saturation but tastefully muted, with subtle 2-3 step cel-shading adding light volume. A bold, consistent black outline surrounds the subjects. The image is centrally placed on a solid #00B140 chroma key green background, with the elements occupying about 80% of the space, leaving a clean, consistent green margin on all sides. This represents growth and healing, ideal for general presentation graphics. No text, numbers, or watermarks. 700x700px minimum quality.",
-      "hashtags": "성장, 발전, 힐링, 새싹, 물주기, 일러스트, growth, PNG, clipart, seedling",
+      "keyword": "새싹 성장",
+      "prompt": "A pair of hands, fully visible, are gently watering a small, healthy seedling. The seedling is visibly growing from the soil, illustrating a natural growth process and physical interaction. The entire scene is centered and fills approximately 80% of the frame, with a clean, even margin of solid #00B140 green background on all four sides. The illustration features a thick, confident black outline and 2-3 step cel-shading for subtle volume, rendered in a minimal flat design. The background is a pure, solid #00B140 green chroma key.",
+      "hashtags": "성장, 힐링, 새싹, 식물, 자연, 발전, illustration, growth, png",
       "type": "growth"
     },
     {
       "rank": 3,
-      "keyword": "함께 쓰는 우산",
-      "prompt": "Minimal flat design vector illustration featuring two friends, a boy and a girl, sharing a single umbrella, both fully visible. They are depicted in a friendly, collaborative pose, with the umbrella held over both their heads. The illustration uses saturated but not garish colors, enhanced with soft 2-3 step cel-shading for a touch of volume. A thick, confident black outline defines all subjects. The scene is centered on a solid #00B140 chroma key green background, with the subjects filling roughly 80% of the frame, ensuring a balanced, even green margin on all sides. This is a universal symbol of friendship and collaboration for business presentations. No text, numbers, or watermarks. 700x700px minimum quality.",
-      "hashtags": "우정, 협업, 관계, 친구, 우산, 일러스트, friendship, PNG, clipart, collaboration",
+      "keyword": "우산 친구",
+      "prompt": "Two children, their entire bodies fully visible, are sharing a single umbrella. Their arms are slightly touching as they huddle close, symbolizing friendship and cooperation. The composition is centered and occupies about 80% of the frame, with a consistent, clean margin of solid #00B140 green background on all sides. The style is a minimal flat design with bold, uniform black outlines and subtle 2-3 step cel-shading. The background is a pure, solid #00B140 green chroma key.",
+      "hashtags": "우정, 협업, 친구, 공유, 관계, children, illustration, friendship, png",
       "type": "friendship"
     },
     {
       "rank": 4,
       "keyword": "갈림길 고민",
-      "prompt": "Minimal flat design vector illustration of a person standing at a clear fork in the road, their entire figure visible, looking thoughtfully down both paths. The body language conveys decision-making. Colors are saturated yet elegant, with subtle 2-3 step cel-shading to provide light dimensionality. A thick, unwavering black outline encloses the subject. The composition is centered on a solid #00B140 chroma key green background, with the person occupying about 80% of the frame, ensuring ample, consistent green space on all four sides. This represents contemplation and decision-making, universally applicable to presentations. No text, numbers, or watermarks. 700x700px minimum quality.",
-      "hashtags": "고민, 생각, 사고, 갈림길, 결정, 일러스트, decision, PNG, clipart, contemplation",
+      "prompt": "A person, their entire figure clearly visible from head to toe, stands at a literal crossroads with two distinct paths diverging. Their posture suggests contemplation and decision-making, illustrating the concept of choice. The subject is centrally placed, filling about 80% of the 1:1 square frame, with ample, even space of solid #00B140 green background on all four sides. The artwork utilizes a thick, consistent black outline and soft 2-3 step cel-shading within a minimal flat design. The background is a pure, solid #00B140 green chroma key.",
+      "hashtags": "고민, 선택, 갈림길, 생각, 사고, decision, illustration, dilemma, png",
       "type": "thinking"
     },
     {
       "rank": 5,
-      "keyword": "열쇠 발견 손",
-      "prompt": "Minimal flat design vector illustration of a hand reaching out to grasp a shiny key, both fully visible. The hand is clearly in the act of discovery, with the key positioned slightly within the palm or fingertips for interaction. The colors are vibrant but not loud, with subtle 2-3 step cel-shading for a soft volumetric effect. A bold, consistent black outline outlines the hand and key. The image is centrally composed on a solid #00B140 chroma key green background, with the subject filling approximately 80% of the frame, leaving a clear, even margin of green on the top, bottom, left, and right. This symbolizes discovery and ideas, perfect for general presentation use. No text, numbers, or watermarks. 700x700px minimum quality.",
-      "hashtags": "발견, 아이디어, 영감, 열쇠, 손, 일러스트, idea, PNG, clipart, discovery",
+      "keyword": "아이디어 전구",
+      "prompt": "A person, their entire body fully visible, is looking up at a brightly glowing lightbulb that has just appeared above their head. The lightbulb symbolizes an idea or inspiration, and the person's gaze shows their engagement. The illustration is perfectly centered, occupying roughly 80% of the frame, with a clean, even border of solid #00B140 green background on all sides. It features a thick, bold black outline and subtle 2-3 step cel-shading for a minimalist flat vector style. The background is a pure, solid #00B140 green chroma key.",
+      "hashtags": "아이디어, 영감, 발견, 생각, 창의, idea, inspiration, illustration, png",
       "type": "discovery"
     }
   ]

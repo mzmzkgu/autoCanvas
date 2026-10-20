@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-10-19T12:00:19.604989",
-  "nextUpdateAt": "2026-10-20T12:00:00",
+  "updatedAt": "2026-10-20T12:00:22.084100",
+  "nextUpdateAt": "2026-10-21T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "현미경 탐구",
-      "prompt": "A scientist, fully visible with their body and legs, is looking through a microscope. The microscope's lens shows a subtle, enlarged reflection of a single-celled organism, depicting a clear physical interaction. The entire subject is centered and fills approximately 80% of the frame, with a clean, even margin of solid #00B140 green background on all four sides. The illustration is in a minimal flat design with a thick, confident black outline and 2-3 step cel-shading for subtle volume. The background is a pure, solid #00B140 green chroma key.",
-      "hashtags": "탐구, 과학, 현미경, 분석, 조사, 연구, illustration, microscope, png",
+      "keyword": "현미경 과학자",
+      "prompt": "A scientist, depicted in a minimal flat design with a thick, confident black outline, is using a microscope. The subject is rendered with saturated but tasteful colors and soft 2-3 step cel-shading for a light sense of volume, maintaining a simple vector illustration style. The scientist's entire body, including hands holding the microscope and looking through it, is fully visible within the frame, which is a 1:1 square. The background is a pure, solid #00B140 chroma key green with no gradients or textures. The subject occupies about 80% of the frame, leaving a small, even margin of green on all four sides. This composition is designed for immediate recognition even in a small thumbnail, suitable for business presentations, emphasizing investigation and analysis. No text, numbers, or watermarks are present. The overall aesthetic is clean, modern, and universally applicable.",
+      "hashtags": "현미경, 과학자, 조사, 분석, 탐구, 연구, 일러스트, scientist, investigation, clipart",
       "type": "investigate"
     },
     {
       "rank": 2,
       "keyword": "새싹 성장",
-      "prompt": "A pair of hands, fully visible, are gently watering a small, healthy seedling. The seedling is visibly growing from the soil, illustrating a natural growth process and physical interaction. The entire scene is centered and fills approximately 80% of the frame, with a clean, even margin of solid #00B140 green background on all four sides. The illustration features a thick, confident black outline and 2-3 step cel-shading for subtle volume, rendered in a minimal flat design. The background is a pure, solid #00B140 green chroma key.",
-      "hashtags": "성장, 힐링, 새싹, 식물, 자연, 발전, illustration, growth, png",
+      "prompt": "A pair of hands gently watering a small sprout, illustrated in a minimal flat design with a thick, confident black outline. The colors are saturated yet tasteful, with soft 2-3 step cel-shading adding subtle volume to the hands and sprout. The entire hands and the sprout they are tending are clearly visible within the 1:1 square frame. The background is a solid, pure #00B140 chroma key green, devoid of any gradients or textures. The subjects fill approximately 80% of the frame, ensuring a clean, even margin of green background is visible on all four sides, adhering to platform requirements. This image conveys growth and development in a universally understandable way, ideal for presentations. No text, numbers, or watermarks are included. The style is clean, modern vector art.",
+      "hashtags": "새싹, 성장, 힐링, 물주기, 자연, 일러스트, sprout, growth, illustration, png",
       "type": "growth"
     },
     {
       "rank": 3,
-      "keyword": "우산 친구",
-      "prompt": "Two children, their entire bodies fully visible, are sharing a single umbrella. Their arms are slightly touching as they huddle close, symbolizing friendship and cooperation. The composition is centered and occupies about 80% of the frame, with a consistent, clean margin of solid #00B140 green background on all sides. The style is a minimal flat design with bold, uniform black outlines and subtle 2-3 step cel-shading. The background is a pure, solid #00B140 green chroma key.",
-      "hashtags": "우정, 협업, 친구, 공유, 관계, children, illustration, friendship, png",
+      "keyword": "어깨동무 친구",
+      "prompt": "Two characters, perhaps children or friendly animals, standing side-by-side with their arms around each other's shoulders, depicted in a minimal flat design with a thick, confident black outline. They are rendered with saturated but tasteful colors and soft 2-3 step cel-shading for a gentle sense of volume, maintaining a simple vector art style. The complete figures of both characters are fully visible within the 1:1 square frame, clearly showing their interaction of friendship and togetherness. The background is a pure, solid #00B140 chroma key green with no gradients or textures. The subjects occupy about 80% of the frame, with a consistent, clean margin of green background on all four sides. This composition is designed for clear recognition and universal appeal, suitable for presentations on relationships and collaboration. No text, numbers, or watermarks are present.",
+      "hashtags": "우정, 친구, 협업, 관계, 어깨동무, 캐릭터, illustration, friendship, collaboration, clipart",
       "type": "friendship"
     },
     {
       "rank": 4,
-      "keyword": "갈림길 고민",
-      "prompt": "A person, their entire figure clearly visible from head to toe, stands at a literal crossroads with two distinct paths diverging. Their posture suggests contemplation and decision-making, illustrating the concept of choice. The subject is centrally placed, filling about 80% of the 1:1 square frame, with ample, even space of solid #00B140 green background on all four sides. The artwork utilizes a thick, consistent black outline and soft 2-3 step cel-shading within a minimal flat design. The background is a pure, solid #00B140 green chroma key.",
-      "hashtags": "고민, 선택, 갈림길, 생각, 사고, decision, illustration, dilemma, png",
+      "keyword": "물음표 생각",
+      "prompt": "A solitary character, presented in a minimal flat design with a thick, confident black outline, looking thoughtfully at a large question mark. The character and the question mark are colored with saturated but tasteful hues and feature soft 2-3 step cel-shading to give a light sense of volume, all within a simple vector illustration style. The entire character and the question mark are completely visible within the 1:1 square frame, illustrating contemplation and thought. The background is a uniform, solid #00B140 chroma key green without any gradients or textures. The subjects occupy approximately 80% of the canvas, leaving a clean, even border of green background on all four sides as per platform guidelines. This image is designed for universal understanding of the concept of questioning and thinking, suitable for presentations. No text, numbers, or watermarks are included. The style is clean and modern.",
+      "hashtags": "생각, 고민, 질문, 사고, 물음표, 궁금증, 일러스트, thinking, question, png",
       "type": "thinking"
     },
     {
       "rank": 5,
-      "keyword": "아이디어 전구",
-      "prompt": "A person, their entire body fully visible, is looking up at a brightly glowing lightbulb that has just appeared above their head. The lightbulb symbolizes an idea or inspiration, and the person's gaze shows their engagement. The illustration is perfectly centered, occupying roughly 80% of the frame, with a clean, even border of solid #00B140 green background on all sides. It features a thick, bold black outline and subtle 2-3 step cel-shading for a minimalist flat vector style. The background is a pure, solid #00B140 green chroma key.",
-      "hashtags": "아이디어, 영감, 발견, 생각, 창의, idea, inspiration, illustration, png",
+      "keyword": "보물 발견",
+      "prompt": "A character, illustrated in a minimal flat design with a thick, confident black outline, joyfully discovering a treasure chest. The character and the treasure chest are colored with saturated but tasteful shades and incorporate soft 2-3 step cel-shading for a subtle sense of depth, all within a clean vector art style. The complete figure of the character and the entire treasure chest are fully visible within the 1:1 square frame, capturing the moment of discovery. The background is a pure, solid #00B140 chroma key green, completely free of gradients or textures. The subjects occupy about 80% of the frame, ensuring a small, even margin of the green background is visible on all four sides, a mandatory platform requirement. This composition is clear and instantly recognizable, suitable for themes of discovery and inspiration in presentations. No text, numbers, or watermarks are present.",
+      "hashtags": "발견, 보물, 아이디어, 영감, 성공, 기쁨, 일러스트, discovery, treasure, clipart",
       "type": "discovery"
     }
   ]

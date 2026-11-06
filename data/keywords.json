@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-11-05T12:00:23.196560",
-  "nextUpdateAt": "2026-11-06T12:00:00",
+  "updatedAt": "2026-11-06T12:00:24.314335",
+  "nextUpdateAt": "2026-11-07T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "돋보기 탐구",
-      "prompt": "A minimalist flat vector illustration of a scientist holding a magnifying glass, peering closely at a tiny plant. The scientist is depicted with a thick, confident black outline and filled with saturated but tasteful colors, featuring soft 2-3 step cel-shading for a light sense of volume. The entire scientist and the plant are clearly visible within the frame, with the magnifying glass subtly showing a magnified leaf detail. The composition is simple and clear, easily recognizable even as a thumbnail. The scene is set against a pure solid chroma key green (#00B140) background. The subject occupies approximately 80% of the 1:1 square frame, ensuring a small, even margin of green background is visible on all four sides, with no part of the scientist or plant touching or being cropped by the canvas border. This is a universal concept for business presentations. Absolutely no text, numbers, or watermarks are present. The style is clean, modern, and suitable for stock illustrations.",
-      "hashtags": "조사, 분석, 탐구, 과학자, 돋보기, 일러스트,PNG, clipart, research, science",
+      "keyword": "별자리 관측",
+      "prompt": "Minimal flat design vector illustration of a scientist with a thick, confident black outline, holding a telescope and looking up at a starry night sky. The subject is rendered in saturated but tasteful colors with soft 2-3 step cel-shading for a light sense of volume, on a pure #00B140 chroma key green background. The composition is simple and clearly recognizable even at thumbnail size, with the entire figure of the scientist and telescope fully visible within the frame, leaving a clean, even margin of the green background on all four sides. This image depicts exploration and scientific inquiry, suitable for universal business presentation use.",
+      "hashtags": "별자리,천문학,탐구,과학자,우주,관측,일러스트,vector,science,space",
       "type": "investigate"
     },
     {
       "rank": 2,
-      "keyword": "새싹 성장",
-      "prompt": "A minimalist flat vector illustration of a pair of hands gently cupping and nurturing a small seedling growing from the soil. The hands and seedling are rendered with thick, confident black outlines and saturated but tasteful colors, using soft 2-3 step cel-shading to add subtle volume. The entire subject, hands and seedling, is fully visible within the frame, with the hands shown in the act of carefully supporting the plant's base. The composition is simple and direct, instantly understandable. It is set against a pure solid chroma key green (#00B140) background. The subject fills about 80% of the 1:1 square frame, leaving a clear, even margin of green background on all four sides, ensuring no part of the hands or seedling is cropped. This represents growth and development, suitable for universal design use. No text, numbers, or watermarks are included. The style is clean, modern, and professional for stock illustration.",
-      "hashtags": "성장, 발전, 힐링, 새싹, 손, 일러스트,PNG, clipart, growth, seedling",
+      "keyword": "나무 키우기",
+      "prompt": "Minimal flat design vector illustration of a young sapling being watered by a hand with a thick, confident black outline. The subject is rendered in saturated but tasteful colors with soft 2-3 step cel-shading for a light sense of volume, on a pure #00B140 chroma key green background. The composition is simple and clearly recognizable, showing the entire sapling and the hand fully visible within the frame, with a clean, even margin of the green background on all four sides. This image represents growth and nurturing, suitable for universal business presentation use.",
+      "hashtags": "성장,나무,식물,물주기,힐링,새싹,일러스트,growth,plant,nurture",
       "type": "growth"
     },
     {
       "rank": 3,
-      "keyword": "우산 친구",
-      "prompt": "A minimalist flat vector illustration of two children sharing a single umbrella while walking. Both children and the umbrella are depicted with thick, confident black outlines and saturated but tasteful colors, employing soft 2-3 step cel-shading for a slight sense of depth. The entire figures of the children and the umbrella are fully contained within the frame, showcasing their interaction of huddling together under the shared shelter. The composition is clear and instantly recognizable. The background is a pure solid chroma key green (#00B140). The subjects occupy around 80% of the 1:1 square frame, with a distinct, even border of green background visible on all sides, preventing any cropping of the children or umbrella. This image embodies friendship and cooperation, ideal for general presentation use. No text, numbers, or watermarks are present. The style is clean, modern, and professional, suited for stock illustrations.",
-      "hashtags": "우정, 협업, 관계, 친구, 우산, 일러스트,PNG, clipart, friendship, cooperation",
+      "keyword": "함께 걷는 친구",
+      "prompt": "Minimal flat design vector illustration of two children walking side-by-side with their shoulders touching, depicted with thick, confident black outlines. They are rendered in saturated but tasteful colors with soft 2-3 step cel-shading for a light sense of volume, on a pure #00B140 chroma key green background. The composition is simple and clearly recognizable, showing both children's full figures within the frame, with a clean, even margin of the green background on all four sides. This image symbolizes friendship and companionship, suitable for universal business presentation use.",
+      "hashtags": "우정,친구,함께,협업,관계,어깨동무,일러스트,friendship,together,kids",
       "type": "friendship"
     },
     {
       "rank": 4,
-      "keyword": "갈림길 고민",
-      "prompt": "A minimalist flat vector illustration of a single person standing at a clear fork in the road, looking thoughtfully at the diverging paths. The person is drawn with a thick, confident black outline and saturated but tasteful colors, utilizing soft 2-3 step cel-shading for subtle volume. The entire figure of the person is clearly visible within the frame, captured in a moment of contemplation, with their gaze directed towards the paths ahead. The composition is simple and immediately conveys the idea of choice. It is presented against a pure solid chroma key green (#00B140) background. The subject occupies approximately 80% of the 1:1 square frame, ensuring a uniform, small margin of green background on all four sides, with no part of the person or the road diverging being cropped. This represents thought and decision-making, suitable for universal design applications. No text, numbers, or watermarks are included. The style is clean, modern, and professional, appropriate for stock illustrations.",
-      "hashtags": "고민, 생각, 사고, 갈림길, 사람, 일러스트,PNG, clipart, thinking, dilemma",
+      "keyword": "고민 저울질",
+      "prompt": "Minimal flat design vector illustration of a person standing with one hand on their chin and the other holding scales, contemplating a decision, with a thick, confident black outline. The subject is rendered in saturated but tasteful colors with soft 2-3 step cel-shading for a light sense of volume, on a pure #00B140 chroma key green background. The composition is simple and clearly recognizable, showing the entire figure within the frame, with a clean, even margin of the green background on all four sides. This image represents thought and deliberation, suitable for universal business presentation use.",
+      "hashtags": "고민,생각,결정,저울질,사고,추상,일러스트,thinking,decision,mind",
       "type": "thinking"
     },
     {
       "rank": 5,
-      "keyword": "전구 아이디어",
-      "prompt": "A minimalist flat vector illustration of a character with a light bulb illuminating above their head, symbolizing a bright idea. The character is rendered with a thick, confident black outline and saturated but tasteful colors, featuring soft 2-3 step cel-shading for a touch of volume. The entire character is clearly visible within the 1:1 square frame, with the light bulb positioned directly above and clearly connected to their thought process. The composition is simple, direct, and instantly communicates discovery and inspiration. The background is a pure solid chroma key green (#00B140). The subject fills about 80% of the frame, maintaining a clean, even border of green background on all four sides, with no part of the character or the light bulb touching or being cropped by the canvas edge. This is a universal concept for inspiration and ideas, perfect for presentations. Absolutely no text, numbers, or watermarks are present. The style is clean, modern, and professional, suitable for stock illustration.",
-      "hashtags": "발견, 아이디어, 영감, 전구, 캐릭터, 일러스트,PNG, clipart, idea, inspiration",
+      "keyword": "돋보기 발견",
+      "prompt": "Minimal flat design vector illustration of a hand holding a magnifying glass, examining a small detail, with a thick, confident black outline. The subject is rendered in saturated but tasteful colors with soft 2-3 step cel-shading for a light sense of volume, on a pure #00B140 chroma key green background. The composition is simple and clearly recognizable, showing the entire hand and magnifying glass fully visible within the frame, with a clean, even margin of the green background on all four sides. This image signifies discovery and attention to detail, suitable for universal business presentation use.",
+      "hashtags": "발견,돋보기,탐구,아이디어,영감,디테일,일러스트,discovery,idea,magnify",
       "type": "discovery"
     }
   ]

@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-11-19T12:00:19.179022",
-  "nextUpdateAt": "2026-11-20T12:00:00",
+  "updatedAt": "2026-11-20T12:00:20.441567",
+  "nextUpdateAt": "2026-11-21T12:00:00",
   "items": [
     {
       "rank": 1,
-      "keyword": "현미경 탐구",
-      "prompt": "A minimalist flat vector illustration of a scientist character with a thick, confident black outline, looking through a microscope. The scientist has a subtle, simple expression. The colors are saturated yet tasteful, with soft 2-3 step cel-shading to give a light sense of volume, avoiding flat single-tone fill. The entire scientist and microscope are clearly visible, positioned in the center of a 1:1 square frame. The subject fills approximately 80% of the frame, with a clean, even margin of solid #00B140 chroma key green background on all four sides, ensuring no part of the subject touches the border. This image is designed for universal business presentation use, with absolutely no text, letters, numbers, or watermarks. The microscope lens subtly reflects a tiny magnified element, showcasing a specific physical interaction detail.",
-      "hashtags": "조사, 분석, 탐구, 과학, 연구, 현미경, 일러스트, scientist, investigation, microscope",
+      "keyword": "별 관측",
+      "prompt": "Minimal flat design vector art of a scientist looking through a telescope at the night sky. The scientist, fully visible and centered, is wearing a simple lab coat and holding a telescope that is pointed upwards. The telescope lens subtly reflects a few stars. The style features a thick, confident black outline, saturated but tasteful colors with soft 2-3 step cel-shading for volume, and a plain solid chroma key green (#00B140) background with even margins on all four sides. The composition is simple and immediately recognizable even at thumbnail size, emphasizing a specific physical interaction (observing through telescope). This is a universally applicable concept for 'research, analysis, exploration' and is not tied to any specific season or event. The entire subject is contained within the frame without any cropping.",
+      "hashtags": "별 관측,천문학,과학자,우주,탐구,연구,분석,일러스트,science,illustration,png",
       "type": "investigate"
     },
     {
       "rank": 2,
-      "keyword": "성장 나이테",
-      "prompt": "A minimalist flat vector illustration of a tree trunk cross-section showcasing distinct growth rings, with a thick, confident black outline. The colors are saturated yet tasteful, with soft 2-3 step cel-shading to give a light sense of volume, avoiding flat single-tone fill and intricate repetitive micro-textures. The entire cross-section is clearly visible, positioned in the center of a 1:1 square frame. The subject fills approximately 80% of the frame, with a clean, even margin of solid #00B140 chroma key green background on all four sides, ensuring no part of the subject touches the border. This image is designed for universal business presentation use, with absolutely no text, letters, numbers, or watermarks. The subtle layering of the rings visually represents the passage of time and growth.",
-      "hashtags": "성장, 발전, 힐링, 나무, 시간, 나이테, 일러스트, growth, tree, rings",
+      "keyword": "새싹 틔우기",
+      "prompt": "Minimal flat design vector art illustrating hands gently cupping a small seedling sprouting from the soil. Both hands and the entire seedling are fully visible and centered, with the hands showing a delicate interaction of nurturing. The style includes a thick, confident black outline, saturated but tasteful colors with soft 2-3 step cel-shading for volume, and a plain solid chroma key green (#00B140) background with even margins on all four sides. The composition is simple and universally applicable for 'growth, development, healing' concepts, suitable for presentations. The entire subject is contained within the frame without any cropping.",
+      "hashtags": "새싹,성장,발전,힐링,자연,새로운 시작,행복,캐릭터,growth,healing,clipart",
       "type": "growth"
     },
     {
       "rank": 3,
-      "keyword": "손 맞잡은 친구",
-      "prompt": "A minimalist flat vector illustration of two children with a thick, confident black outline, holding hands and walking. They have subtle, simple expressions. The colors are saturated yet tasteful, with soft 2-3 step cel-shading to give a light sense of volume, avoiding flat single-tone fill. The entire bodies of both children are clearly visible, positioned in the center of a 1:1 square frame. The subjects fill approximately 80% of the frame, with a clean, even margin of solid #00B140 chroma key green background on all four sides, ensuring no part of the subjects touches the border. This image is designed for universal business presentation use, with absolutely no text, letters, numbers, or watermarks. The physical interaction of their clasped hands is clearly depicted.",
-      "hashtags": "우정, 협업, 관계, 친구, 손잡기, 아이들, 일러스트, friendship, collaboration, kids",
+      "keyword": "함께 걷는 친구",
+      "prompt": "Minimal flat design vector art depicting two friends walking side-by-side, perhaps with one person's arm gently around the other's shoulder. Both characters are fully visible and centered, clearly showing a friendly interaction and connection. The style features a thick, confident black outline, saturated but tasteful colors with soft 2-3 step cel-shading for volume, and a plain solid chroma key green (#00B140) background with even margins on all four sides. This composition is simple, universally applicable for 'friendship, collaboration, relationships' and is suitable for business presentations. The entire subject is contained within the frame without any cropping.",
+      "hashtags": "우정,협업,친구,관계,함께,파트너십,동행,일러스트,friendship,collaboration,png",
       "type": "friendship"
     },
     {
       "rank": 4,
-      "keyword": "턱 괴기 생각",
-      "prompt": "A minimalist flat vector illustration of a character with a thick, confident black outline, resting their chin on their hand and thinking. The character has a subtle, contemplative expression. The colors are saturated yet tasteful, with soft 2-3 step cel-shading to give a light sense of volume, avoiding flat single-tone fill. The entire character is clearly visible, positioned in the center of a 1:1 square frame. The subject fills approximately 80% of the frame, with a clean, even margin of solid #00B140 chroma key green background on all four sides, ensuring no part of the subject touches the border. This image is designed for universal business presentation use, with absolutely no text, letters, numbers, or watermarks. The pose of the chin on hand explicitly conveys the act of deep thought.",
-      "hashtags": "고민, 생각, 사고, 뇌, 의문, 생각중, 일러스트, thinking, idea, contemplation",
+      "keyword": "균형 잡기",
+      "prompt": "Minimal flat design vector art of a person standing between two sides of a scale, with one hand reaching out towards one side and the other hand towards the other, symbolizing deliberation. The person is fully visible and centered, clearly showing the physical action of weighing options. The style includes a thick, confident black outline, saturated but tasteful colors with soft 2-3 step cel-shading for volume, and a plain solid chroma key green (#00B140) background with even margins on all four sides. This composition is simple and universally applicable for 'consideration, thought, thinking' concepts, suitable for presentations. The entire subject is contained within the frame without any cropping.",
+      "hashtags": "고민,생각,사고,결정,선택,딜레마,분석,캐릭터,thinking,consideration,clipart",
       "type": "thinking"
     },
     {
       "rank": 5,
-      "keyword": "마지막 조각",
-      "prompt": "A minimalist flat vector illustration of a hand inserting the final piece of a puzzle into place, with a thick, confident black outline. The hand is clearly visible with subtle details showing the grip on the puzzle piece. The colors are saturated yet tasteful, with soft 2-3 step cel-shading to give a light sense of volume, avoiding flat single-tone fill. The entire hand and puzzle piece are clearly visible, positioned in the center of a 1:1 square frame. The subject fills approximately 80% of the frame, with a clean, even margin of solid #00B140 chroma key green background on all four sides, ensuring no part of the subject touches the border. This image is designed for universal business presentation use, with absolutely no text, letters, numbers, or watermarks. The precise moment of completion, the physical act of fitting the last piece, is the core interaction.",
-      "hashtags": "발견, 아이디어, 영감, 퍼즐, 해결, 성공, 일러스트, discovery, idea, puzzle",
+      "keyword": "퍼즐 조각",
+      "prompt": "Minimal flat design vector art showing a hand about to place the final piece into a partially completed puzzle. The hand and the entire puzzle, with all visible pieces and the frame, are fully visible and centered, clearly depicting the 'aha!' moment of completion. The style features a thick, confident black outline, saturated but tasteful colors with soft 2-3 step cel-shading for volume, and a plain solid chroma key green (#00B140) background with even margins on all four sides. This composition is simple and universally applicable for 'discovery, ideas, inspiration' concepts, suitable for presentations. The entire subject is contained within the frame without any cropping.",
+      "hashtags": "발견,아이디어,영감,완성,마지막 조각,성공,깨달음,일러스트,discovery,idea,png",
       "type": "discovery"
     }
   ]
